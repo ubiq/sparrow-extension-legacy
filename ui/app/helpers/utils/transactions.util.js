@@ -237,5 +237,5 @@ export function getBlockExplorerUrlForTx (networkId, hash, rpcPrefs = {}) {
     return `${rpcPrefs.blockExplorerUrl.replace(/\/+$/u, '')}/tx/${hash}`
   }
   const prefix = getEtherscanNetworkPrefix(networkId)
-  return `https://${prefix}etherscan.io/tx/${hash}`
+  return `https://${prefix}ubiqscan.io/tx/${hash}`
 }

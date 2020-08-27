@@ -7,7 +7,7 @@ export default function getAccountLink (address, network, rpcPrefs) {
   const net = parseInt(network)
   switch (net) {
     case 1: // main net
-      return `https://etherscan.io/address/${address}`
+      return `https://ubiqscan.io/address/${address}`
     case 2: // morden test net
       return `https://morden.etherscan.io/address/${address}`
     case 3: // ropsten test net

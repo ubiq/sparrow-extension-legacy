@@ -1687,7 +1687,7 @@
     "message": "View at $1"
   },
   "viewOnEtherscan": {
-    "message": "View on Etherscan"
+    "message": "View on Ubiqscan"
   },
   "retryTransaction": {
     "message": "Retry Transaction"
