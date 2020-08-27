@@ -67,9 +67,6 @@ export default class EndOfFlowScreen extends PureComponent {
         <div className="end-of-flow__text-3">
           { `• ${t('endOfFlowMessage6')}` }
         </div>
-        <div className="end-of-flow__text-3">
-          { `• ${t('endOfFlowMessage7')}` }
-        </div>
         <div className="first-time-flow__text-block end-of-flow__text-4">
           { `*${t('endOfFlowMessage8')}` }&nbsp;
           <a
