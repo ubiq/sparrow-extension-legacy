@@ -10321,18 +10321,6 @@ eth-simple-keyring@^3.5.0:
     events "^1.1.1"
     xtend "^4.0.1"
 
-eth-trezor-keyring@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/eth-trezor-keyring/-/eth-trezor-keyring-0.4.0.tgz#f59c210f95aaf3d7321ae69d2b87a3b8db96a828"
-  integrity sha512-7F+C1ztxZStLzmG6r/2/MxjSuxw0aU9T26unJ03fQslktKG9izP+dU2IAJUnWxnyej2ZkfcgcH9M1t32LFbK2A==
-  dependencies:
-    eth-sig-util "^1.4.2"
-    ethereumjs-tx "^1.3.4"
-    ethereumjs-util "^5.1.5"
-    events "^2.0.0"
-    hdkey "0.8.0"
-    trezor-connect "^7.0.1"
-
 eth-tx-summary@^3.1.2:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/eth-tx-summary/-/eth-tx-summary-3.2.4.tgz#e10eb95eb57cdfe549bf29f97f1e4f1db679035c"
@@ -26513,6 +26501,18 @@ ua-parser-js@^0.7.9:
   version "0.7.17"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.17.tgz#e9ec5f9498b9ec910e7ae3ac626a805c4d09ecac"
   integrity sha512-uRdSdu1oA1rncCQL7sCj8vSyZkgtL7faaw9Tc9rZ3mGgraQ7+Pdx7w5mnOSF3gw9ZNG6oc+KXfkon3bKuROm0g==
+
+ubq-trezor-keyring@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/ubq-trezor-keyring/-/ubq-trezor-keyring-0.4.1.tgz#52f9bc8466c8a6c73fa51e2ab5e26ff26a19ba58"
+  integrity sha512-5tPeavZ1Ivc6V/7zYxoJ5DptCeP8Ma5r6TFf9lRZu4rdtA5B0MyPyZNg3KVJx3FLWSj/7oIRk3q24aoyDukqKA==
+  dependencies:
+    eth-sig-util "^1.4.2"
+    ethereumjs-tx "^1.3.4"
+    ethereumjs-util "^5.1.5"
+    events "^2.0.0"
+    hdkey "0.8.0"
+    trezor-connect "^7.0.1"
 
 uglify-js@3.4.x:
   version "3.4.10"
