@@ -32,7 +32,7 @@ export default class PreferencesController {
       assetImages: {},
       tokens: [],
       suggestedTokens: {},
-      useBlockie: false,
+      useBlockie: true,
       useNonceField: false,
       usePhishDetect: true,
 
@@ -515,7 +515,7 @@ export default class PreferencesController {
    * @returns {Promise<array>} - Promise resolving to updated frequentRpcList.
    *
    */
-  addToFrequentRpcList (url, chainId, ticker = 'ETH', nickname = '', rpcPrefs = {}) {
+  addToFrequentRpcList (url, chainId, ticker = 'UBQ', nickname = '', rpcPrefs = {}) {
     const rpcList = this.getFrequentRpcListDetail()
     const index = rpcList.findIndex((element) => {
       return element.rpcUrl === url
