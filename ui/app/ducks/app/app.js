@@ -39,8 +39,8 @@ export default function reduceApp (state = {}, action) {
     isMouseUser: false,
     gasIsLoading: false,
     defaultHdPaths: {
-      trezor: `m/44'/60'/0'/0`,
-      ledger: `m/44'/60'/0'/0/0`,
+      trezor: `m/44'/108'/0'/0`,
+      ledger: `m/44'/108'/0'/0/0`,
     },
     lastSelectedProvider: null,
     networksTabSelectedRpcUrl: '',
