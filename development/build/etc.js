@@ -34,7 +34,7 @@ function createZipTask (target) {
   return async () => {
     await pump(
       gulp.src(`dist/${target}/**`),
-      gulpZip(`metamask-${target}-${baseManifest.version}.zip`),
+      gulpZip(`sparrow-${target}-${baseManifest.version}.zip`),
       gulp.dest('builds'),
     )
   }
