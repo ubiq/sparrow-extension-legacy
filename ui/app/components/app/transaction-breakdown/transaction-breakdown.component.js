@@ -25,7 +25,7 @@ export default class TransactionBreakdown extends PureComponent {
   }
 
   static defaultProps = {
-    showFiat: true,
+    showFiat: false,
   }
 
   render () {
