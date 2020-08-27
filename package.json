@@ -68,7 +68,7 @@
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@material-ui/core": "^4.11.0",
     "@metamask/controllers": "^2.0.5",
-    "ubq-ledger-bridge-keyring": "^0.2.7",
+    "ubq-ledger-bridge-keyring": "^0.2.8",
     "@metamask/eth-token-tracker": "^3.0.0",
     "@metamask/etherscan-link": "^1.1.0",
     "@metamask/inpage-provider": "^6.1.0",
