@@ -10037,7 +10037,7 @@ eth-block-tracker@^4.4.2:
     pify "^3.0.0"
     safe-event-emitter "^1.0.1"
 
-eth-contract-metadata@^1.11.0, eth-contract-metadata@^1.15.0:
+eth-contract-metadata@^1.11.0:
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/eth-contract-metadata/-/eth-contract-metadata-1.15.0.tgz#26e41a4221f577aa0a1bed4d92e082f777884d81"
   integrity sha512-qjBby7oLnElQyhIEc5Pk04j3Tw/HZFw6Ncy1VvdYLjVSv1mdCQ8JegLP9Ms7IGCe+6bsDxmr4JdjSpQDz+9F9A==
@@ -26490,6 +26490,11 @@ ua-parser-js@^0.7.9:
   version "0.7.17"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.17.tgz#e9ec5f9498b9ec910e7ae3ac626a805c4d09ecac"
   integrity sha512-uRdSdu1oA1rncCQL7sCj8vSyZkgtL7faaw9Tc9rZ3mGgraQ7+Pdx7w5mnOSF3gw9ZNG6oc+KXfkon3bKuROm0g==
+
+ubq-contract-metadata@^1.15.1:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/ubq-contract-metadata/-/ubq-contract-metadata-1.15.1.tgz#995aea5bb7d766c667cd6c86bb694616d547c73f"
+  integrity sha512-oM5Kp0O5HyYlw959AcK+IM6yGlPQssvHrmpdu3MkZL6dOq7zEdkU3thfM9/FuRE5sE/+lWYxJH72T4OSw86/fg==
 
 ubq-ledger-bridge-keyring@^0.2.7:
   version "0.2.7"

@@ -25,7 +25,7 @@ import TrezorKeyring from 'ubq-trezor-keyring'
 import LedgerBridgeKeyring from 'ubq-ledger-bridge-keyring'
 import EthQuery from 'eth-query'
 import nanoid from 'nanoid'
-import contractMap from 'eth-contract-metadata'
+import contractMap from 'ubq-contract-metadata'
 import {
   AddressBookController,
   CurrencyRateController,
