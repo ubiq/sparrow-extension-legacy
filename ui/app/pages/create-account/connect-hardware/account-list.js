@@ -8,12 +8,8 @@ class AccountList extends Component {
   getHdPaths () {
     return [
       {
-        label: `Ledger Live`,
-        value: `m/44'/108'/0'/0/0`,
-      },
-      {
-        label: `Legacy (MEW / MyCrypto)`,
-        value: `m/44'/108'/0'`,
+        label: `Ledger`,
+        value: `m/44'/108'/0'/0`,
       },
     ]
   }
@@ -40,9 +36,6 @@ class AccountList extends Component {
           <h3 className="hw-connect__hdPath__title">
             {this.context.t('selectHdPath')}
           </h3>
-          <p className="hw-connect__msg">
-            {this.context.t('selectPathHelp')}
-          </p>
           <div className="hw-connect__hdPath">
             <Select
               className="hw-connect__hdPath__select"
