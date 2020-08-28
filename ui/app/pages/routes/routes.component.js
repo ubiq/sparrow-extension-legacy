@@ -287,16 +287,6 @@ export default class Routes extends Component {
     switch (provider.type) {
       case 'mainnet':
         return this.context.t('connectingToMainnet')
-      case 'ropsten':
-        return this.context.t('connectingToRopsten')
-      case 'kovan':
-        return this.context.t('connectingToKovan')
-      case 'rinkeby':
-        return this.context.t('connectingToRinkeby')
-      case 'localhost':
-        return this.context.t('connectingToLocalhost')
-      case 'goerli':
-        return this.context.t('connectingToGoerli')
       default:
         return this.context.t('connectingTo', [providerId])
     }
@@ -306,16 +296,8 @@ export default class Routes extends Component {
     switch (this.props.provider.type) {
       case 'mainnet':
         return this.context.t('mainnet')
-      case 'ropsten':
-        return this.context.t('ropsten')
-      case 'kovan':
-        return this.context.t('kovan')
-      case 'rinkeby':
-        return this.context.t('rinkeby')
       case 'localhost':
         return this.context.t('localhost')
-      case 'goerli':
-        return this.context.t('goerli')
       default:
         return this.context.t('unknownNetwork')
     }
