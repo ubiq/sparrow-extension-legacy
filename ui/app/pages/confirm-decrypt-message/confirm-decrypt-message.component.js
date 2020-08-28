@@ -144,7 +144,7 @@ export default class ConfirmDecryptMessage extends Component {
           { `${t('balance')}:` }
         </div>
         <div className="request-decrypt-message__balance-value">
-          { `${balanceInEther} ETH` }
+          { `${balanceInEther} UBQ` }
         </div>
       </div>
     )
