@@ -1,6 +1,16 @@
-<svg height="18" width="20" xmlns="http://www.w3.org/2000/svg">
-    <g fill="none" fill-rule="evenodd" stroke="#259de5" stroke-width="2">
-        <path d="M1.336 11v6h17v-6M9.836 0v11"/>
-        <path d="M4.524 7l5.312 4 5.313-4"/>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24.1 24" style="enable-background:new 0 0 24.1 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#6BB57E;}
+</style>
+<g>
+	<polygon class="st0" points="19.5,17.1 18.5,17.1 18.5,19.1 4.6,19.1 4.6,17.1 3.6,17.1 3.6,20.1 3.9,20.1 3.9,20.1 19,20.1 
+		19,20.1 19.5,20.1 	"/>
+	<polygon class="st0" points="14.5,10.3 14.5,11.3 14.5,11.3 13.6,11.3 13.6,12.3 12.6,12.3 12.6,4.2 11.6,4.2 11.6,12.2 10.6,12.2 
+		10.6,11.3 9.6,11.3 9.6,11.2 9.6,11.2 9.6,10.2 8.6,10.2 8.6,11.2 8.6,11.2 8.6,12.2 9.6,12.2 9.6,12.2 9.6,12.3 9.6,13.2 
+		10.6,13.2 10.6,14.2 11.6,14.2 11.6,15.7 12.6,15.7 12.6,14.2 13.6,14.2 13.6,13.3 14.6,13.3 14.6,12.3 14.6,12.3 15.5,12.3 
+		15.5,11.3 15.5,11.3 15.5,10.3 	"/>
+</g>
 </svg>
