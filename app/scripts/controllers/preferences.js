@@ -523,7 +523,7 @@ export default class PreferencesController {
     if (index !== -1) {
       rpcList.splice(index, 1)
     }
-    if (url !== 'http://localhost:8545') {
+    if (url !== 'http://localhost:8588') {
       let checkedChainId
       // eslint-disable-next-line radix
       if (Boolean(chainId) && !Number.isNaN(parseInt(chainId))) {

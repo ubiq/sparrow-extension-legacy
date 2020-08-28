@@ -94,7 +94,7 @@ class NetworkDropdown extends Component {
 
     switch (rpcTarget) {
 
-      case 'http://localhost:8545':
+      case 'http://localhost:8588':
         return null
 
       default:
@@ -129,11 +129,11 @@ class NetworkDropdown extends Component {
 
     return reversedRpcListDetail.map((entry) => {
       const rpc = entry.rpcUrl
-      const ticker = entry.ticker || 'ETH'
+      const ticker = entry.ticker || 'UBQ'
       const nickname = entry.nickname || ''
       const currentRpcTarget = provider.type === 'rpc' && rpc === provider.rpcTarget
 
-      if ((rpc === 'http://localhost:8545') || currentRpcTarget) {
+      if ((rpc === 'http://localhost:8588') || currentRpcTarget) {
         return null
       }
       const { chainId } = entry

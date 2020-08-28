@@ -398,7 +398,7 @@
     "message": "Connecting to Rinkeby Test Network"
   },
   "connectingToLocalhost": {
-    "message": "Connecting to Localhost 8545"
+    "message": "Connecting to Localhost 8588"
   },
   "connectingToGoerli": {
     "message": "Connecting to Goerli Test Network"
@@ -892,7 +892,7 @@
     "message": "Load More"
   },
   "localhost": {
-    "message": "Localhost 8545"
+    "message": "Localhost 8588"
   },
   "lock": {
     "message": "Lock"
