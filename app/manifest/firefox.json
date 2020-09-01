@@ -1,7 +1,7 @@
 {
   "applications": {
     "gecko": {
-      "id": "webextension@metamask.io",
+      "id": "webextension@ubiqsmart.com",
       "strict_min_version": "56.0"
     }
   }
