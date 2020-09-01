@@ -4,7 +4,6 @@ import PropTypes from 'prop-types'
 import Button from '@material-ui/core/Button'
 import getCaretCoordinates from 'textarea-caret'
 import TextField from '../../components/ui/text-field'
-import Mascot from '../../components/ui/mascot'
 import { DEFAULT_ROUTE } from '../../helpers/constants/routes'
 
 export default class UnlockPage extends Component {
@@ -104,7 +103,7 @@ export default class UnlockPage extends Component {
 
   renderSubmitButton () {
     const style = {
-      backgroundColor: '#f7861c',
+      backgroundColor: '#147a47',
       color: 'white',
       marginTop: '20px',
       height: '60px',
@@ -138,11 +137,7 @@ export default class UnlockPage extends Component {
       <div className="unlock-page__container">
         <div className="unlock-page">
           <div className="unlock-page__mascot-container">
-            <Mascot
-              animationEventEmitter={this.animationEventEmitter}
-              width="120"
-              height="120"
-            />
+            <img src="images/icon-128.png" />
           </div>
           <h1 className="unlock-page__title">
             { t('welcomeBack') }
