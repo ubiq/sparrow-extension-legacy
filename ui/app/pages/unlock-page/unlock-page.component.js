@@ -66,9 +66,6 @@ export default class UnlockPage extends Component {
         isNewVisit: true,
       })
 
-      if (newState.participateInMetaMetrics === null || newState.participateInMetaMetrics === undefined) {
-        showOptInModal()
-      }
     } catch ({ message }) {
       if (message === 'Incorrect password') {
         const newState = await forceUpdateMetamaskState()
