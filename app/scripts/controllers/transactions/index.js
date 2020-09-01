@@ -132,8 +132,9 @@ export default class TransactionController extends EventEmitter {
     const integerChainId = parseInt(networkState)
     if (Number.isNaN(integerChainId)) {
       return 0
+    } else {
+      return integerChainId === 88 ? 8 : integerChainId
     }
-    return integerChainId
   }
 
   /**

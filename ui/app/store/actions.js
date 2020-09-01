@@ -1477,7 +1477,7 @@ export function setPreviousProvider (type) {
   }
 }
 
-export function updateAndSetCustomRpc (newRpc, chainId, ticker = 'ETH', nickname, rpcPrefs) {
+export function updateAndSetCustomRpc (newRpc, chainId, ticker = 'UBQ', nickname, rpcPrefs) {
   return async (dispatch) => {
     log.debug(`background.updateAndSetCustomRpc: ${newRpc} ${chainId} ${ticker} ${nickname}`)
 
@@ -1496,7 +1496,7 @@ export function updateAndSetCustomRpc (newRpc, chainId, ticker = 'ETH', nickname
   }
 }
 
-export function editRpc (oldRpc, newRpc, chainId, ticker = 'ETH', nickname, rpcPrefs) {
+export function editRpc (oldRpc, newRpc, chainId, ticker = 'UBQ', nickname, rpcPrefs) {
   return async (dispatch) => {
     log.debug(`background.delRpcTarget: ${oldRpc}`)
     try {
@@ -1522,7 +1522,7 @@ export function editRpc (oldRpc, newRpc, chainId, ticker = 'ETH', nickname, rpcP
   }
 }
 
-export function setRpcTarget (newRpc, chainId, ticker = 'ETH', nickname) {
+export function setRpcTarget (newRpc, chainId, ticker = 'UBQ', nickname) {
   return async (dispatch) => {
     log.debug(`background.setRpcTarget: ${newRpc} ${chainId} ${ticker} ${nickname}`)
 

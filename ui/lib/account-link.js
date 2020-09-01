@@ -6,7 +6,7 @@ export default function getAccountLink (address, network, rpcPrefs) {
   // eslint-disable-next-line radix
   const net = parseInt(network)
   switch (net) {
-    case 1: // main net
+    case 88: // main net
       return `https://ubiqscan.io/address/${address}`
     case 2: // morden test net
       return `https://morden.etherscan.io/address/${address}`

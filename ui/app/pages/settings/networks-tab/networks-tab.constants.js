@@ -1,11 +1,11 @@
 const defaultNetworksData = [
   {
     labelKey: 'mainnet',
-    iconColor: '#29B6AF',
+    iconColor: '#00ea90',
     providerType: 'mainnet',
-    rpcUrl: 'https://api.infura.io/v1/jsonrpc/mainnet',
-    chainId: '1',
-    ticker: 'ETH',
+    rpcUrl: 'https://rpc.octano.dev',
+    chainId: '8',
+    ticker: 'UBQ',
     blockExplorerUrl: 'https://ubiqscan.io',
   },
   {

@@ -105,7 +105,7 @@ export function decEthToConvertedCurrency (ethTotal, convertedCurrency, conversi
   return conversionUtil(ethTotal, {
     fromNumericBase: 'dec',
     toNumericBase: 'dec',
-    fromCurrency: 'ETH',
+    fromCurrency: ETH,
     toCurrency: convertedCurrency,
     numberOfDecimals: 2,
     conversionRate,
@@ -134,7 +134,7 @@ export function decETHToDecWEI (decEth) {
   return conversionUtil(decEth, {
     fromNumericBase: 'dec',
     toNumericBase: 'dec',
-    fromDenomination: 'ETH',
+    fromDenomination: ETH,
     toDenomination: 'WEI',
   })
 }

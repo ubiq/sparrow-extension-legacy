@@ -142,11 +142,26 @@ export default class NetworkController extends EventEmitter {
     this.providerConfig = providerConfig
   }
 
+  setMainnetRpcTarget (rpcTarget, chainId, ticker = 'UBQ') {
+    const providerConfig = {
+      type: MAINNET,
+      rpcTarget,
+      chainId,
+      ticker,
+      nickname: MAINNET
+    }
+    this.providerConfig = providerConfig
+  }
+
   async setProviderType (type, rpcTarget = '', ticker = 'UBQ', nickname = '') {
     assert.notEqual(type, 'rpc', `NetworkController - cannot call "setProviderType" with type 'rpc'. use "setRpcTarget"`)
-    assert(INFURA_PROVIDER_TYPES.includes(type) || type === LOCALHOST, `NetworkController - Unknown rpc type "${type}"`)
-    const providerConfig = { type, rpcTarget, ticker, nickname }
-    this.providerConfig = providerConfig
+    assert(INFURA_PROVIDER_TYPES.includes(type) || type === LOCALHOST || type === MAINNET, `NetworkController - Unknown rpc type "${type}"`)
+    if (type === MAINNET) {
+      this.setMainnetRpcTarget('https://rpc.octano.dev', '8', ticker)
+    } else {
+      const providerConfig = { type, rpcTarget, ticker, nickname }
+      this.providerConfig = providerConfig
+    }
   }
 
   resetConnection () {
@@ -182,7 +197,7 @@ export default class NetworkController extends EventEmitter {
     } else if (type === LOCALHOST) {
       this._configureLocalhostProvider()
     // url-based rpc endpoints
-    } else if (type === 'rpc') {
+    } else if (type === 'rpc' || type === MAINNET) {
       this._configureStandardProvider({ rpcUrl: rpcTarget, chainId, ticker, nickname })
     } else {
       throw new Error(`NetworkController - _configureProvider - unknown type "${type}"`)
