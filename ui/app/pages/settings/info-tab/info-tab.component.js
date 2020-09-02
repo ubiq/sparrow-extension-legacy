@@ -56,18 +56,7 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://support.metamask.io"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="info-tab__link-text"
-          >
-            { t('supportCenter') }
-          </Button>
-        </div>
-        <div className="info-tab__link-item">
-          <Button
-            type="link"
-            href="https://metamask.io/"
+            href="https://ubiqsmart.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -78,7 +67,7 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-item">
           <Button
             type="link"
-            href="https://metamask.zendesk.com/hc/en-us/requests/new"
+            href="https://discord.gg/XaqzJB4"
             target="_blank"
             rel="noopener noreferrer"
             className="info-tab__link-text"
@@ -109,11 +98,6 @@ export default class InfoTab extends PureComponent {
               </div>
               <div className="info-tab__version-number">
                 { this.state.version }
-              </div>
-            </div>
-            <div className="info-tab__item">
-              <div className="info-tab__about">
-                { t('builtInCalifornia') }
               </div>
             </div>
           </div>
