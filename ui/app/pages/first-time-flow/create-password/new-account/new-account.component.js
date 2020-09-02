@@ -23,7 +23,6 @@ export default class NewAccount extends PureComponent {
     confirmPassword: '',
     passwordError: '',
     confirmPasswordError: '',
-    termsChecked: false,
   }
 
   isValid () {
@@ -114,29 +113,9 @@ export default class NewAccount extends PureComponent {
     }
   }
 
-  toggleTermsCheck = () => {
-    this.context.metricsEvent({
-      eventOpts: {
-        category: 'Onboarding',
-        action: 'Create Password',
-        name: 'Check ToS',
-      },
-    })
-
-    this.setState((prevState) => ({
-      termsChecked: !prevState.termsChecked,
-    }))
-  }
-
-  onTermsKeyPress = ({ key }) => {
-    if (key === ' ' || key === 'Enter') {
-      this.toggleTermsCheck()
-    }
-  }
-
   render () {
     const { t } = this.context
-    const { password, confirmPassword, passwordError, confirmPasswordError, termsChecked } = this.state
+    const { password, confirmPassword, passwordError, confirmPasswordError } = this.state
 
     return (
       <div>
@@ -192,37 +171,10 @@ export default class NewAccount extends PureComponent {
             fullWidth
             largeLabel
           />
-          <div className="first-time-flow__checkbox-container" onClick={this.toggleTermsCheck}>
-            <div
-              className="first-time-flow__checkbox"
-              tabIndex="0"
-              role="checkbox"
-              onKeyPress={this.onTermsKeyPress}
-              aria-checked={termsChecked}
-              aria-labelledby="ftf-chk1-label"
-            >
-              {termsChecked ? <i className="fa fa-check fa-2x" /> : null}
-            </div>
-            <span id="ftf-chk1-label" className="first-time-flow__checkbox-label">
-              {t('acceptTermsOfUse', [(
-                <a
-                  onClick={(e) => e.stopPropagation()}
-                  key="first-time-flow__link-text"
-                  href="https://metamask.io/terms.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="first-time-flow__link-text">
-                    { t('terms') }
-                  </span>
-                </a>
-              )])}
-            </span>
-          </div>
           <Button
             type="primary"
             className="first-time-flow__button"
-            disabled={!this.isValid() || !termsChecked}
+            disabled={!this.isValid()}
             onClick={this.handleCreate}
           >
             { t('create') }
