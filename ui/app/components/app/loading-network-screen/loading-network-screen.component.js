@@ -106,13 +106,12 @@ export default class LoadingNetworkScreen extends PureComponent {
 
   render () {
     const { lastSelectedProvider, setProviderType } = this.props
-
+    setProviderType(lastSelectedProvider || 'mainnet')
     return (
       <LoadingScreen
         header={(
           <div
             className="page-container__header-close"
-            onClick={() => setProviderType(lastSelectedProvider || 'ropsten')}
           />
         )}
         showLoadingSpinner={!this.state.showErrorScreen}
