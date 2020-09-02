@@ -30,7 +30,6 @@ export default class ImportWithSeedPhrase extends PureComponent {
     seedPhraseError: '',
     passwordError: '',
     confirmPasswordError: '',
-    termsChecked: false,
   }
 
   parseSeedPhrase = (seedPhrase) => (seedPhrase || '').trim().toLowerCase().match(/\w+/gu)?.join(' ') || ''
@@ -163,25 +162,6 @@ export default class ImportWithSeedPhrase extends PureComponent {
     return !passwordError && !confirmPasswordError && !seedPhraseError
   }
 
-  onTermsKeyPress = ({ key }) => {
-    if (key === ' ' || key === 'Enter') {
-      this.toggleTermsCheck()
-    }
-  }
-
-  toggleTermsCheck = () => {
-    this.context.metricsEvent({
-      eventOpts: {
-        category: 'Onboarding',
-        action: 'Import Seed Phrase',
-        name: 'Check ToS',
-      },
-    })
-    this.setState((prevState) => ({
-      termsChecked: !prevState.termsChecked,
-    }))
-  }
-
   toggleShowSeedPhrase = () => {
     this.setState(({ showSeedPhrase }) => ({
       showSeedPhrase: !showSeedPhrase,
@@ -190,7 +170,7 @@ export default class ImportWithSeedPhrase extends PureComponent {
 
   render () {
     const { t } = this.context
-    const { seedPhraseError, showSeedPhrase, passwordError, confirmPasswordError, termsChecked } = this.state
+    const { seedPhraseError, showSeedPhrase, passwordError, confirmPasswordError } = this.state
 
     return (
       <form
@@ -290,38 +270,11 @@ export default class ImportWithSeedPhrase extends PureComponent {
           margin="normal"
           largeLabel
         />
-        <div className="first-time-flow__checkbox-container" onClick={this.toggleTermsCheck}>
-          <div
-            className="first-time-flow__checkbox first-time-flow__terms"
-            tabIndex="0"
-            role="checkbox"
-            onKeyPress={this.onTermsKeyPress}
-            aria-checked={termsChecked}
-            aria-labelledby="ftf-chk1-label"
-          >
-            {termsChecked ? <i className="fa fa-check fa-2x" /> : null}
-          </div>
-          <span id="ftf-chk1-label" className="first-time-flow__checkbox-label">
-            {t('acceptTermsOfUse', [(
-              <a
-                onClick={(e) => e.stopPropagation()}
-                key="first-time-flow__link-text"
-                href="https://metamask.io/terms.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="first-time-flow__link-text">
-                  { t('terms') }
-                </span>
-              </a>
-            )])}
-          </span>
-        </div>
         <Button
           type="primary"
           submit
           className="first-time-flow__button"
-          disabled={!this.isValid() || !termsChecked}
+          disabled={!this.isValid()}
         >
           { t('import') }
         </Button>
