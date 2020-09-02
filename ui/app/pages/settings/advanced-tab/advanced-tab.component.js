@@ -472,7 +472,6 @@ export default class AdvancedTab extends PureComponent {
       <div className="settings-page__body">
         { warning && <div className="settings-tab__error">{ warning }</div> }
         { this.renderStateLogs() }
-        { this.renderMobileSync() }
         { this.renderResetAccount() }
         { this.renderAdvancedGasInputInline() }
         { this.renderTransactionTimeEstimates() }
@@ -480,8 +479,6 @@ export default class AdvancedTab extends PureComponent {
         { this.renderShowConversionInTestnets() }
         { this.renderUseNonceOptIn() }
         { this.renderAutoLockTimeLimit() }
-        { this.renderThreeBoxControl() }
-        { this.renderIpfsGatewayControl() }
       </div>
     )
   }
