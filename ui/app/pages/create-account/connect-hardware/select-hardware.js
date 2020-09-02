@@ -193,12 +193,6 @@ export default class SelectHardware extends Component {
       <div className="hw-connect__footer">
         <h3 className="hw-connect__footer__title">{this.context.t('readyToConnect')}</h3>
         {this.renderButtons()}
-        <p className="hw-connect__footer__msg">
-          {this.context.t('havingTroubleConnecting')}
-          <a className="hw-connect__footer__link" href="https://support.metamask.io/" target="_blank" rel="noopener noreferrer">
-            {this.context.t('getHelp')}
-          </a>
-        </p>
       </div>
     )
   }
@@ -208,7 +202,6 @@ export default class SelectHardware extends Component {
       <div className="new-external-account-form">
         {this.renderHeader()}
         {this.renderButtons()}
-        {this.renderTrezorAffiliateLink()}
         {this.renderLearnMore()}
         {this.renderTutorialSteps()}
         {this.renderFooter()}
