@@ -1,8 +1,8 @@
 {
   "applications": {
     "gecko": {
-      "id": "webextension@ubiqsmart.com",
-      "strict_min_version": "56.0"
+      "id": "sparrow@ubiqsmart.com",
+      "strict_min_version": "68.0"
     }
   }
 }
