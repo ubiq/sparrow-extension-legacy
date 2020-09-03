@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "チャートはEthereumネットワークでのみ利用可能です。"
+    "message": "チャートはUbiqネットワークでのみ利用可能です。"
   },
   "contractInteraction": {
     "message": "コントラクトへのアクセス"
@@ -69,17 +69,17 @@
     "message": "推奨トークンを追加"
   },
   "addAcquiredTokens": {
-    "message": "MetaMaskで獲得したトークンを追加する"
+    "message": "Sparrowで獲得したトークンを追加する"
   },
   "amount": {
     "message": "金額"
   },
   "appDescription": {
-    "message": "Ethereumのブラウザ・エクステンション",
+    "message": "Ubiqのブラウザ・エクステンション",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Sparrow",
     "description": "The name of the application"
   },
   "approve": {
@@ -107,7 +107,7 @@
     "message": "自動ログアウト(分)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "MetaMaskが自動的にログアウトするまでのアイドル時間を分単位で設定します。"
+    "message": "Sparrowが自動的にログアウトするまでのアイドル時間を分単位で設定します。"
   },
   "average": {
     "message": "平均"
@@ -170,22 +170,22 @@
     "message": "小数点桁数"
   },
   "defaultNetwork": {
-    "message": "デフォルトのEther送受信ネットワークはメインネットです。"
+    "message": "デフォルトのUbiq送受信ネットワークはメインネットです。"
   },
   "deposit": {
     "message": "振込"
   },
   "depositEther": {
-    "message": "Etherを振込"
+    "message": "Ubiqを振込"
   },
   "details": {
     "message": "詳細"
   },
   "directDepositEther": {
-    "message": "Etherを直接入金"
+    "message": "Ubiqを直接入金"
   },
   "directDepositEtherExplainer": {
-    "message": "既にEtherをお持ちなら、MetaMaskの新しいウォレットにEtherを送信することができます。"
+    "message": "既にUbiqをお持ちなら、Sparrowの新しいウォレットにUbiqを送信することができます。"
   },
   "done": {
     "message": "完了"
@@ -200,7 +200,7 @@
     "message": "パスワードを入力"
   },
   "etherscanView": {
-    "message": "Etherscanでアカウントを確認"
+    "message": "Ubiqscanでアカウントを確認"
   },
   "exportPrivateKey": {
     "message": "秘密鍵のエクスポート"
@@ -229,11 +229,11 @@
     "message": "ガスプライス (GWEI)"
   },
   "getEther": {
-    "message": "Etherを取得する"
+    "message": "Ubiqを取得する"
   },
   "getEtherFromFaucet": {
-    "message": "フォーセットで $1のEtherを得ることができます。",
-    "description": "Displays network name for Ether faucet"
+    "message": "フォーセットで $1のUbiqを得ることができます。",
+    "description": "Displays network name for Ubiq faucet"
   },
   "here": {
     "message": "ここ",
@@ -253,7 +253,7 @@
     "message": "アカウントのインポート"
   },
   "importAccountMsg": {
-    "message": "追加したアカウントはMetaMaskのアカウントパスフレーズとは関連付けられません。インポートしたアカウントについての詳細は"
+    "message": "追加したアカウントはSparrowのアカウントパスフレーズとは関連付けられません。インポートしたアカウントについての詳細は"
   },
   "imported": {
     "message": "インポート完了",
@@ -303,7 +303,7 @@
     "message": "ログアウト"
   },
   "mainnet": {
-    "message": "Ethereumメインネットワーク"
+    "message": "Ubiqメインネットワーク"
   },
   "message": {
     "message": "メッセージ"
@@ -315,7 +315,7 @@
     "message": "一つ以上のトークンを選択してください。"
   },
   "needEtherInWallet": {
-    "message": "MetaMaskで分散型アプリケーションを使用するためには、このウォレットにEtherが必要です。"
+    "message": "Sparrowで分散型アプリケーションを使用するためには、このウォレットにUbiqが必要です。"
   },
   "needImportFile": {
     "message": "インポートするファイルを選択してください。",
@@ -479,7 +479,7 @@
     "message": "アカウントを見る"
   },
   "viewOnEtherscan": {
-    "message": "Etherscan で見る"
+    "message": "Ubiqscan で見る"
   },
   "walletSeed": {
     "message": "ウォレットのパスフレーズ"
@@ -488,7 +488,7 @@
     "message": "おかえりなさい!"
   },
   "welcome": {
-    "message": "MetaMask ベータ版へようこそ!"
+    "message": "Sparrow ベータ版へようこそ!"
   },
   "yourSigRequested": {
     "message": "あなたの署名がリクエストされています。"

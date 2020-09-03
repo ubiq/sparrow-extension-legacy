@@ -72,17 +72,17 @@
     "message": "सुझाए गए टोकन जोड़ें"
   },
   "addAcquiredTokens": {
-    "message": "MetaMask का उपयोग करके आपके द्वारा अर्जित किए गए टोकन जोड़ें"
+    "message": "Sparrow का उपयोग करके आपके द्वारा अर्जित किए गए टोकन जोड़ें"
   },
   "amount": {
     "message": "राशि "
   },
   "appDescription": {
-    "message": "आपके ब्राउज़र में एक Ethereum वॉलेट",
+    "message": "आपके ब्राउज़र में एक Ubiq वॉलेट",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Sparrow",
     "description": "The name of the application"
   },
   "approve": {
@@ -159,7 +159,7 @@
     "message": "Wyre से ETH खरीदें"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre आपको क्रेडिट कार्ड का उपयोग करके ETH को सीधे आपके MetaMask खाते में जमा करने देता है।"
+    "message": "Wyre आपको क्रेडिट कार्ड का उपयोग करके ETH को सीधे आपके Sparrow खाते में जमा करने देता है।"
   },
   "buyCoinSwitch": {
     "message": "CoinSwitch पर खरीदें"
@@ -204,7 +204,7 @@
     "message": "बंद करें"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "अपने हार्डवेयर वॉलेट से कनेक्ट करने के लिए आपको Google Chrome में MetaMask का उपयोग करना ज़रूरी है।"
+    "message": "अपने हार्डवेयर वॉलेट से कनेक्ट करने के लिए आपको Google Chrome में Sparrow का उपयोग करना ज़रूरी है।"
   },
   "confirm": {
     "message": "दुबारा पूछें"
@@ -234,7 +234,7 @@
     "message": "कोवन टेस्ट नेटवर्क से जोड़ रहा है\n"
   },
   "connectingToMainnet": {
-    "message": "मुख्य Ethereum नेटवर्क से कनेक्ट हो रहा है"
+    "message": "मुख्य Ubiq नेटवर्क से कनेक्ट हो रहा है"
   },
   "connectingToRopsten": {
     "message": "रोपस्टेन टेस्ट नेटवर्क से कनेक्ट करना"
@@ -312,7 +312,7 @@
     "message": "डेसीमल ऑफ़ प्रिसिशन"
   },
   "defaultNetwork": {
-    "message": "Ether ट्रांज़ैक्शन के लिए डिफ़ॉल्ट नेटवर्क Main Net है।"
+    "message": "Ubiq ट्रांज़ैक्शन के लिए डिफ़ॉल्ट नेटवर्क Main Net है।"
   },
   "delete": {
     "message": "हटाएं"
@@ -324,16 +324,16 @@
     "message": "जमा "
   },
   "depositEther": {
-    "message": "Ether जमा करें"
+    "message": "Ubiq जमा करें"
   },
   "details": {
     "message": "विवरण"
   },
   "directDepositEther": {
-    "message": "Ether को सीधे जमा करें"
+    "message": "Ubiq को सीधे जमा करें"
   },
   "directDepositEtherExplainer": {
-    "message": "यदि आपके पास पहले से ही कुछ Ether हैं, तो अपने नए वॉलेट में Ether पाने का सबसे तेज़ तरीका सीधे जमा करना है।"
+    "message": "यदि आपके पास पहले से ही कुछ Ubiq हैं, तो अपने नए वॉलेट में Ubiq पाने का सबसे तेज़ तरीका सीधे जमा करना है।"
   },
   "done": {
     "message": "पूर्ण"
@@ -393,7 +393,7 @@
     "message": "ईएनएस नाम पंजीकरण में त्रुटि"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "वर्तमान नेटवर्क पर ENS नाम नहीं मिला। मुख्य Ethereum नेटवर्क पर स्विच करने का प्रयास करें।"
+    "message": "वर्तमान नेटवर्क पर ENS नाम नहीं मिला। मुख्य Ubiq नेटवर्क पर स्विच करने का प्रयास करें।"
   },
   "enterAnAlias": {
     "message": "एक उपनाम दर्ज करें"
@@ -408,7 +408,7 @@
     "message": "ईथरअम पब्लिक एड्रेस"
   },
   "etherscanView": {
-    "message": "Etherscan पर खाता दिखाएँ"
+    "message": "Ubiqscan पर खाता दिखाएँ"
   },
   "estimatedProcessingTimes": {
     "message": "प्रोसेस करने के अनुमानित समय"
@@ -476,11 +476,11 @@
     "message": "मुद्रा रूपांतरण, प्राथमिक मुद्रा, भाषा, ब्लॉकीज़ पहचान"
   },
   "getEther": {
-    "message": "Ether पाएँ"
+    "message": "Ubiq पाएँ"
   },
   "getEtherFromFaucet": {
-    "message": "$1 में फॉसेट से Ether प्राप्त करें",
-    "description": "Displays network name for Ether faucet"
+    "message": "$1 में फॉसेट से Ubiq प्राप्त करें",
+    "description": "Displays network name for Ubiq faucet"
   },
   "getHelp": {
     "message": "सहायता प्राप्त करें।"
@@ -501,7 +501,7 @@
     "message": "हार्डवेयर वॉलेट जोड़े"
   },
   "hardwareWalletsMsg": {
-    "message": "एक हार्डवेयर वॉलेट चुनें जिसका उपयोग आप MetaMask के साथ करना चाहते हैं"
+    "message": "एक हार्डवेयर वॉलेट चुनें जिसका उपयोग आप Sparrow के साथ करना चाहते हैं"
   },
   "havingTroubleConnecting": {
     "message": "कनेक्ट करने में परेशानी हो रही है?"
@@ -530,7 +530,7 @@
     "message": "खाता आयात करें"
   },
   "importAccountMsg": {
-    "message": "आयात किए गए खाते आपके मुख्य रूप से बनाए गए MetaMask खाते के सीडफ़्रेज़ से संबंधित नहीं होंगे। आयात किए गए खातों के बारे में अधिक जानें"
+    "message": "आयात किए गए खाते आपके मुख्य रूप से बनाए गए Sparrow खाते के सीडफ़्रेज़ से संबंधित नहीं होंगे। आयात किए गए खातों के बारे में अधिक जानें"
   },
   "importAccountSeedPhrase": {
     "message": "बीज वाक्यांश के साथ एक खाता आयात करें"
@@ -628,7 +628,7 @@
     "message": "लॉग आउट"
   },
   "mainnet": {
-    "message": "मुख्य Ethereum नेटवर्क"
+    "message": "मुख्य Ubiq नेटवर्क"
   },
   "memorizePhrase": {
     "message": "इस फ़्रेज़ को याद कर लें।"
@@ -640,10 +640,10 @@
     "message": "संदेश"
   },
   "metamaskDescription": {
-    "message": "आपको Ethereum और विकेंद्रीकृत वेब से कनेक्ट कर रहे हैं।"
+    "message": "आपको Ubiq और विकेंद्रीकृत वेब से कनेक्ट कर रहे हैं।"
   },
   "metamaskVersion": {
-    "message": "MetaMask का संस्करण"
+    "message": "Sparrow का संस्करण"
   },
   "mobileSyncText": {
     "message": "यह आप ही हैं इसकी पुष्टि करने के लिए कृपया अपना पासवर्ड दर्ज करें!"
@@ -705,7 +705,7 @@
     "message": "नया नेटवर्क"
   },
   "newToMetaMask": {
-    "message": "MetaMask में नए है?"
+    "message": "Sparrow में नए है?"
   },
   "noAlreadyHaveSeed": {
     "message": "जी नहीं, मेरे पास पहले से ही एक बीज वाक्यांश है"
@@ -714,7 +714,7 @@
     "message": "अपनी कुंजी को सुरक्षित रखें!"
   },
   "protectYourKeysMessage1": {
-    "message": "अपने सीड फ़्रेज़ के बारे में सावधान रहें — ऐसी वेबसाइटों की रिपोर्टें आई हैं जो MetaMask की नकल करने का प्रयास करती हैं। MetaMask आपके सीड फ़्रेज़ के बारे में कभी नहीं पूछेगा!"
+    "message": "अपने सीड फ़्रेज़ के बारे में सावधान रहें — ऐसी वेबसाइटों की रिपोर्टें आई हैं जो Sparrow की नकल करने का प्रयास करती हैं। Sparrow आपके सीड फ़्रेज़ के बारे में कभी नहीं पूछेगा!"
   },
   "protectYourKeysMessage2": {
     "message": "अपने वाक्यांश को सुरक्षित रखें। यदि आपको कुछ गड़बड़ दिखती है, या आप किसी वेबसाइट के बारे में अनिश्चित हैं तो support@metamask.io को ई मेल करें\n"
@@ -771,7 +771,7 @@
     "message": "मेटामेट्रिक्स में भाग लें"
   },
   "participateInMetaMetricsDescription": {
-    "message": "MetaMask को बेहतर बनाने में हमारी मदद के लिए MetaMetrics में भाग लें"
+    "message": "Sparrow को बेहतर बनाने में हमारी मदद के लिए MetaMetrics में भाग लें"
   },
   "password": {
     "message": "पासवर्ड"
@@ -941,7 +941,7 @@
     "message": "आपका सीक्रेट बैकअप फ़्रेज़ आपके खाते का बैकअप लेना और उसे पुनर्स्थापित करना आसान बनाता है।"
   },
   "secretBackupPhraseWarning": {
-    "message": "चेतावनी: अपने बैकअप फ़्रेज़ को कभी भी ज़ाहिर न करें। इस फ़्रेज़ से कोई भी आपका Ether हमेशा के लिए ले सकता है।"
+    "message": "चेतावनी: अपने बैकअप फ़्रेज़ को कभी भी ज़ाहिर न करें। इस फ़्रेज़ से कोई भी आपका Ubiq हमेशा के लिए ले सकता है।"
   },
   "secretPhrase": {
     "message": "अपने वॉल्ट को रिस्टोर करने के लिए अपने बारह शब्दों के सीक्रेट फ़्रेज़ को यहाँ दर्ज करें।"
@@ -1278,7 +1278,7 @@
     "message": "वापस आने पर स्वागत है!"
   },
   "welcome": {
-    "message": "MetaMask में आपका स्वागत है"
+    "message": "Sparrow में आपका स्वागत है"
   },
   "writePhrase": {
     "message": "इस वाक्यांश को कागज के टुकड़े पर लिखें और एक सुरक्षित स्थान पर संग्रहीत करें। यदि आप और भी अधिक सुरक्षा चाहते हैं, तो इसे कागज के कई टुकड़ों पर लिखें और प्रत्येक को 2 - 3 विभिन्न स्थानों में संग्रहीत करें।"
