@@ -173,11 +173,10 @@ export function gasEstimatesLoadingFinished () {
 }
 
 async function queryEthGasStationBasic () {
-  const apiKey = process.env.ETH_GAS_STATION_API_KEY ? `?api-key=${process.env.ETH_GAS_STATION_API_KEY}` : ''
-  const url = `https://ethgasstation.info/json/ethgasAPI.json${apiKey}`
+  const url = `https://gas.octano.dev/json/ethgasAPI.json`
   return await window.fetch(url, {
     'headers': {},
-    'referrer': 'http://ethgasstation.info/json/',
+    'referrer': 'https://gas.octano.dev/json/',
     'referrerPolicy': 'no-referrer-when-downgrade',
     'body': null,
     'method': 'GET',
@@ -186,11 +185,10 @@ async function queryEthGasStationBasic () {
 }
 
 async function queryEthGasStationPredictionTable () {
-  const apiKey = process.env.ETH_GAS_STATION_API_KEY ? `?api-key=${process.env.ETH_GAS_STATION_API_KEY}` : ''
-  const url = `https://ethgasstation.info/json/predictTable.json${apiKey}`
+  const url = `https://gas.octano.dev/json/predictTable.json`
   return await window.fetch(url, {
     'headers': {},
-    'referrer': 'http://ethgasstation.info/json/',
+    'referrer': 'https://gas.octano.dev/json/',
     'referrerPolicy': 'no-referrer-when-downgrade',
     'body': null,
     'method': 'GET',
