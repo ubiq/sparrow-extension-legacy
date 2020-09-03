@@ -28,6 +28,12 @@
   "approve": {
     "message": "Goedkeuren"
   },
+  "asset": {
+    "message": "Bezit"
+  },
+  "assets": {
+    "message": "Bezit"
+  },
   "attemptingConnect": {
     "message": "Poging om verbinding te maken met blockchain."
   },
@@ -68,7 +74,7 @@
     "message": "Contractimplementatie"
   },
   "copiedExclamation": {
-    "message": "Gekopieerde!"
+    "message": "Gekopieerd!"
   },
   "copyToClipboard": {
     "message": "Kopieer naar klembord"
@@ -77,7 +83,7 @@
     "message": "Dit is uw privésleutel (klik om te kopiëren)"
   },
   "create": {
-    "message": "creëren"
+    "message": "Creëren"
   },
   "createAccount": {
     "message": "Account aanmaken"
@@ -92,7 +98,7 @@
     "message": "Decimalen moeten minimaal 0 en niet meer dan 36 zijn."
   },
   "decimal": {
-    "message": "Decimalen van precisie"
+    "message": "Aantal decimalen"
   },
   "defaultNetwork": {
     "message": "Het standaardnetwerk voor Ubiq-transacties is Main Net."
@@ -113,7 +119,7 @@
     "message": "Gedaan"
   },
   "downloadStateLogs": {
-    "message": "Staatslogboeken downloaden"
+    "message": "Staatlogboeken downloaden"
   },
   "edit": {
     "message": "Bewerk"
@@ -253,7 +259,7 @@
     "message": "Kan geen negatieve hoeveelheden ETH verzenden."
   },
   "networks": {
-    "message": "netwerken"
+    "message": "Netwerken"
   },
   "newAccount": {
     "message": "Nieuw account"
@@ -304,6 +310,9 @@
   },
   "resetAccount": {
     "message": "Account opnieuw instellen"
+  },
+  "resetAccountDescription": {
+    "message": "Als u uw account opnieuw instelt, wordt uw transactiegeschiedenis gewist. Dit heeft geen invloed op de saldi in uw accounts en u hoeft uw seed-frase niet opnieuw in te voeren."
   },
   "restoreFromSeed": {
     "message": "Herstel vanuit back-up woorden"
@@ -369,10 +378,10 @@
     "message": "Ondertekeningsverzoek"
   },
   "stateLogs": {
-    "message": "Staatslogboeken"
+    "message": "Staatlogboeken"
   },
   "stateLogsDescription": {
-    "message": "Staatslogboeken bevatten uw openbare accountadressen en verzonden transacties."
+    "message": "Staatlogboeken bevatten uw openbare accountadressen en verzonden transacties."
   },
   "supportCenter": {
     "message": "Bezoek ons ​​ondersteuningscentrum"
@@ -428,5 +437,219 @@
   },
   "youSign": {
     "message": "U ondertekent"
+  },
+  "activity": {
+    "message": "Activiteit"
+  },
+  "activityLog": {
+    "message": "Activiteitenlog"
+  },
+  "buy": {
+    "message": "Kopen"
+  },
+  "searchTokens": {
+    "message": "Zoek Tokens"
+  },
+  "addAcquiredTokens": {
+    "message": "Voeg gekochte tokens toe met Sparrow."
+  },
+  "learnMore": {
+    "message": "Leer meer"
+  },
+  "tokenContractAddress": {
+    "message": "Token contractadres"
+  },
+  "tokenOptions": {
+    "message": "Tokenopties"
+  },
+  "tokenSymbol": {
+    "message": "Tokensymbool"
+  },
+  "viewOnEtherscan": {
+    "message": "Bekijken op Ubiqscan"
+  },
+  "connectedSites": {
+    "message": "Verbonden sites"
+  },
+  "connectedSitesEmptyDescription": {
+    "message": "$1 is niet verbonden met sites.",
+    "description": "$1 is the account name"
+  },
+  "general": {
+    "message": "Algemeen"
+  },
+  "generalSettingsDescription": {
+    "message": "Valutaconversie, primaire valuta, taal, blockies identicon"
+  },
+  "currencyConversion": {
+    "message": "Valutaconversie"
+  },
+  "primaryCurrencySetting": {
+    "message": "Primaire Valuta"
+  },
+  "primaryCurrencySettingDescription": {
+    "message": "Selecteer native om prioriteit te geven aan het weergeven van waarden in de native valuta van de blockchain (bijv.UBQ). Selecteer Fiat om prioriteit te geven aan het weergeven van waarden in de door u geselecteerde fiatvaluta."
+  },
+  "currentLanguage": {
+    "message": "Huidige Taal"
+  },
+  "advanced": {
+    "message": "Geavanceerd"
+  },
+  "advancedOptions": {
+    "message": "Geavanceerde Opties"
+  },
+  "showAdvancedGasInline": {
+    "message": "Geavanceerde gas controls"
+  },
+  "showAdvancedGasInlineDescription": {
+    "message": "Selecteer deze optie om gasprijs- en limietregelaars direct op de verzend- en bevestigingsschermen weer te geven."
+  },
+  "transactionTime": {
+    "message": "Transactietijd"
+  },
+  "showTransactionTimeDescription": {
+    "message": "Selecteer deze optie om schattingen van de transactietijd in behandeling weer te geven op het tabblad Activiteit terwijl u zich op het Ubiq-hoofdnetwerk bevindt. Opmerking: schattingen zijn bij benadering gebaseerd op netwerkomstandigheden."
+  },
+  "showHexData": {
+    "message": "Toon Hex-gegevens"
+  },
+  "showHexDataDescription": {
+    "message": "Select deze optie om het hex-gegevensveld te tonen in het verzendscherm."
+  },
+  "showFiatConversionInTestnets": {
+    "message": "Toon wisselkoers op Testnets"
+  },
+  "showFiatConversionInTestnetsDescription": {
+    "message": "Select deze optie om wisselkoersen te tonen op Testnets."
+  },
+  "nonceField": {
+    "message": "Transactie-nonce"
+  },
+  "nonceFieldHeading": {
+    "message": "Custom Nonce"
+  },
+  "nonceFieldDescription": {
+    "message": "Select deze optie om de nonce (transactienummer) op het bevestigingsschermen te wijzigen. Dit is een geavanceerde functie, wees voorzichtig."
+  },
+  "autoLockTimeLimit": {
+    "message": "Auto-Blokkeer Timer (minuten)"
+  },
+  "autoLockTimeLimitDescription": {
+    "message": "Stel de inactieve tijd in minuten in voordat Sparrow wordt vergrendeld."
+  },
+  "myWalletAccounts": {
+    "message": "Mijn Wallet Accounts"
+  },
+  "myWalletAccountsDescription": {
+    "message": "Al je door Sparrow gemaakte accounts worden automatisch toegevoegd aan deze sectie."
+  },
+  "securityAndPrivacy": {
+    "message": "Beveiliging & Privacy"
+  },
+  "showIncomingTransactions": {
+    "message": "Toon Inkomende Transacties"
+  },
+  "showIncomingTransactionsDescription": {
+    "message": "Selecteer deze optie om Ubiqscan te gebruiken om inkomende transacties in de transactielijst te tonen."
+  },
+  "usePhishingDetection": {
+    "message": "Gebruik Phishing-detectie"
+  },
+  "usePhishingDetectionDescription": {
+    "message": "Toon een waarschuwing bij phishingdomeinen die zich op Ubiq gebruikers richten."
+  },
+  "alerts": {
+    "message": "Waarschuwingen"
+  },
+  "networkName": {
+    "message": "Networknaam"
+  },
+  "rpcUrl": {
+    "message": "Nieuw RPC URL"
+  },
+  "optionalChainId": {
+    "message": "ChainID (optioneel)"
+  },
+  "optionalSymbol": {
+    "message": "Symbool (optioneel)"
+  },
+  "optionalBlockExplorerUrl": {
+    "message": "Block Explorer URL (optioneel)"
+  },
+  "addNetwork": {
+    "message": "Netwerk Toevoegen"
+  },
+  "about": {
+    "message": "Over Ons"
+  },
+  "metamaskVersion": {
+    "message": "Sparrow Versie"
+  },
+  "contactUs": {
+    "message": "Neem contact met ons op via Ubiq Discord!"
+  },
+  "addRecipient": {
+    "message": "Ontvanger Toevoegen"
+  },
+  "recipientAddressPlaceholder": {
+    "message": "Zoeken of publiek adres (0x)"
+  },
+  "newAccountDetectedDialogMessage": {
+    "message": "Nieuw adres gedetecteerd! Klik hier om toe te voegen aan uw adresboek."
+  },
+  "transactionFee": {
+    "message": "Transactiekosten"
+  },
+  "newTransactionFee": {
+    "message": "Nieuwe Transactiekosten"
+  },
+  "sendAmount": {
+    "message": "Bedrag"
+  },
+  "newTotal": {
+    "message": "Nieuw Totaal"
+  },
+  "close": {
+    "message": "Sluiten"
+  },
+  "faster": {
+    "message": "Sneller"
+  },
+  "slower": {
+    "message": "Langzamer"
+  },
+  "liveGasPricePredictions": {
+    "message": "Live Gasprijs Voorspellingen"
+  },
+  "hardwareWalletConnected": {
+    "message": "Hardware wallet verbonden"
+  },
+  "hardwareWallets": {
+    "message": "Hardware wallet verbinden"
+  },
+  "hardwareWalletsMsg": {
+    "message": "Selecteer een hardware wallet om te gbruiken met Sparrow."
+  },
+  "step1HardwareWallet": {
+    "message": "1. Hardware Wallet Verbinden"
+  },
+  "step1HardwareWalletMsg": {
+    "message": "Hardware wallet direct met je computer verbinden."
+  },
+  "step2HardwareWallet": {
+    "message": "2. Selecteer een Account"
+  },
+  "step2HardwareWalletMsg": {
+    "message": "Selecteer het account dat je wil bekijken. Je kan één account tegelijk bekijken."
+  },
+  "step3HardwareWallet": {
+    "message": "3. Gebruik web3 sites en meer!"
+  },
+  "step3HardwareWalletMsg": {
+    "message": "Gebruik uw hardwareaccount zoals u zou doen met elk Ubiq-account. Maak verbinding met web3-sites, verstuur UBQ, koop en bewaar ERC20-tokens."
+  },
+  "readyToConnect": {
+    "message": "Klaar om te verbinden?"
   }
 }
