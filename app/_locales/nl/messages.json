@@ -18,11 +18,11 @@
     "message": "Bedrag"
   },
   "appDescription": {
-    "message": "Ethereum Browser-extensie",
+    "message": "Ubiq Browser-extensie",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Sparrow",
     "description": "The name of the application"
   },
   "approve": {
@@ -44,7 +44,7 @@
     "message": "Gebruik Blockies Identicon"
   },
   "builtInCalifornia": {
-    "message": "MetaMask is ontworpen en gebouwd in Californië."
+    "message": "Sparrow is ontworpen en gebouwd in Californië."
   },
   "buyCoinSwitch": {
     "message": "Koop op CoinSwitch"
@@ -95,19 +95,19 @@
     "message": "Decimalen van precisie"
   },
   "defaultNetwork": {
-    "message": "Het standaardnetwerk voor Ether-transacties is Main Net."
+    "message": "Het standaardnetwerk voor Ubiq-transacties is Main Net."
   },
   "deposit": {
     "message": "Storting"
   },
   "depositEther": {
-    "message": "Stort Ether"
+    "message": "Stort Ubiq"
   },
   "directDepositEther": {
-    "message": "Directe Ether storten"
+    "message": "Directe Ubiq storten"
   },
   "directDepositEtherExplainer": {
-    "message": "Als je al wat Ether hebt, de snelste manier om Ether in je nieuwe portemonnee te krijgen door een directe storting."
+    "message": "Als je al wat Ubiq hebt, de snelste manier om Ubiq in je nieuwe portemonnee te krijgen door een directe storting."
   },
   "done": {
     "message": "Gedaan"
@@ -122,7 +122,7 @@
     "message": "Voer wachtwoord in"
   },
   "etherscanView": {
-    "message": "Bekijk account op Etherscan"
+    "message": "Bekijk account op Ubiqscan"
   },
   "exportPrivateKey": {
     "message": "Exporteer privésleutel"
@@ -151,11 +151,11 @@
     "message": "Gasprijs (GWEI)"
   },
   "getEther": {
-    "message": "Krijg Ether"
+    "message": "Krijg Ubiq"
   },
   "getEtherFromFaucet": {
-    "message": "Haal Ether uit een kraan voor de $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Haal Ubiq uit een kraan voor de $1",
+    "description": "Displays network name for Ubiq faucet"
   },
   "here": {
     "message": "hier",
@@ -175,7 +175,7 @@
     "message": "Account importeren"
   },
   "importAccountMsg": {
-    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte MetaMask-account. Meer informatie over geïmporteerde accounts"
+    "message": " Geïmporteerde accounts worden niet gekoppeld aan de seedphrase van uw oorspronkelijk gemaakte Sparrow-account. Meer informatie over geïmporteerde accounts"
   },
   "imported": {
     "message": "geïmporteerde",
@@ -234,7 +234,7 @@
     "message": "Bericht"
   },
   "metamaskDescription": {
-    "message": "MetaMask is een veilige identiteitskluis voor Ethereum."
+    "message": "Sparrow is een veilige identiteitskluis voor Ubiq."
   },
   "myAccounts": {
     "message": "Mijn accounts"
@@ -243,7 +243,7 @@
     "message": "Moet ten minste één token selecteren."
   },
   "needEtherInWallet": {
-    "message": "Om te communiceren met gedecentraliseerde applicaties met MetaMask, heb je Ether nodig in je portemonnee."
+    "message": "Om te communiceren met gedecentraliseerde applicaties met Sparrow, heb je Ubiq nodig in je portemonnee."
   },
   "needImportFile": {
     "message": "U moet een bestand selecteren om te importeren.",
@@ -421,7 +421,7 @@
     "message": "Bezoek onze website"
   },
   "welcome": {
-    "message": "Welkom bij MetaMask"
+    "message": "Welkom bij Sparrow"
   },
   "yourSigRequested": {
     "message": "Uw handtekening wordt aangevraagd"

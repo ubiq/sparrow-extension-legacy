@@ -21,11 +21,11 @@
     "message": "Částka"
   },
   "appDescription": {
-    "message": "Ethereum rozšíření prohlížeče",
+    "message": "Ubiq rozšíření prohlížeče",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Sparrow",
     "description": "The name of the application"
   },
   "approve": {
@@ -50,7 +50,7 @@
     "message": "Použít Blockies Identicon"
   },
   "builtInCalifornia": {
-    "message": "MetaMask je navržen a vytvořen v Kalifornii."
+    "message": "Sparrow je navržen a vytvořen v Kalifornii."
   },
   "buyCoinSwitch": {
     "message": "Nákup na CoinSwitch"
@@ -74,7 +74,7 @@
     "message": "Připojuji se k Kovan Test Network"
   },
   "connectingToMainnet": {
-    "message": "Připojuji se k Main Ethereum Network"
+    "message": "Připojuji se k Main Ubiq Network"
   },
   "connectingToRopsten": {
     "message": "Připojuji se k Ropsten Test Network"
@@ -119,22 +119,22 @@
     "message": "Počet desetinných míst přesnosti"
   },
   "defaultNetwork": {
-    "message": "Výchozí síť pro Etherové transakce je Main Net."
+    "message": "Výchozí síť pro Ubiqové transakce je Main Net."
   },
   "deposit": {
     "message": "Vklad"
   },
   "depositEther": {
-    "message": "Vložit Ether"
+    "message": "Vložit Ubiq"
   },
   "details": {
     "message": "Podrobnosti"
   },
   "directDepositEther": {
-    "message": "Vložit Ether přímo"
+    "message": "Vložit Ubiq přímo"
   },
   "directDepositEtherExplainer": {
-    "message": "Pokud už vlastníte nějaký Ether, nejrychleji ho dostanete do peněženky přímým vkladem."
+    "message": "Pokud už vlastníte nějaký Ubiq, nejrychleji ho dostanete do peněženky přímým vkladem."
   },
   "done": {
     "message": "Hotovo"
@@ -152,7 +152,7 @@
     "message": "Zadejte heslo"
   },
   "etherscanView": {
-    "message": "Prohlédněte si účet na Etherscan"
+    "message": "Prohlédněte si účet na Ubiqscan"
   },
   "exportPrivateKey": {
     "message": "Exportovat privátní klíč"
@@ -181,11 +181,11 @@
     "message": "Cena paliva (GWEI)"
   },
   "getEther": {
-    "message": "Získejte Ether"
+    "message": "Získejte Ubiq"
   },
   "getEtherFromFaucet": {
-    "message": "Získejte Ether z faucetu za $1.",
-    "description": "Displays network name for Ether faucet"
+    "message": "Získejte Ubiq z faucetu za $1.",
+    "description": "Displays network name for Ubiq faucet"
   },
   "here": {
     "message": "zde",
@@ -201,7 +201,7 @@
     "message": "Import účtu"
   },
   "importAccountMsg": {
-    "message": "Importované účty nebudou spojeny s vaší původní MetaMaskovou klíčovou frází. Zjistěte více o importovaných účtech "
+    "message": "Importované účty nebudou spojeny s vaší původní Sparrowovou klíčovou frází. Zjistěte více o importovaných účtech "
   },
   "imported": {
     "message": "Importováno",
@@ -260,7 +260,7 @@
     "message": "Zpráva"
   },
   "metamaskDescription": {
-    "message": "MetaMask je bezpečný osobní trezor pro Ethereum."
+    "message": "Sparrow je bezpečný osobní trezor pro Ubiq."
   },
   "myAccounts": {
     "message": "Moje účty"
@@ -269,7 +269,7 @@
     "message": "Musíte zvolit aspoň 1 token."
   },
   "needEtherInWallet": {
-    "message": "Potřebujete Ether v peněžence, abyste mohli pomocí MetaMasku interagovat s decentralizovanými aplikacemi."
+    "message": "Potřebujete Ubiq v peněžence, abyste mohli pomocí Sparrowu interagovat s decentralizovanými aplikacemi."
   },
   "needImportFile": {
     "message": "Musíte zvolit soubor k importu.",
@@ -475,7 +475,7 @@
     "message": "Klíčová fráze peněženky"
   },
   "welcome": {
-    "message": "Vítejte v MetaMask"
+    "message": "Vítejte v Sparrow"
   },
   "yourSigRequested": {
     "message": "Je vyžadován váš podpis"

@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Chart está disponible únicamente en las redes de Ethereum."
+    "message": "Chart está disponible únicamente en las redes de Ubiq."
   },
   "contractInteraction": {
     "message": "Interacción contractual"
@@ -72,17 +72,17 @@
     "message": "Agregar los tokens sugeridos"
   },
   "addAcquiredTokens": {
-    "message": "Agrega los tokens adquiridos con MetaMask"
+    "message": "Agrega los tokens adquiridos con Sparrow"
   },
   "amount": {
     "message": "Monto"
   },
   "appDescription": {
-    "message": "Una billetera de Ethereum en tu navegador",
+    "message": "Una billetera de Ubiq en tu navegador",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Sparrow",
     "description": "The name of the application"
   },
   "approve": {
@@ -110,7 +110,7 @@
     "message": "Temporizador de cierre de sesión automático (minutos)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Configura tu tiempo de inactividad en minutos para controlar cuándo MetaMask cerrará tu sesión de forma automática"
+    "message": "Configura tu tiempo de inactividad en minutos para controlar cuándo Sparrow cerrará tu sesión de forma automática"
   },
   "average": {
     "message": "Promedio"
@@ -125,7 +125,7 @@
     "message": "Haz una copia de seguridad de tu código de recuperación secreto para mantener la seguridad de la billetera y los fondos."
   },
   "backupApprovalInfo": {
-    "message": "Este código secreto es necesario para recuperar tu billetera en caso de que pierdas tu dispositivo, olvides la contraseña, tengas que reinstalar MetaMask o quieras acceder a tu billetera desde otro dispositivo."
+    "message": "Este código secreto es necesario para recuperar tu billetera en caso de que pierdas tu dispositivo, olvides la contraseña, tengas que reinstalar Sparrow o quieras acceder a tu billetera desde otro dispositivo."
   },
   "backupNow": {
     "message": "Hacer copia de seguridad ahora"
@@ -153,13 +153,13 @@
     "message": "Tu navegador no es compatible…"
   },
   "builtInCalifornia": {
-    "message": "MetaMask se diseñó y creó en California."
+    "message": "Sparrow se diseñó y creó en California."
   },
   "buyWithWyre": {
     "message": "Comprar ETH con Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre te permite utilizar una tarjeta de crédito para depositar ETH directamente en su cuenta de MetaMask."
+    "message": "Wyre te permite utilizar una tarjeta de crédito para depositar ETH directamente en su cuenta de Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Comprar en CoinSwitch"
@@ -201,7 +201,7 @@
     "message": "Cerrar"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Debes utilizar MetaMask en Google Chrome para poder conectarte a tu billetera de hardware."
+    "message": "Debes utilizar Sparrow en Google Chrome para poder conectarte a tu billetera de hardware."
   },
   "confirm": {
     "message": "Confirmar"
@@ -231,7 +231,7 @@
     "message": "Conexión con la red de prueba Kovan"
   },
   "connectingToMainnet": {
-    "message": "Conexión con la red principal de Ethereum"
+    "message": "Conexión con la red principal de Ubiq"
   },
   "connectingToRopsten": {
     "message": "Conexión con la red de prueba Ropsten"
@@ -309,7 +309,7 @@
     "message": "Decimales de precisión"
   },
   "defaultNetwork": {
-    "message": "La red predeterminada para las transacciones de Ethers es Main Net."
+    "message": "La red predeterminada para las transacciones de Ubiqs es Main Net."
   },
   "delete": {
     "message": "Borrar"
@@ -321,16 +321,16 @@
     "message": "Depósito"
   },
   "depositEther": {
-    "message": "Depositar Ethers"
+    "message": "Depositar Ubiqs"
   },
   "details": {
     "message": "Detalles"
   },
   "directDepositEther": {
-    "message": "Depósito directo de Ethers"
+    "message": "Depósito directo de Ubiqs"
   },
   "directDepositEtherExplainer": {
-    "message": "Si ya tienes algunos Ethers, la forma más rápida de ingresarlos en tu nueva billetera es a través de un depósito directo."
+    "message": "Si ya tienes algunos Ubiqs, la forma más rápida de ingresarlos en tu nueva billetera es a través de un depósito directo."
   },
   "done": {
     "message": "Listo"
@@ -369,7 +369,7 @@
     "message": "Nunca compartas tu frase con nadie."
   },
   "endOfFlowMessage5": {
-    "message": "¡Cuidado con las suplantaciones de identidad! MetaMask no te pedirá nunca tu frase de inicialización de forma espontánea."
+    "message": "¡Cuidado con las suplantaciones de identidad! Sparrow no te pedirá nunca tu frase de inicialización de forma espontánea."
   },
   "endOfFlowMessage6": {
     "message": "Si necesitas otra copia de seguridad de tu frase de inicialización, puedes encontrarla en Configuración -> Seguridad."
@@ -378,7 +378,7 @@
     "message": "Si tienes preguntas o ves algo sospechoso, envía un correo electrónico a support@metamask.io."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask no puede recuperar tu frase de inicialización. Obtén más información."
+    "message": "Sparrow no puede recuperar tu frase de inicialización. Obtén más información."
   },
   "endOfFlowMessage9": {
     "message": "Más información."
@@ -390,7 +390,7 @@
     "message": "Error en el registro de nombres de ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "No se pudo encontrar el nombre de ENS en la red actual. Intenta cambiar a la red principal de Ethereum."
+    "message": "No se pudo encontrar el nombre de ENS en la red actual. Intenta cambiar a la red principal de Ubiq."
   },
   "enterAnAlias": {
     "message": "Ingresa un alias"
@@ -402,10 +402,10 @@
     "message": "Ingresa tu contraseña para continuar"
   },
   "ethereumPublicAddress": {
-    "message": "Dirección pública de Ethereum"
+    "message": "Dirección pública de Ubiq"
   },
   "etherscanView": {
-    "message": "Ver cuenta en Etherscan"
+    "message": "Ver cuenta en Ubiqscan"
   },
   "estimatedProcessingTimes": {
     "message": "Tiempo estimado de procesamiento"
@@ -461,7 +461,7 @@
     "message": "El precio del gas es extremadamente bajo"
   },
   "gasPriceInfoModalContent": {
-    "message": "El precio del gas especifica la cantidad de Ethers que estás dispuesto a pagar por cada unidad de gas."
+    "message": "El precio del gas especifica la cantidad de Ubiqs que estás dispuesto a pagar por cada unidad de gas."
   },
   "gasPriceNoDenom": {
     "message": "Precio del gas"
@@ -470,11 +470,11 @@
     "message": "Conversión de moneda, moneda principal, idioma, blockies identicon"
   },
   "getEther": {
-    "message": "Obtener Ethers"
+    "message": "Obtener Ubiqs"
   },
   "getEtherFromFaucet": {
-    "message": "Obtener Ethers a partir de un grifo para $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Obtener Ubiqs a partir de un grifo para $1",
+    "description": "Displays network name for Ubiq faucet"
   },
   "getHelp": {
     "message": "Obtén ayuda."
@@ -492,7 +492,7 @@
     "message": "Conectar una billetera de hardware"
   },
   "hardwareWalletsMsg": {
-    "message": "Selecciona la billetera de hardware que te gustaría utilizar con MetaMask"
+    "message": "Selecciona la billetera de hardware que te gustaría utilizar con Sparrow"
   },
   "havingTroubleConnecting": {
     "message": "¿Problemas de conexión?"
@@ -521,7 +521,7 @@
     "message": "Importar cuenta"
   },
   "importAccountMsg": {
-    "message": "Las cuentas importadas no estarán asociadas a la frase de inicialización que se creó en un principio para tu cuenta de MetaMask. Obtén más información sobre las cuentas importadas"
+    "message": "Las cuentas importadas no estarán asociadas a la frase de inicialización que se creó en un principio para tu cuenta de Sparrow. Obtén más información sobre las cuentas importadas"
   },
   "importAccountSeedPhrase": {
     "message": "Importar una cuenta con frase de inicialización"
@@ -619,7 +619,7 @@
     "message": "Cerrar sesión"
   },
   "mainnet": {
-    "message": "Red principal de Ethereum"
+    "message": "Red principal de Ubiq"
   },
   "memorizePhrase": {
     "message": "Memoriza esta frase."
@@ -628,10 +628,10 @@
     "message": "Mensaje"
   },
   "metamaskDescription": {
-    "message": "Te estamos conectando a Ethereum y a la web descentralizada."
+    "message": "Te estamos conectando a Ubiq y a la web descentralizada."
   },
   "metamaskVersion": {
-    "message": "Versión de MetaMask"
+    "message": "Versión de Sparrow"
   },
   "mobileSyncText": {
     "message": "Ingresa tu contraseña para confirmar que eres tú."
@@ -643,13 +643,13 @@
     "message": "Las cuentas de mi billetera"
   },
   "myWalletAccountsDescription": {
-    "message": "Todas tus cuentas creadas en MetaMask se agregarán automáticamente a esta sección."
+    "message": "Todas tus cuentas creadas en Sparrow se agregarán automáticamente a esta sección."
   },
   "mustSelectOne": {
     "message": "Se debe seleccionar al menos 1 token."
   },
   "needEtherInWallet": {
-    "message": "Necesitarás tener Ethers en tu billetera para poder interactuar con aplicaciones descentralizadas a través de MetaMask."
+    "message": "Necesitarás tener Ubiqs en tu billetera para poder interactuar con aplicaciones descentralizadas a través de Sparrow."
   },
   "needImportFile": {
     "message": "Selecciona un archivo para importar.",
@@ -693,7 +693,7 @@
     "message": "Nueva red"
   },
   "newToMetaMask": {
-    "message": "¿Nuevo en MetaMask?"
+    "message": "¿Nuevo en Sparrow?"
   },
   "noAlreadyHaveSeed": {
     "message": "No, ya tengo una frase de inicialización"
@@ -702,7 +702,7 @@
     "message": "¡Protege tus claves!"
   },
   "protectYourKeysMessage1": {
-    "message": "Ten cuidado con tu frase de inicialización: hay informes sobre sitios web que intentan hacerse pasar por MetaMask. ¡MetaMask no te pedirá nunca tu frase de inicialización!"
+    "message": "Ten cuidado con tu frase de inicialización: hay informes sobre sitios web que intentan hacerse pasar por Sparrow. ¡Sparrow no te pedirá nunca tu frase de inicialización!"
   },
   "protectYourKeysMessage2": {
     "message": "Mantén tu frase segura. Si notas algo raro o si no está seguro sobre si usar algún sitio web en específico, envíanos un correo electrónico a support@metamask.io"
@@ -759,7 +759,7 @@
     "message": "Participar en MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Participa en MetaMetrics para ayudarnos a mejorar MetaMask"
+    "message": "Participa en MetaMetrics para ayudarnos a mejorar Sparrow"
   },
   "password": {
     "message": "Contraseña"
@@ -929,7 +929,7 @@
     "message": "Tu frase de copia de seguridad secreta facilita que se pueda respaldar y restaurar tu cuenta."
   },
   "secretBackupPhraseWarning": {
-    "message": "ADVERTENCIA: Nunca reveles tu frase de copia de seguridad. Cualquier persona que tenga acceso a esta frase puede llevarse tus Ethers permanentemente."
+    "message": "ADVERTENCIA: Nunca reveles tu frase de copia de seguridad. Cualquier persona que tenga acceso a esta frase puede llevarse tus Ubiqs permanentemente."
   },
   "secretPhrase": {
     "message": "Ingresa tu frase secreta de doce palabras para restaurar tu almacén."
@@ -971,7 +971,7 @@
     "message": "Enviar tokens"
   },
   "sentEther": {
-    "message": "Ethers enviados"
+    "message": "Ubiqs enviados"
   },
   "sentTokens": {
     "message": "tokens enviados"
@@ -986,7 +986,7 @@
     "message": "Selecciona una cuenta"
   },
   "selectAnAccountHelp": {
-    "message": "Selecciona la cuenta que deseas ver en MetaMask"
+    "message": "Selecciona la cuenta que deseas ver en Sparrow"
   },
   "selectAHigherGasFee": {
     "message": "Selecciona una tasa de gas más alta para acelerar el procesamiento de tu transacción.*"
@@ -1076,7 +1076,7 @@
     "message": "3. ¡Comienza a utilizar dApps y más!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Utiliza tu cuenta de hardware como si fuera una cuenta de Ethereum. Inicia sesión en dApps, envía ETH, compra y almacena tokens ERC20 y tokens no fungibles como CryptoKitties."
+    "message": "Utiliza tu cuenta de hardware como si fuera una cuenta de Ubiq. Inicia sesión en dApps, envía ETH, compra y almacena tokens ERC20 y tokens no fungibles como CryptoKitties."
   },
   "storePhrase": {
     "message": "Almacena esta frase en un administrador de contraseñas como 1Password."
@@ -1100,19 +1100,19 @@
     "message": "Sincronizar con un dispositivo móvil"
   },
   "syncWithMobileDesc": {
-    "message": "Puedes sincronizar tus cuentas e información con tu dispositivo móvil. Abre la aplicación de MetaMask para dispositivos móviles, dirígete a \"Configuración\" y selecciona \"Sincronizar desde una extensión del navegador\""
+    "message": "Puedes sincronizar tus cuentas e información con tu dispositivo móvil. Abre la aplicación de Sparrow para dispositivos móviles, dirígete a \"Configuración\" y selecciona \"Sincronizar desde una extensión del navegador\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Si estás abriendo la aplicación de MetaMask para dispositivos móviles por primera vez, sigue los pasos indicados en tu teléfono."
+    "message": "Si estás abriendo la aplicación de Sparrow para dispositivos móviles por primera vez, sigue los pasos indicados en tu teléfono."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Escanea este código con la aplicación móvil de MetaMask"
+    "message": "Escanea este código con la aplicación móvil de Sparrow"
   },
   "syncWithMobileBeCareful": {
     "message": "Asegúrate de que nadie esté mirando tu pantalla cuando escanees este código"
   },
   "syncWithMobileComplete": {
-    "message": "Tus datos se han sincronizado con éxito. ¡Disfruta de la aplicación móvil de MetaMask!"
+    "message": "Tus datos se han sincronizado con éxito. ¡Disfruta de la aplicación móvil de Sparrow!"
   },
   "terms": {
     "message": "Condiciones de uso"
@@ -1197,7 +1197,7 @@
     "message": "Reintentar"
   },
   "typePassword": {
-    "message": "Ingresa tu contraseña de MetaMask"
+    "message": "Ingresa tu contraseña de Sparrow"
   },
   "unapproved": {
     "message": "Sin autorización"
@@ -1251,7 +1251,7 @@
     "message": "Ver en $1"
   },
   "viewOnEtherscan": {
-    "message": "Ver en Etherscan"
+    "message": "Ver en Ubiqscan"
   },
   "visitWebSite": {
     "message": "Visita nuestro sitio web"
@@ -1263,7 +1263,7 @@
     "message": "¡Hola de nuevo!"
   },
   "welcome": {
-    "message": "Bienvenido a MetaMask"
+    "message": "Bienvenido a Sparrow"
   },
   "writePhrase": {
     "message": "Escribe esta frase en un papel y guárdalo en un lugar seguro. Si deseas una seguridad incluso mejor, escríbela en varios trozos de papel y guárdalos en dos o tres lugares distintos."

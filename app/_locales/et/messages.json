@@ -1,6 +1,6 @@
 {
   "chartOnlyAvailableEth": {
-    "message": "Tabel on saadaval vaid Ethereumi võrkudes."
+    "message": "Tabel on saadaval vaid Ubiqi võrkudes."
   },
   "contractInteraction": {
     "message": "Lepingu suhtlus"
@@ -72,17 +72,17 @@
     "message": "Lisa soovitatud lube"
   },
   "addAcquiredTokens": {
-    "message": "Lisage load, mis olete MetaMaskiga saanud"
+    "message": "Lisage load, mis olete Sparrowiga saanud"
   },
   "amount": {
     "message": "Summa"
   },
   "appDescription": {
-    "message": "Ethereumi rahakott teie lehitsejas",
+    "message": "Ubiqi rahakott teie lehitsejas",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Sparrow",
     "description": "The name of the application"
   },
   "approve": {
@@ -110,7 +110,7 @@
     "message": "Automaatse väljalogimise taimer (minutites)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Seadistage jõudeolek minutites, enne kui MetaMask automaatselt välja logib"
+    "message": "Seadistage jõudeolek minutites, enne kui Sparrow automaatselt välja logib"
   },
   "average": {
     "message": "Keskmine"
@@ -125,7 +125,7 @@
     "message": "Varundage oma salajane taastamisvõti, et oma rahakott ja vahendid turvalisena hoida."
   },
   "backupApprovalInfo": {
-    "message": "See salakood on vajalik teie rahakoti taastamiseks, kui kaotate oma seadme, unustate parooli, peate MetaMaski uuesti alla laadima, või kui soovite avada oma rahakoti mõnel teisel seadmel."
+    "message": "See salakood on vajalik teie rahakoti taastamiseks, kui kaotate oma seadme, unustate parooli, peate Sparrowi uuesti alla laadima, või kui soovite avada oma rahakoti mõnel teisel seadmel."
   },
   "backupNow": {
     "message": "Varunda kohe"
@@ -153,13 +153,13 @@
     "message": "Teie lehitsejat ei toetata..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask on projekteeritud ja loodud Californias."
+    "message": "Sparrow on projekteeritud ja loodud Californias."
   },
   "buyWithWyre": {
     "message": "Ostke ETH-d Wyre'iga"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre võimaldab kasutada krediitkaarti, et teha ETH sissemakse otse MetaMaski kontole."
+    "message": "Wyre võimaldab kasutada krediitkaarti, et teha ETH sissemakse otse Sparrowi kontole."
   },
   "buyCoinSwitch": {
     "message": "Osta CoinSwitchil"
@@ -204,7 +204,7 @@
     "message": "Sule"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Riistvararahakoti ühendamiseks peate kasutama MetaMaski Google Chrome'is."
+    "message": "Riistvararahakoti ühendamiseks peate kasutama Sparrowi Google Chrome'is."
   },
   "confirm": {
     "message": "Kinnita"
@@ -234,7 +234,7 @@
     "message": "Ühendamine Kovani testvõrguga"
   },
   "connectingToMainnet": {
-    "message": "Ühenduse loomine peamise Etherumi võrguga"
+    "message": "Ühenduse loomine peamise Ubiqumi võrguga"
   },
   "connectingToRopsten": {
     "message": "Ühendamine Ropsteni testvõrguga"
@@ -312,7 +312,7 @@
     "message": "Täpsuse kümnendkohad"
   },
   "defaultNetwork": {
-    "message": "Etheri tehingute vaikevõrk on peavõrk."
+    "message": "Ubiqi tehingute vaikevõrk on peavõrk."
   },
   "delete": {
     "message": "Kustuta"
@@ -372,7 +372,7 @@
     "message": "Ärge jagage fraasi mitte kellegagi."
   },
   "endOfFlowMessage5": {
-    "message": "Olge ettevaatlik andmepüügi osas! MetaMask ei küsi kunagi spontaanselt teie seemnefraasi."
+    "message": "Olge ettevaatlik andmepüügi osas! Sparrow ei küsi kunagi spontaanselt teie seemnefraasi."
   },
   "endOfFlowMessage6": {
     "message": "Kui peate oma seemnefraasi uuesti varundama, leiate selle valikust Settings (Seaded) -> Security (Turvalisus)."
@@ -381,7 +381,7 @@
     "message": "Kui teil on küsimusi või näete midagi kahtlast, kirjutage meile support@metamask.io."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask ei saa teie seemnefraasi taastada. Lisateave."
+    "message": "Sparrow ei saa teie seemnefraasi taastada. Lisateave."
   },
   "endOfFlowMessage9": {
     "message": "Lisateave."
@@ -393,7 +393,7 @@
     "message": "Tõrge ENS-i nime registreerimisel"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "ENS-i nime ei leitud praegusest võrgust. Proovige lülituda peamisele Ethereumi võrgule."
+    "message": "ENS-i nime ei leitud praegusest võrgust. Proovige lülituda peamisele Ubiqi võrgule."
   },
   "enterAnAlias": {
     "message": "Sisestage alias"
@@ -405,10 +405,10 @@
     "message": "Jätkamiseks sisestage parool"
   },
   "ethereumPublicAddress": {
-    "message": "Ethereumi avalik aadress"
+    "message": "Ubiqi avalik aadress"
   },
   "etherscanView": {
-    "message": "Vaadake kontot Etherscanil"
+    "message": "Vaadake kontot Ubiqscanil"
   },
   "estimatedProcessingTimes": {
     "message": "Eeldatavad töötlemisajad"
@@ -476,7 +476,7 @@
   },
   "getEtherFromFaucet": {
     "message": "Hankige kraanist eetrit $1eest",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Ubiq faucet"
   },
   "getHelp": {
     "message": "Küsige abi."
@@ -497,7 +497,7 @@
     "message": "Ühendage riistvara rahakott"
   },
   "hardwareWalletsMsg": {
-    "message": "Valige riistvara rahakott, mida soovite MetaMaskis kasutada"
+    "message": "Valige riistvara rahakott, mida soovite Sparrowis kasutada"
   },
   "havingTroubleConnecting": {
     "message": "Kas ühendamisel esineb probleeme?"
@@ -526,7 +526,7 @@
     "message": "Impordi konto"
   },
   "importAccountMsg": {
-    "message": "Imporditud kontosid ei seostata teie ainulaadse MetaMaski konto seemnefraasiga. Lugege imporditud kontode kohta lähemalt"
+    "message": "Imporditud kontosid ei seostata teie ainulaadse Sparrowi konto seemnefraasiga. Lugege imporditud kontode kohta lähemalt"
   },
   "importAccountSeedPhrase": {
     "message": "Impordi seemnefraasiga konto"
@@ -621,7 +621,7 @@
     "message": "Logi välja"
   },
   "mainnet": {
-    "message": "Ethereumi põhivõrk"
+    "message": "Ubiqi põhivõrk"
   },
   "memorizePhrase": {
     "message": "Jätke fraas meelde."
@@ -633,10 +633,10 @@
     "message": "Sõnum"
   },
   "metamaskDescription": {
-    "message": "Teid ühendatakse Ethereumi ja detsentraliseeritud võrguga."
+    "message": "Teid ühendatakse Ubiqi ja detsentraliseeritud võrguga."
   },
   "metamaskVersion": {
-    "message": "MetaMaski versioon"
+    "message": "Sparrowi versioon"
   },
   "mobileSyncText": {
     "message": "Sisestage parool, et saaksime teid tuvastada!"
@@ -648,13 +648,13 @@
     "message": "Minu rahakotikontod"
   },
   "myWalletAccountsDescription": {
-    "message": "Sellesse jaotisesse lisatakse automaatselt kõik teie MetaMaski kontod."
+    "message": "Sellesse jaotisesse lisatakse automaatselt kõik teie Sparrowi kontod."
   },
   "mustSelectOne": {
     "message": "Peate valima vähemalt 1 loa."
   },
   "needEtherInWallet": {
-    "message": "Selleks, et suhelda MetaMaski abil detsentraliseeritud rakendustega, peab teil rahakotis eetrit olema."
+    "message": "Selleks, et suhelda Sparrowi abil detsentraliseeritud rakendustega, peab teil rahakotis eetrit olema."
   },
   "needImportFile": {
     "message": "Peate importimiseks faili valima.",
@@ -698,7 +698,7 @@
     "message": "Uus võrk"
   },
   "newToMetaMask": {
-    "message": "Pole MetaMaski varem kasutanud?"
+    "message": "Pole Sparrowi varem kasutanud?"
   },
   "noAlreadyHaveSeed": {
     "message": "Ei, mul on juba seemnefraas"
@@ -707,7 +707,7 @@
     "message": "Kaitske oma võtmeid!"
   },
   "protectYourKeysMessage1": {
-    "message": "Kaitske oma seemnefraasi. Meid on teavitatud veebilehtedest, mis püüavad MetaMaski jäljendada. MetaMask ei küsi teilt kunagi teie seemnefraasi!"
+    "message": "Kaitske oma seemnefraasi. Meid on teavitatud veebilehtedest, mis püüavad Sparrowi jäljendada. Sparrow ei küsi teilt kunagi teie seemnefraasi!"
   },
   "protectYourKeysMessage2": {
     "message": "Kaitske oma seemnefraasi. Kui näete midagi kahtlast või pole veebilehe ehtsuses kindel, saatke e-kiri aadressile support@metamask.io"
@@ -764,7 +764,7 @@
     "message": "Osalege MetaMetricsis"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Osalege MetaMetricsis, et aidata meil MetaMaski paremaks teha"
+    "message": "Osalege MetaMetricsis, et aidata meil Sparrowi paremaks teha"
   },
   "password": {
     "message": "Parool"
@@ -991,7 +991,7 @@
     "message": "Valige konto"
   },
   "selectAnAccountHelp": {
-    "message": "Valige konto, mida MetaMaskis vaadata"
+    "message": "Valige konto, mida Sparrowis vaadata"
   },
   "selectAHigherGasFee": {
     "message": "Valige suurem gaasihind, et kiirendada tehingu töötlemist.*"
@@ -1081,7 +1081,7 @@
     "message": "3. Hakake kasutama dAppse ja muud!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Kasutage oma riistvarakontot nagu mis tahes teist Ethereumi kontot. Logige dAppsi, saatke Eth-d, ostke ja hoiustage ERC20 lube ning asendamatuid lube nagu CryptoKitties."
+    "message": "Kasutage oma riistvarakontot nagu mis tahes teist Ubiqi kontot. Logige dAppsi, saatke Eth-d, ostke ja hoiustage ERC20 lube ning asendamatuid lube nagu CryptoKitties."
   },
   "storePhrase": {
     "message": "Salvestage see fraas paroolihaldurisse, nagu 1Password."
@@ -1105,19 +1105,19 @@
     "message": "Mobiiliga sünkroonimine"
   },
   "syncWithMobileDesc": {
-    "message": "Saate sünkroonida oma kontod ja teabe oma mobiiliseadmega. Avage MetaMaski mobiilirakendus, avage \"Settings\" (Seaded) ja puudutage valikut \"Sync from Browser Extension\" (Sünkroonimine lehitseja laiendusest)"
+    "message": "Saate sünkroonida oma kontod ja teabe oma mobiiliseadmega. Avage Sparrowi mobiilirakendus, avage \"Settings\" (Seaded) ja puudutage valikut \"Sync from Browser Extension\" (Sünkroonimine lehitseja laiendusest)"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Järgige MetaMaski mobiilirakenduse esmakordsel avamisel telefonis esitatud samme."
+    "message": "Järgige Sparrowi mobiilirakenduse esmakordsel avamisel telefonis esitatud samme."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Skanneerige see kood MetaMaski mobiilirakendusega"
+    "message": "Skanneerige see kood Sparrowi mobiilirakendusega"
   },
   "syncWithMobileBeCareful": {
     "message": "Veenduge, et keegi teine ei vaata selle koodi skannimisel teie ekraani"
   },
   "syncWithMobileComplete": {
-    "message": "Teie andmed on edukalt sünkroonitud. Nautige MetaMaski mobiilirakendust!"
+    "message": "Teie andmed on edukalt sünkroonitud. Nautige Sparrowi mobiilirakendust!"
   },
   "terms": {
     "message": "Teenusetingimused"
@@ -1208,7 +1208,7 @@
     "message": "Proovi uuesti"
   },
   "typePassword": {
-    "message": "Sisestage oma MetaMaski parool"
+    "message": "Sisestage oma Sparrowi parool"
   },
   "unapproved": {
     "message": "Kinnitamata"
@@ -1262,7 +1262,7 @@
     "message": "Vaata $1"
   },
   "viewOnEtherscan": {
-    "message": "Kuva Etherscanil"
+    "message": "Kuva Ubiqscanil"
   },
   "visitWebSite": {
     "message": "Külastage meie veebilehte"
@@ -1274,7 +1274,7 @@
     "message": "Tere tulemast tagasi!"
   },
   "welcome": {
-    "message": "Tere tulemast MetaMaski"
+    "message": "Tere tulemast Sparrowi"
   },
   "writePhrase": {
     "message": "Kirjutage see fraas paberile ja hoidke seda turvalises kohas. Veel suurema turvalisuse tagamiseks kirjutage see mitmele paberile ja hoidke neid 2–3 erinevas kohas."

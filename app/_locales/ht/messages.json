@@ -30,17 +30,17 @@
     "message": "Ajoute Token Yo Sikjere W"
   },
   "addAcquiredTokens": {
-    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk MetaMask"
+    "message": "Ajoute tokens yo ou te achte lè l sèvi avèk Sparrow"
   },
   "amount": {
     "message": "Kantite lajan"
   },
   "appDescription": {
-    "message": "Ekstansyon Navigatè Ethereum",
+    "message": "Ekstansyon Navigatè Ubiq",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Sparrow",
     "description": "The name of the application"
   },
   "approve": {
@@ -74,7 +74,7 @@
     "message": "Navigatè ou a pa sipòte..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask fèt e bati nan California."
+    "message": "Sparrow fèt e bati nan California."
   },
   "buyCoinSwitch": {
     "message": "Achte sou CoinSwitch"
@@ -98,7 +98,7 @@
     "message": "Fèmen"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "Ou bezwen sèvi ak MetaMask sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
+    "message": "Ou bezwen sèvi ak Sparrow sou Google Chrome yo nan lòd yo konekte sou Hardware Wallet."
   },
   "confirm": {
     "message": "Konfime"
@@ -119,7 +119,7 @@
     "message": "Konekte nan Kovan Tès Rezo a"
   },
   "connectingToMainnet": {
-    "message": "Konekte ak Prensipal Ethereum Rezo a"
+    "message": "Konekte ak Prensipal Ubiq Rezo a"
   },
   "connectingToRopsten": {
     "message": "Konekte ak Ropsten Tès Rezo a"
@@ -170,22 +170,22 @@
     "message": "Presizyon desimal la"
   },
   "defaultNetwork": {
-    "message": "Dfo rezo a pou tranzaksyon Ether se Mainnet."
+    "message": "Dfo rezo a pou tranzaksyon Ubiq se Mainnet."
   },
   "deposit": {
     "message": "Depo"
   },
   "depositEther": {
-    "message": "Depo Ether"
+    "message": "Depo Ubiq"
   },
   "details": {
     "message": "Detay yo"
   },
   "directDepositEther": {
-    "message": "Dirèkteman Depo Ether"
+    "message": "Dirèkteman Depo Ubiq"
   },
   "directDepositEtherExplainer": {
-    "message": "Si ou deja gen kèk Ether, fason ki pi rapid yo ka resevwa Ether nan nouvo Wallet ou pa depo dirèk."
+    "message": "Si ou deja gen kèk Ubiq, fason ki pi rapid yo ka resevwa Ubiq nan nouvo Wallet ou pa depo dirèk."
   },
   "done": {
     "message": "Fini"
@@ -212,7 +212,7 @@
     "message": "Mete modpas pou kontinye"
   },
   "etherscanView": {
-    "message": "Gade kont sou Etherscan"
+    "message": "Gade kont sou Ubiqscan"
   },
   "expandView": {
     "message": "Elaji Wè"
@@ -253,11 +253,11 @@
     "message": "Pri gaz (GWEI)"
   },
   "getEther": {
-    "message": "Jwenn Ether"
+    "message": "Jwenn Ubiq"
   },
   "getEtherFromFaucet": {
-    "message": "Jwenn Ether nan yon tiyo pou $1 la",
-    "description": "Displays network name for Ether faucet"
+    "message": "Jwenn Ubiq nan yon tiyo pou $1 la",
+    "description": "Displays network name for Ubiq faucet"
   },
   "getHelp": {
     "message": "Jwenn èd."
@@ -272,7 +272,7 @@
     "message": "Materyèl Wallet konekte"
   },
   "hardwareWalletsMsg": {
-    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak MetaMask"
+    "message": "Chwazi yon Materyèl Wallet ou ta renmen itilize ak Sparrow"
   },
   "havingTroubleConnecting": {
     "message": "Èske w gen pwoblèm pou konekte?"
@@ -298,7 +298,7 @@
     "message": "Pòte Kont"
   },
   "importAccountMsg": {
-    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont MetaMask seed fraz. Aprann plis sou kont enpòte "
+    "message": " Kont pòte pa pral asosye avèk orijinal ou te kreye nan kont Sparrow seed fraz. Aprann plis sou kont enpòte "
   },
   "imported": {
     "message": "Pòte",
@@ -369,16 +369,16 @@
     "message": "Dekonekte"
   },
   "mainnet": {
-    "message": "Prensipal Ethereum Rezo a"
+    "message": "Prensipal Ubiq Rezo a"
   },
   "message": {
     "message": "Mesaje"
   },
   "metamaskDescription": {
-    "message": "MetaMask sekirize idantite pou Ethereum."
+    "message": "Sparrow sekirize idantite pou Ubiq."
   },
   "metamaskVersion": {
-    "message": "MetaMask Vèsyon"
+    "message": "Sparrow Vèsyon"
   },
   "myAccounts": {
     "message": "Kont mwen"
@@ -387,7 +387,7 @@
     "message": "Ou dwe chwazi omwen 1 token."
   },
   "needEtherInWallet": {
-    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize MetaMask, ou pral bezwen Ether nan Wallet ou."
+    "message": "Pou kominike avèk aplikasyon desantralize ou dwe itilize Sparrow, ou pral bezwen Ubiq nan Wallet ou."
   },
   "needImportFile": {
     "message": "Ou dwe chwazi yon dosye pou enpòte.",
@@ -616,7 +616,7 @@
     "message": "Chwazi yon kont"
   },
   "selectAnAccountHelp": {
-    "message": "Chwazi kont pou wè nan MetaMask"
+    "message": "Chwazi kont pou wè nan Sparrow"
   },
   "selectHdPath": {
     "message": "Chwazi chemen HD"
@@ -676,7 +676,7 @@
     "message": "3. Kòmanse itilize dApps ak plis ankò!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Sèvi ak kont materyèl ou menm jan ou t ap fè pou kont Etherum. Ouvri sesyon an nan dApps, voye Eth, achte ak stòke ERC20 tokens ak e ki pake chanje tokens tankou CryptoKitties."
+    "message": "Sèvi ak kont materyèl ou menm jan ou t ap fè pou kont Ubiqum. Ouvri sesyon an nan dApps, voye Eth, achte ak stòke ERC20 tokens ak e ki pake chanje tokens tankou CryptoKitties."
   },
   "submitted": {
     "message": "Te Soumèt"
@@ -776,7 +776,7 @@
     "message": "Wè Kont"
   },
   "viewOnEtherscan": {
-    "message": "Wè sou Etherscan"
+    "message": "Wè sou Ubiqscan"
   },
   "visitWebSite": {
     "message": "Vizite sit entènèt nou an"
@@ -788,7 +788,7 @@
     "message": "Bon Retou!"
   },
   "welcome": {
-    "message": "Byenveni nan MetaMask"
+    "message": "Byenveni nan Sparrow"
   },
   "yesLetsTry": {
     "message": "Wi, ann eseye"

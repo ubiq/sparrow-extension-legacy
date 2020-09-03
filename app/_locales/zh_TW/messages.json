@@ -72,7 +72,7 @@
     "message": "加入建議的代幣"
   },
   "addAcquiredTokens": {
-    "message": "將您已經擁有的代幣顯示於 MetaMask"
+    "message": "將您已經擁有的代幣顯示於 Sparrow"
   },
   "amount": {
     "message": "數量"
@@ -82,7 +82,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Sparrow",
     "description": "The name of the application"
   },
   "approve": {
@@ -110,7 +110,7 @@
     "message": "自動登出計時器（分）"
   },
   "autoLockTimeLimitDescription": {
-    "message": "設定閒置分鐘上限，時間到時 MetaMask 將自動登出"
+    "message": "設定閒置分鐘上限，時間到時 Sparrow 將自動登出"
   },
   "average": {
     "message": "平均"
@@ -125,7 +125,7 @@
     "message": "備份你的秘密還原代碼，安全防護錢包與資金。"
   },
   "backupApprovalInfo": {
-    "message": "在裝置遺失、忘記密碼、需要重新安裝 MetaMask、或是想在另一裝置開啟錢包的情形下，你需要此秘密代碼來復原錢包。"
+    "message": "在裝置遺失、忘記密碼、需要重新安裝 Sparrow、或是想在另一裝置開啟錢包的情形下，你需要此秘密代碼來復原錢包。"
   },
   "backupNow": {
     "message": "現在備份"
@@ -153,13 +153,13 @@
     "message": "您的瀏覽器尚未支援..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask 是在加州設計製造"
+    "message": "Sparrow 是在加州設計製造"
   },
   "buyWithWyre": {
     "message": "用 Wyre 購買 ETH"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre 讓你使用信用卡在 MetaMask 帳號中直接存入 ETH。"
+    "message": "Wyre 讓你使用信用卡在 Sparrow 帳號中直接存入 ETH。"
   },
   "buyCoinSwitch": {
     "message": "在CoinSwitch上购买"
@@ -201,7 +201,7 @@
     "message": "關閉"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "您需要在 Google Chrome 瀏覽器使用 MetaMask 連結您的硬體錢包"
+    "message": "您需要在 Google Chrome 瀏覽器使用 Sparrow 連結您的硬體錢包"
   },
   "confirm": {
     "message": "確認"
@@ -231,7 +231,7 @@
     "message": "連線到 Kovan 測試網路"
   },
   "connectingToMainnet": {
-    "message": "連線到主 Ethereum 網路"
+    "message": "連線到主 Ubiq 網路"
   },
   "connectingToRopsten": {
     "message": "連線到 Ropsten 測試網路"
@@ -369,7 +369,7 @@
     "message": "不要分享此助記祠給任何人"
   },
   "endOfFlowMessage5": {
-    "message": "小心網路釣魚！MetaMask 永遠不會主動詢問你的助記詞。"
+    "message": "小心網路釣魚！Sparrow 永遠不會主動詢問你的助記詞。"
   },
   "endOfFlowMessage6": {
     "message": "如你需要再次備份助記詞，可至設定 -> 安全。"
@@ -378,7 +378,7 @@
     "message": "如你有任何問題或察覺有異，請寄信給 support@metamask.io"
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask 無法還原你的助記詞。暸解更多"
+    "message": "Sparrow 無法還原你的助記詞。暸解更多"
   },
   "endOfFlowMessage9": {
     "message": "深入瞭解。"
@@ -405,7 +405,7 @@
     "message": "以太坊公開位址"
   },
   "etherscanView": {
-    "message": "在 Etherscan 上查看帳戶"
+    "message": "在 Ubiqscan 上查看帳戶"
   },
   "estimatedProcessingTimes": {
     "message": "預估處理時間"
@@ -477,7 +477,7 @@
   },
   "getEtherFromFaucet": {
     "message": "從水管取得 $1 乙太幣。",
-    "description": "Displays network name for Ether faucet"
+    "description": "Displays network name for Ubiq faucet"
   },
   "getHelp": {
     "message": "取得協助"
@@ -498,7 +498,7 @@
     "message": "連線硬體錢包"
   },
   "hardwareWalletsMsg": {
-    "message": "選擇要連線到 MetaMask 的硬體錢包"
+    "message": "選擇要連線到 Sparrow 的硬體錢包"
   },
   "havingTroubleConnecting": {
     "message": "無法正確連線?"
@@ -527,7 +527,7 @@
     "message": "匯入帳戶"
   },
   "importAccountMsg": {
-    "message": " 匯入的帳戶與您原有 MetaMask 帳戶的助憶詞並無關聯。請查看與匯入帳戶相關的資料 "
+    "message": " 匯入的帳戶與您原有 Sparrow 帳戶的助憶詞並無關聯。請查看與匯入帳戶相關的資料 "
   },
   "importAccountSeedPhrase": {
     "message": "利用助憶詞還原"
@@ -637,10 +637,10 @@
     "message": "訊息"
   },
   "metamaskDescription": {
-    "message": "MetaMask 是乙太坊安全身份識別金庫"
+    "message": "Sparrow 是乙太坊安全身份識別金庫"
   },
   "metamaskVersion": {
-    "message": "MetaMask 版本"
+    "message": "Sparrow 版本"
   },
   "mobileSyncText": {
     "message": "請輸入密碼確認身份！"
@@ -652,13 +652,13 @@
     "message": "我的錢包帳號"
   },
   "myWalletAccountsDescription": {
-    "message": "所有你在 MetaMask 創建的帳號將自動新增到此區塊。"
+    "message": "所有你在 Sparrow 創建的帳號將自動新增到此區塊。"
   },
   "mustSelectOne": {
     "message": "必須選擇至少 1 代幣"
   },
   "needEtherInWallet": {
-    "message": "要使用 MetaMask 存取去中心化應用服務時，您的錢包中需要有乙太幣。"
+    "message": "要使用 Sparrow 存取去中心化應用服務時，您的錢包中需要有乙太幣。"
   },
   "needImportFile": {
     "message": "您必須選擇一個檔案來匯入",
@@ -702,7 +702,7 @@
     "message": "新增網路"
   },
   "newToMetaMask": {
-    "message": "新來到 MetaMask？"
+    "message": "新來到 Sparrow？"
   },
   "noAlreadyHaveSeed": {
     "message": "不，我已經有助記詞"
@@ -711,7 +711,7 @@
     "message": "保護你的鑰匙！"
   },
   "protectYourKeysMessage1": {
-    "message": "小心保管你的註記詞—我們接到報告有網站嘗試模仿 MetaMask。MetaMask 永遠不會詢問你的助記詞！"
+    "message": "小心保管你的註記詞—我們接到報告有網站嘗試模仿 Sparrow。Sparrow 永遠不會詢問你的助記詞！"
   },
   "protectYourKeysMessage2": {
     "message": "安全存放你的助記詞。如你察覺有異，或你對某網站起疑，請寄信給 support@metamask.io"
@@ -765,7 +765,7 @@
     "message": "參與 MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "參與 MetaMetrics 來協助我們打造更好的 MetaMask"
+    "message": "參與 MetaMetrics 來協助我們打造更好的 Sparrow"
   },
   "password": {
     "message": "密碼"
@@ -1094,19 +1094,19 @@
     "message": "和移動裝置同步"
   },
   "syncWithMobileDesc": {
-    "message": "你可以用移動裝置同步帳號與資訊。開啟 MetaMask 移動 app，至「設定」並點擊「自瀏覽器擴充功能同步」"
+    "message": "你可以用移動裝置同步帳號與資訊。開啟 Sparrow 移動 app，至「設定」並點擊「自瀏覽器擴充功能同步」"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "如你是第一次開啟 MetaMask 移動 app，只要跟著手機上的指示操作即可。"
+    "message": "如你是第一次開啟 Sparrow 移動 app，只要跟著手機上的指示操作即可。"
   },
   "syncWithMobileScanThisCode": {
-    "message": "用你的 MetaMask 移動 app 掃描此代碼"
+    "message": "用你的 Sparrow 移動 app 掃描此代碼"
   },
   "syncWithMobileBeCareful": {
     "message": "掃描代碼時確保沒有其他人在看你的螢幕"
   },
   "syncWithMobileComplete": {
-    "message": "你的資料已成功同步。開始活用 MetaMask 移動 app！"
+    "message": "你的資料已成功同步。開始活用 Sparrow 移動 app！"
   },
   "terms": {
     "message": "使用條款"
@@ -1251,7 +1251,7 @@
     "message": "在 $1 瀏覽"
   },
   "viewOnEtherscan": {
-    "message": "在 Etherscan 上瀏覽"
+    "message": "在 Ubiqscan 上瀏覽"
   },
   "visitWebSite": {
     "message": "造訪我們的網站"
@@ -1263,7 +1263,7 @@
     "message": "歡迎回來!"
   },
   "welcome": {
-    "message": "歡迎來到 MetaMask"
+    "message": "歡迎來到 Sparrow"
   },
   "writePhrase": {
     "message": "將助憶詞寫在紙上，並保存在安全的場所。若想要更安全，將助憶詞分別寫在不同紙張上並存放在不同的地方。"

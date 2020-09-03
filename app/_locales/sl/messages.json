@@ -72,17 +72,17 @@
     "message": "Dodaj priporočene žetone"
   },
   "addAcquiredTokens": {
-    "message": "Dodaj žetone pridobljene z MetaMask"
+    "message": "Dodaj žetone pridobljene z Sparrow"
   },
   "amount": {
     "message": "Znesek"
   },
   "appDescription": {
-    "message": "Denarnica za Ethereum v brskalniku",
+    "message": "Denarnica za Ubiq v brskalniku",
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "Sparrow",
     "description": "The name of the application"
   },
   "approve": {
@@ -110,7 +110,7 @@
     "message": "Časovnik za samodejno odjavo (minute)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "Nastavite, po koliko minutah mirovanja naj se MetaMask samodejno odjavi"
+    "message": "Nastavite, po koliko minutah mirovanja naj se Sparrow samodejno odjavi"
   },
   "average": {
     "message": "Povprečje"
@@ -125,7 +125,7 @@
     "message": "Varnostno kopirajte kodo Secret Recovery, da ohranite denarnico in sredstva varna."
   },
   "backupApprovalInfo": {
-    "message": "Ta skrivna koda je potrebna za obnovitev denarnice, če izgubite napravo, pozabite geslo, ponovno namestite MetaMask ali želite dostopati do denarnice v drugi napravi."
+    "message": "Ta skrivna koda je potrebna za obnovitev denarnice, če izgubite napravo, pozabite geslo, ponovno namestite Sparrow ali želite dostopati do denarnice v drugi napravi."
   },
   "backupNow": {
     "message": "Varnostno kopiraj zdaj"
@@ -153,13 +153,13 @@
     "message": "Vaš brskalnik ni podptrt ..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask je zasnovan in ustvarjen v Kaliforniji."
+    "message": "Sparrow je zasnovan in ustvarjen v Kaliforniji."
   },
   "buyWithWyre": {
     "message": "Kupi ETH z Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vam omogoča, da s kreditno kartico nakažete ETH neposredno na svoj račun MetaMask."
+    "message": "Wyre vam omogoča, da s kreditno kartico nakažete ETH neposredno na svoj račun Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Kupi na CoinSwitch"
@@ -333,7 +333,7 @@
     "message": "Neposredno vplačilo ehera"
   },
   "directDepositEtherExplainer": {
-    "message": "Če že imate Ether, ga lahko najhitreje dobite v MetaMask z neposrednim vplačilom."
+    "message": "Če že imate Ubiq, ga lahko najhitreje dobite v Sparrow z neposrednim vplačilom."
   },
   "done": {
     "message": "Končano"
@@ -372,7 +372,7 @@
     "message": "Nikoli nikomur ne razkrijte svojega gesla seed phrase."
   },
   "endOfFlowMessage5": {
-    "message": "Pazite na lažno predstavljanje! MetaMask nikoli ne bo spontano zaprosil za vaše geslo seed phrase."
+    "message": "Pazite na lažno predstavljanje! Sparrow nikoli ne bo spontano zaprosil za vaše geslo seed phrase."
   },
   "endOfFlowMessage6": {
     "message": "Če morate ponovno varnostno kopirati vaše geslo seed phrase, ga najdete v Nastavitve -> Varnost."
@@ -381,7 +381,7 @@
     "message": "Če imate kakršna koli vprašanja ali opazite kaj sumljivega, nam pišite na support@metamask.io."
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask ne more obnoviti vašega gesla seed phrase. Več informacij."
+    "message": "Sparrow ne more obnoviti vašega gesla seed phrase. Več informacij."
   },
   "endOfFlowMessage9": {
     "message": "Več o tem"
@@ -393,7 +393,7 @@
     "message": "Napaka pri registraciji imena ENS"
   },
   "ensNotFoundOnCurrentNetwork": {
-    "message": "Imena ENS v trenutnem omrežju ni mogoče najti. Poskusite preklopiti na glavno omrežje Ethereum."
+    "message": "Imena ENS v trenutnem omrežju ni mogoče najti. Poskusite preklopiti na glavno omrežje Ubiq."
   },
   "enterAnAlias": {
     "message": "Vnesite vzdevek"
@@ -405,10 +405,10 @@
     "message": "Za nadaljevanje vnesite geslo"
   },
   "ethereumPublicAddress": {
-    "message": "Javni naslov Ethereum"
+    "message": "Javni naslov Ubiq"
   },
   "etherscanView": {
-    "message": "Poglej račun na Etherscan"
+    "message": "Poglej račun na Ubiqscan"
   },
   "estimatedProcessingTimes": {
     "message": "Predviden čas obdelave"
@@ -473,11 +473,11 @@
     "message": "Pretvorba valut, primarna valuta, jezik, identifikacija Blockies"
   },
   "getEther": {
-    "message": "Pridobi Ether"
+    "message": "Pridobi Ubiq"
   },
   "getEtherFromFaucet": {
-    "message": "Pridobite Ether iz fauceta za $1",
-    "description": "Displays network name for Ether faucet"
+    "message": "Pridobite Ubiq iz fauceta za $1",
+    "description": "Displays network name for Ubiq faucet"
   },
   "getStarted": {
     "message": "Začnite"
@@ -628,7 +628,7 @@
     "message": "Sporočilo"
   },
   "metamaskDescription": {
-    "message": "MetaMask je varen identitetni sklad za Ethereum."
+    "message": "Sparrow je varen identitetni sklad za Ubiq."
   },
   "metamaskVersion": {
     "message": "Različica"
@@ -643,7 +643,7 @@
     "message": "Moji računi Denarnice"
   },
   "myWalletAccountsDescription": {
-    "message": "Vsi vaši računi, ustvarjeni v MetaMasku, bodo samodejno dodani v ta razdelek."
+    "message": "Vsi vaši računi, ustvarjeni v Sparrowu, bodo samodejno dodani v ta razdelek."
   },
   "mustSelectOne": {
     "message": "Izbran mora biti vsaj 1 žeton."
@@ -693,7 +693,7 @@
     "message": "Novo omrežje"
   },
   "newToMetaMask": {
-    "message": "Ste novi na MetaMask?"
+    "message": "Ste novi na Sparrow?"
   },
   "noAlreadyHaveSeed": {
     "message": "Ne, hvala, že imam seed phrase"
@@ -702,7 +702,7 @@
     "message": "Varujte svoje ključe!"
   },
   "protectYourKeysMessage1": {
-    "message": "Bodite previdni  in svoj seed phrase skrbno varujte - obstajajo poročila o spletnih mestih, ki poskušajo posnemati MetaMask. MetaMask nikoli ne bo zahteval vašega gesla seed phrase!"
+    "message": "Bodite previdni  in svoj seed phrase skrbno varujte - obstajajo poročila o spletnih mestih, ki poskušajo posnemati Sparrow. Sparrow nikoli ne bo zahteval vašega gesla seed phrase!"
   },
   "protectYourKeysMessage2": {
     "message": "Hranite svoj seed phrase. Če opazite sumljivo delovanje ali niste prepričani ali je določeno spletno mesto varno, nam pišite na support@metamask.io"
@@ -759,7 +759,7 @@
     "message": "Sodelujte v MetaMetrics"
   },
   "participateInMetaMetricsDescription": {
-    "message": "Sodelujte v MetaMetrics in nam pomagajte izboljšati MetaMask"
+    "message": "Sodelujte v MetaMetrics in nam pomagajte izboljšati Sparrow"
   },
   "password": {
     "message": "Geslo"
@@ -926,7 +926,7 @@
     "message": "Vaše skrivno geslo za varnostno kopiranje olajša varnostno kopiranje in obnovitev računa."
   },
   "secretBackupPhraseWarning": {
-    "message": "OPOZORILO: Nikoli nikomur ne razkrijte varnostne kopije. Kdorkoli lahko tem geslom vedno prevzame vaš Ether."
+    "message": "OPOZORILO: Nikoli nikomur ne razkrijte varnostne kopije. Kdorkoli lahko tem geslom vedno prevzame vaš Ubiq."
   },
   "secretPhrase": {
     "message": "Vnesite vaših dvanajst besed za obnovitev vaših računov."
@@ -983,7 +983,7 @@
     "message": "Izberi račun"
   },
   "selectAnAccountHelp": {
-    "message": "Izberi račun za prikaz v MetaMask"
+    "message": "Izberi račun za prikaz v Sparrow"
   },
   "selectAHigherGasFee": {
     "message": "Izberite višji gas fee, da pospešite obdelavo vaše transakcije.*"
@@ -1073,7 +1073,7 @@
     "message": "3. Začnite uporabljati dApps in več!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Uporabite strojno denarnico kot katerikoli drug Ethereum račun. Prijavite se v dApps, pošljite Ether in ERC20 žetone in žetone kot CryptoKitties."
+    "message": "Uporabite strojno denarnico kot katerikoli drug Ubiq račun. Prijavite se v dApps, pošljite Ubiq in ERC20 žetone in žetone kot CryptoKitties."
   },
   "storePhrase": {
     "message": "To geslo shranite v upravitelja gesel, kot je 1Password."
@@ -1097,19 +1097,19 @@
     "message": "Sinhroniziraj z mobilnimi telefonom"
   },
   "syncWithMobileDesc": {
-    "message": "Račune in podatke lahko sinhronizirate s svojo mobilno napravo. Odprite mobilno aplikacijo MetaMask, pojdite na \"Nastavitve\" in tapnite \"Sinhroniziraj z razširitvijo brskalnika\""
+    "message": "Račune in podatke lahko sinhronizirate s svojo mobilno napravo. Odprite mobilno aplikacijo Sparrow, pojdite na \"Nastavitve\" in tapnite \"Sinhroniziraj z razširitvijo brskalnika\""
   },
   "syncWithMobileDescNewUsers": {
-    "message": "Če ste sedaj prvič odprli aplikacijo MetaMask Mobile, samo sledite korakom v telefonu."
+    "message": "Če ste sedaj prvič odprli aplikacijo Sparrow Mobile, samo sledite korakom v telefonu."
   },
   "syncWithMobileScanThisCode": {
-    "message": "Skenirajte to kodo z mobilno aplikacijo MetaMask"
+    "message": "Skenirajte to kodo z mobilno aplikacijo Sparrow"
   },
   "syncWithMobileBeCareful": {
     "message": "Ko skenirate to kodo, naj nihče ne kuka na vaš zaslon"
   },
   "syncWithMobileComplete": {
-    "message": "Vaši podatki so uspešno sinhronizirani. Uživajte v mobilni aplikaciji MetaMask!"
+    "message": "Vaši podatki so uspešno sinhronizirani. Uživajte v mobilni aplikaciji Sparrow!"
   },
   "terms": {
     "message": "Pogoji uporabe"
@@ -1200,7 +1200,7 @@
     "message": "Poskusi znova"
   },
   "typePassword": {
-    "message": "Vnesite vaše MetaMask geslo"
+    "message": "Vnesite vaše Sparrow geslo"
   },
   "unapproved": {
     "message": "Neodobreno"
@@ -1254,7 +1254,7 @@
     "message": "Ogled na $1 "
   },
   "viewOnEtherscan": {
-    "message": "Poglej na Etherscan"
+    "message": "Poglej na Ubiqscan"
   },
   "visitWebSite": {
     "message": "Obiščite našo spletno stran"
@@ -1263,7 +1263,7 @@
     "message": "Dobrodošli nazaj!"
   },
   "welcome": {
-    "message": "Dobrodošli v MetaMask"
+    "message": "Dobrodošli v Sparrow"
   },
   "writePhrase": {
     "message": "To frazo napišite na papir in shranite na varnem mestu. Če želite še večjo varnost, si jo zapišite na več kosov papirja in shranite na dveh ali treh različnih lokacijah."
