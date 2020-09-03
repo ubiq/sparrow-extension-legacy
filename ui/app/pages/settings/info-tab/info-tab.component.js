@@ -19,39 +19,6 @@ export default class InfoTab extends PureComponent {
         <div className="info-tab__link-header">
           { t('links') }
         </div>
-        <div className="info-tab__link-item">
-          <Button
-            type="link"
-            href="https://metamask.io/privacy.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="info-tab__link-text"
-          >
-            { t('privacyMsg') }
-          </Button>
-        </div>
-        <div className="info-tab__link-item">
-          <Button
-            type="link"
-            href="https://metamask.io/terms.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="info-tab__link-text"
-          >
-            { t('terms') }
-          </Button>
-        </div>
-        <div className="info-tab__link-item">
-          <Button
-            type="link"
-            href="https://metamask.io/attributions.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="info-tab__link-text"
-          >
-            { t('attributions') }
-          </Button>
-        </div>
         <hr className="info-tab__separator" />
         <div className="info-tab__link-item">
           <Button
