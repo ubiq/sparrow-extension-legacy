@@ -26,6 +26,8 @@ export default class LoadingNetworkScreen extends PureComponent {
 
   componentDidMount = () => {
     this.cancelCallTimeout = setTimeout(this.cancelCall, this.props.cancelTime || 15000)
+    const { setProviderArgs, setProviderType } = this.props
+    setProviderType(...setProviderArgs)
   }
 
   getConnectingLabel = function (loadingMessage) {
@@ -106,12 +108,13 @@ export default class LoadingNetworkScreen extends PureComponent {
 
   render () {
     const { lastSelectedProvider, setProviderType } = this.props
-    setProviderType(lastSelectedProvider || 'mainnet')
+
     return (
       <LoadingScreen
         header={(
           <div
             className="page-container__header-close"
+            onClick={() => setProviderType(lastSelectedProvider || 'mainnet')}
           />
         )}
         showLoadingSpinner={!this.state.showErrorScreen}
