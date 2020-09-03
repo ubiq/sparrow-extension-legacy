@@ -29,10 +29,10 @@
     "message": "Goedkeuren"
   },
   "asset": {
-    "message": "Bezit"
+    "message": "Middelen"
   },
   "assets": {
-    "message": "Bezit"
+    "message": "Middel"
   },
   "attemptingConnect": {
     "message": "Poging om verbinding te maken met blockchain."
