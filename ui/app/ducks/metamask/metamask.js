@@ -6,7 +6,7 @@ export default function reduceMetamask (state = {}, action) {
     isInitialized: false,
     isUnlocked: false,
     isAccountMenuOpen: false,
-    rpcTarget: 'https://rpc.octano.dev',
+    rpcTarget: 'https://rpc.octano.dev/',
     identities: {},
     unapprovedTxs: {},
     frequentRpcList: [],
