@@ -85,11 +85,11 @@ export default class TypedMessageManager extends EventEmitter {
           case 'signed':
             return resolve(data.rawSig)
           case 'rejected':
-            return reject(ethErrors.provider.userRejectedRequest('MetaMask Message Signature: User denied message signature.'))
+            return reject(ethErrors.provider.userRejectedRequest('Sparrow Message Signature: User denied message signature.'))
           case 'errored':
-            return reject(new Error(`MetaMask Message Signature: ${data.error}`))
+            return reject(new Error(`Sparrow Message Signature: ${data.error}`))
           default:
-            return reject(new Error(`MetaMask Message Signature: Unknown problem: ${JSON.stringify(msgParams)}`))
+            return reject(new Error(`Sparrow Message Signature: Unknown problem: ${JSON.stringify(msgParams)}`))
         }
       })
     })

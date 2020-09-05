@@ -13,7 +13,7 @@ const cleanContextForImports = () => {
   try {
     global.define = undefined
   } catch (_) {
-    console.warn('MetaMask - global.define could not be deleted.')
+    console.warn('Sparrow - global.define could not be deleted.')
   }
 }
 
@@ -24,7 +24,7 @@ const restoreContextAfterImports = () => {
   try {
     global.define = __define
   } catch (_) {
-    console.warn('MetaMask - global.define could not be overwritten.')
+    console.warn('Sparrow - global.define could not be overwritten.')
   }
 }
 
@@ -61,10 +61,10 @@ initProvider({
 // Setup web3
 
 if (typeof window.web3 !== 'undefined') {
-  throw new Error(`MetaMask detected another web3.
-     MetaMask will not work reliably with another web3 extension.
-     This usually happens if you have two MetaMasks installed,
-     or MetaMask and another web3 extension. Please remove one
+  throw new Error(`Sparrow detected another web3.
+     Sparrow will not work reliably with another web3 extension.
+     This usually happens if you have two Sparrows installed,
+     or Sparrow and another web3 extension. Please remove one
      and try again.`)
 }
 

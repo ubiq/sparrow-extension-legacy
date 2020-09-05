@@ -1086,7 +1086,7 @@ export default class MetamaskController extends EventEmitter {
    * @returns {Promise<Object>} - Full state update.
    */
   signMessage (msgParams) {
-    log.info('MetaMaskController - signMessage')
+    log.info('SparrowController - signMessage')
     const msgId = msgParams.metamaskId
 
     // sets the status op the message to 'approved'
@@ -1146,7 +1146,7 @@ export default class MetamaskController extends EventEmitter {
    * @returns {Promise<Object>} - A full state update.
    */
   signPersonalMessage (msgParams) {
-    log.info('MetaMaskController - signPersonalMessage')
+    log.info('SparrowController - signPersonalMessage')
     const msgId = msgParams.metamaskId
     // sets the status op the message to 'approved'
     // and removes the metamaskId for signing
@@ -1200,7 +1200,7 @@ export default class MetamaskController extends EventEmitter {
   * @returns {Promise<Object>} - A full state update.
   */
   async decryptMessageInline (msgParams) {
-    log.info('MetaMaskController - decryptMessageInline')
+    log.info('SparrowController - decryptMessageInline')
     // decrypt the message inline
     const msgId = msgParams.metamaskId
     const msg = this.decryptMessageManager.getMsg(msgId)
@@ -1226,7 +1226,7 @@ export default class MetamaskController extends EventEmitter {
   * @returns {Promise<Object>} - A full state update.
   */
   async decryptMessage (msgParams) {
-    log.info('MetaMaskController - decryptMessage')
+    log.info('SparrowController - decryptMessage')
     const msgId = msgParams.metamaskId
     // sets the status op the message to 'approved'
     // and removes the metamaskId for decryption
@@ -1242,7 +1242,7 @@ export default class MetamaskController extends EventEmitter {
       // tells the listener that the message has been decrypted and can be returned to the dapp
       this.decryptMessageManager.setMsgStatusDecrypted(msgId, rawMess)
     } catch (error) {
-      log.info('MetaMaskController - eth_decrypt failed.', error)
+      log.info('SparrowController - eth_decrypt failed.', error)
       this.decryptMessageManager.errorMessage(msgId, error)
     }
     return this.getState()
@@ -1286,7 +1286,7 @@ export default class MetamaskController extends EventEmitter {
   * @returns {Promise<Object>} - A full state update.
   */
   async encryptionPublicKey (msgParams) {
-    log.info('MetaMaskController - encryptionPublicKey')
+    log.info('SparrowController - encryptionPublicKey')
     const msgId = msgParams.metamaskId
     // sets the status op the message to 'approved'
     // and removes the metamaskId for decryption
@@ -1300,7 +1300,7 @@ export default class MetamaskController extends EventEmitter {
       // and can be returned to the dapp
       this.encryptionPublicKeyManager.setMsgStatusReceived(msgId, publicKey)
     } catch (error) {
-      log.info('MetaMaskController - eth_getEncryptionPublicKey failed.', error)
+      log.info('SparrowController - eth_getEncryptionPublicKey failed.', error)
       this.encryptionPublicKeyManager.errorMessage(msgId, error)
     }
     return this.getState()
@@ -1343,7 +1343,7 @@ export default class MetamaskController extends EventEmitter {
    * @returns {Object|undefined} - Full state update.
    */
   async signTypedMessage (msgParams) {
-    log.info('MetaMaskController - eth_signTypedData')
+    log.info('SparrowController - eth_signTypedData')
     const msgId = msgParams.metamaskId
     const { version } = msgParams
     try {
@@ -1361,7 +1361,7 @@ export default class MetamaskController extends EventEmitter {
       this.typedMessageManager.setMsgStatusSigned(msgId, signature)
       return this.getState()
     } catch (error) {
-      log.info('MetaMaskController - eth_signTypedData failed.', error)
+      log.info('SparrowController - eth_signTypedData failed.', error)
       this.typedMessageManager.errorMessage(msgId, error)
       return undefined
     }
@@ -1461,7 +1461,7 @@ export default class MetamaskController extends EventEmitter {
     const { hostname } = new URL(sender.url)
     // Check if new connection is blocked if phishing detection is on
     if (usePhishDetect && this.phishingController.test(hostname)) {
-      log.debug('MetaMask - sending phishing warning for', hostname)
+      log.debug('Sparrow - sending phishing warning for', hostname)
       this.sendPhishingWarning(connectionStream, hostname)
       return
     }

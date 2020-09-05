@@ -75,7 +75,7 @@ const TEST_SEED_ALT = 'setup olympic issue mobile velvet surge alcohol burger ho
 const TEST_ADDRESS_ALT = '0xc42edfcc21ed14dda456aa0756c153f7985d8813'
 const CUSTOM_RPC_URL = 'http://localhost:8545'
 
-describe('MetaMaskController', function () {
+describe('SparrowController', function () {
   let metamaskController
   const sandbox = sinon.createSandbox()
   const noop = () => undefined
@@ -762,7 +762,7 @@ describe('MetaMaskController', function () {
         })
         assert.fail('should have thrown')
       } catch (error) {
-        assert.equal(error.message, 'MetaMask Message Signature: from field is required.')
+        assert.equal(error.message, 'Sparrow Message Signature: from field is required.')
       }
     })
 

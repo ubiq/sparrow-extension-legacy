@@ -12,7 +12,7 @@ const Ganache = require('./ganache')
 
 const ganacheServer = new Ganache()
 
-describe('MetaMask', function () {
+describe('Sparrow', function () {
   let driver
   let publicAddress
 

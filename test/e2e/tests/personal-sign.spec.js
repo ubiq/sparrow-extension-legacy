@@ -25,7 +25,7 @@ describe('Personal sign', function () {
         await driver.waitUntilXWindowHandles(3)
 
         const windowHandles = await driver.getAllWindowHandles()
-        await driver.switchToWindowWithTitle('MetaMask Notification', windowHandles)
+        await driver.switchToWindowWithTitle('Sparrow Notification', windowHandles)
 
         const personalMessageRow = await driver.findElement(By.css('.request-signature__row-value'))
         const personalMessage = await personalMessageRow.getText()

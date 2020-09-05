@@ -12,7 +12,7 @@ const Ganache = require('./ganache')
 
 const ganacheServer = new Ganache()
 
-describe('MetaMask', function () {
+describe('Sparrow', function () {
   let driver
 
   const testSeedPhrase = 'forum vessel pink push lonely enact gentle tail admit parrot grunt dress'
