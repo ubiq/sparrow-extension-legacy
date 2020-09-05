@@ -33,7 +33,7 @@ cleanContextForImports()
 /* eslint-disable import/first */
 import log from 'loglevel'
 import LocalMessageDuplexStream from 'post-message-stream'
-import { initProvider } from '@metamask/inpage-provider'
+import { initProvider } from 'sparrow-inpage-provider'
 
 // TODO:deprecate:2020
 import setupWeb3 from './lib/setupWeb3'
