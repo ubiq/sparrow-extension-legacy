@@ -8,15 +8,12 @@ import providerFromEngine from 'eth-json-rpc-middleware/providerFromEngine'
 import log from 'loglevel'
 import { createSwappableProxy, createEventEmitterProxy } from 'swappable-obj-proxy'
 import createMetamaskMiddleware from './createMetamaskMiddleware'
-import createInfuraClient from './createInfuraClient'
 import createJsonRpcClient from './createJsonRpcClient'
 import createLocalhostClient from './createLocalhostClient'
 
 import {
-  RINKEBY,
   MAINNET,
   LOCALHOST,
-  INFURA_PROVIDER_TYPES,
 } from './enums'
 
 const networks = { networkList: {} }
@@ -27,8 +24,6 @@ const { METAMASK_DEBUG } = process.env
 let defaultProviderConfigType
 if (process.env.IN_TEST === 'true') {
   defaultProviderConfigType = LOCALHOST
-} else if (METAMASK_DEBUG || env === 'test') {
-  defaultProviderConfigType = RINKEBY
 } else {
   defaultProviderConfigType = MAINNET
 }
@@ -155,7 +150,7 @@ export default class NetworkController extends EventEmitter {
 
   async setProviderType (type, rpcTarget = '', ticker = 'UBQ', nickname = '') {
     assert.notEqual(type, 'rpc', `NetworkController - cannot call "setProviderType" with type 'rpc'. use "setRpcTarget"`)
-    assert(INFURA_PROVIDER_TYPES.includes(type) || type === LOCALHOST || type === MAINNET, `NetworkController - Unknown rpc type "${type}"`)
+    assert(type === LOCALHOST || type === MAINNET, `NetworkController - Unknown rpc type "${type}"`)
     if (type === MAINNET) {
       this.setMainnetRpcTarget('https://rpc.octano.dev', '8', ticker)
     } else {
@@ -189,12 +184,8 @@ export default class NetworkController extends EventEmitter {
 
   _configureProvider (opts) {
     const { type, rpcTarget, chainId, ticker, nickname } = opts
-    // infura type-based endpoints
-    const isInfura = INFURA_PROVIDER_TYPES.includes(type)
-    if (isInfura) {
-      this._configureInfuraProvider(opts)
-    // other type-based rpc endpoints
-    } else if (type === LOCALHOST) {
+    // rpc endpoints
+    if (type === LOCALHOST) {
       this._configureLocalhostProvider()
     // url-based rpc endpoints
     } else if (type === 'rpc' || type === MAINNET) {
@@ -202,19 +193,6 @@ export default class NetworkController extends EventEmitter {
     } else {
       throw new Error(`NetworkController - _configureProvider - unknown type "${type}"`)
     }
-  }
-
-  _configureInfuraProvider ({ type }) {
-    log.info('NetworkController - configureInfuraProvider', type)
-    const networkClient = createInfuraClient({
-      network: type,
-    })
-    this._setNetworkClient(networkClient)
-    // setup networkConfig
-    const settings = {
-      ticker: 'UBQ',
-    }
-    this.networkConfig.putState(settings)
   }
 
   _configureLocalhostProvider () {

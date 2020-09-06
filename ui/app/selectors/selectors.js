@@ -250,14 +250,10 @@ export function getIsMainnet (state) {
 export function isEthereumNetwork (state) {
   const networkType = getNetworkIdentifier(state)
   const {
-    KOVAN,
     MAINNET,
-    RINKEBY,
-    ROPSTEN,
-    GOERLI,
   } = NETWORK_TYPES
 
-  return [KOVAN, MAINNET, RINKEBY, ROPSTEN, GOERLI].includes(networkType)
+  return [MAINNET].includes(networkType)
 }
 
 export function getPreferences ({ metamask }) {

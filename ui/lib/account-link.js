@@ -8,16 +8,6 @@ export default function getAccountLink (address, network, rpcPrefs) {
   switch (net) {
     case 88: // main net
       return `https://ubiqscan.io/address/${address}`
-    case 2: // morden test net
-      return `https://morden.etherscan.io/address/${address}`
-    case 3: // ropsten test net
-      return `https://ropsten.etherscan.io/address/${address}`
-    case 4: // rinkeby test net
-      return `https://rinkeby.etherscan.io/address/${address}`
-    case 42: // kovan test net
-      return `https://kovan.etherscan.io/address/${address}`
-    case 5: // goerli test net
-      return `https://goerli.etherscan.io/address/${address}`
     default:
       return ''
   }
