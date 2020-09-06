@@ -163,7 +163,7 @@ export default class TransactionController extends EventEmitter {
   */
   async newUnapprovedTransaction (txParams, opts = {}) {
 
-    log.debug(`MetaMaskController newUnapprovedTransaction ${JSON.stringify(txParams)}`)
+    log.debug(`SparrowController newUnapprovedTransaction ${JSON.stringify(txParams)}`)
 
     const initialTxMeta = await this.addUnapprovedTransaction(txParams, opts.origin)
 
