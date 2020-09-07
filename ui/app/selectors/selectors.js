@@ -267,7 +267,7 @@ export function getShouldShowFiat (state) {
 }
 
 export function getAdvancedInlineGasShown (state) {
-  return Boolean(state.metamask.featureFlags.advancedInlineGas)
+  return true // Boolean(state.metamask.featureFlags.advancedInlineGas)
 }
 
 export function getUseNonceField (state) {

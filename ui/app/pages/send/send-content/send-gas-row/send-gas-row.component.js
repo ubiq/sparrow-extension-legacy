@@ -34,32 +34,6 @@ export default class SendGasRow extends Component {
     metricsEvent: PropTypes.func,
   }
 
-  renderAdvancedOptionsButton () {
-    const { metricsEvent } = this.context
-    const { showCustomizeGasModal, isMainnet } = this.props
-    // Tests should behave in same way as mainnet, but are using Localhost
-    if (!isMainnet && !process.env.IN_TEST) {
-      return null
-    }
-    return (
-      <div
-        className="advanced-gas-options-btn"
-        onClick={() => {
-          metricsEvent({
-            eventOpts: {
-              category: 'Transactions',
-              action: 'Edit Screen',
-              name: 'Clicked "Advanced Options"',
-            },
-          })
-          showCustomizeGasModal()
-        }}
-      >
-        { this.context.t('advancedOptions') }
-      </div>
-    )
-  }
-
   setMaxAmount () {
     const {
       balance,
@@ -116,7 +90,6 @@ export default class SendGasRow extends Component {
             }
           }}
         />
-        { this.renderAdvancedOptionsButton() }
       </div>
     )
     const gasFeeDisplay = (
@@ -143,7 +116,6 @@ export default class SendGasRow extends Component {
           customPriceIsSafe
           isSpeedUp={false}
         />
-        { this.renderAdvancedOptionsButton() }
       </div>
     )
     // Tests should behave in same way as mainnet, but are using Localhost

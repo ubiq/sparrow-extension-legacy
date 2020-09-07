@@ -465,6 +465,8 @@ export default class AdvancedTab extends PureComponent {
     )
   }
 
+  /*{ this.renderAdvancedGasInputInline() }*/
+  /*{ this.renderTransactionTimeEstimates() }*/
   render () {
     const { warning } = this.props
 
@@ -473,8 +475,6 @@ export default class AdvancedTab extends PureComponent {
         { warning && <div className="settings-tab__error">{ warning }</div> }
         { this.renderStateLogs() }
         { this.renderResetAccount() }
-        { this.renderAdvancedGasInputInline() }
-        { this.renderTransactionTimeEstimates() }
         { this.renderHexDataOptIn() }
         { this.renderShowConversionInTestnets() }
         { this.renderUseNonceOptIn() }
