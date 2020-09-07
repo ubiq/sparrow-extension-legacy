@@ -23,7 +23,7 @@ describe('CurrencyInput container', function () {
           metamask: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'UBQ',
             preferences: {
               showFiatInTestnets: false,
             },
@@ -38,7 +38,7 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           hideFiat: false,
           maxModeOn: false,
         },
@@ -50,7 +50,7 @@ describe('CurrencyInput container', function () {
           metamask: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'UBQ',
             preferences: {
               showFiatInTestnets: false,
             },
@@ -65,7 +65,7 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           hideFiat: true,
           maxModeOn: false,
         },
@@ -77,7 +77,7 @@ describe('CurrencyInput container', function () {
           metamask: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'UBQ',
             preferences: {
               showFiatInTestnets: true,
             },
@@ -92,7 +92,7 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           hideFiat: false,
           maxModeOn: false,
         },
@@ -104,7 +104,7 @@ describe('CurrencyInput container', function () {
           metamask: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'UBQ',
             preferences: {
               showFiatInTestnets: true,
             },
@@ -119,7 +119,7 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           hideFiat: false,
           maxModeOn: false,
         },
@@ -142,7 +142,7 @@ describe('CurrencyInput container', function () {
           stateProps: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'UBQ',
           },
           dispatchProps: {},
           ownProps: {},
@@ -150,9 +150,9 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           // useFiat: true,
-          nativeSuffix: 'ETH',
+          nativeSuffix: 'UBQ',
           fiatSuffix: 'USD',
         },
       },
@@ -163,7 +163,7 @@ describe('CurrencyInput container', function () {
           stateProps: {
             conversionRate: 280.45,
             currentCurrency: 'usd',
-            nativeCurrency: 'ETH',
+            nativeCurrency: 'UBQ',
           },
           dispatchProps: {},
           ownProps: { useFiat: true },
@@ -171,9 +171,9 @@ describe('CurrencyInput container', function () {
         expected: {
           conversionRate: 280.45,
           currentCurrency: 'usd',
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           useFiat: true,
-          nativeSuffix: 'ETH',
+          nativeSuffix: 'UBQ',
           fiatSuffix: 'USD',
         },
       },

@@ -23,7 +23,7 @@ describe('CurrencyInput Component', function () {
     it('should render properly with a suffix', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -42,14 +42,14 @@ describe('CurrencyInput Component', function () {
 
       assert.ok(wrapper)
       assert.equal(wrapper.find('.unit-input__suffix').length, 1)
-      assert.equal(wrapper.find('.unit-input__suffix').text(), 'ETH')
+      assert.equal(wrapper.find('.unit-input__suffix').text(), 'UBQ')
       assert.equal(wrapper.find(CurrencyDisplay).length, 1)
     })
 
     it('should render properly with an ETH value', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -74,7 +74,7 @@ describe('CurrencyInput Component', function () {
       assert.equal(currencyInputInstance.state.decimalValue, 1)
       assert.equal(currencyInputInstance.state.hexValue, 'de0b6b3a7640000')
       assert.equal(wrapper.find('.unit-input__suffix').length, 1)
-      assert.equal(wrapper.find('.unit-input__suffix').text(), 'ETH')
+      assert.equal(wrapper.find('.unit-input__suffix').text(), 'UBQ')
       assert.equal(wrapper.find('.unit-input__input').props().value, '1')
       assert.equal(wrapper.find('.currency-display-component').text(), '$231.06USD')
     })
@@ -82,7 +82,7 @@ describe('CurrencyInput Component', function () {
     it('should render properly with a fiat value', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -116,7 +116,7 @@ describe('CurrencyInput Component', function () {
     it('should render properly with a native value when hideFiat is true', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -147,7 +147,7 @@ describe('CurrencyInput Component', function () {
       assert.equal(currencyInputInstance.state.decimalValue, 0.004328)
       assert.equal(currencyInputInstance.state.hexValue, 'f602f2234d0ea')
       assert.equal(wrapper.find('.unit-input__suffix').length, 1)
-      assert.equal(wrapper.find('.unit-input__suffix').text(), 'ETH')
+      assert.equal(wrapper.find('.unit-input__suffix').text(), 'UBQ')
       assert.equal(wrapper.find('.unit-input__input').props().value, '0.004328')
       assert.equal(wrapper.find('.currency-input__conversion-component').text(), 'noConversionRateAvailable_t')
     })
@@ -165,7 +165,7 @@ describe('CurrencyInput Component', function () {
     it('should call onChange on input changes with the hex value for ETH', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -205,7 +205,7 @@ describe('CurrencyInput Component', function () {
     it('should call onChange on input changes with the hex value for fiat', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -246,7 +246,7 @@ describe('CurrencyInput Component', function () {
     it('should change the state and pass in a new decimalValue when props.value changes', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },
@@ -281,7 +281,7 @@ describe('CurrencyInput Component', function () {
     it('should swap selected currency when swap icon is clicked', function () {
       const mockStore = {
         metamask: {
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
           currentCurrency: 'usd',
           conversionRate: 231.06,
         },

@@ -113,9 +113,9 @@ describe('useTransactionDisplayData', function () {
       } else if (selector === getShouldShowFiat) {
         return false
       } else if (selector === getNativeCurrency) {
-        return 'ETH'
+        return 'UBQ'
       } else if (selector === getCurrentCurrency) {
-        return 'ETH'
+        return 'UBQ'
       }
       return null
     })

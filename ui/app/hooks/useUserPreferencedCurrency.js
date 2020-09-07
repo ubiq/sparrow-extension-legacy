@@ -15,7 +15,7 @@ import { PRIMARY, SECONDARY, ETH } from '../helpers/constants/common'
 /**
  * Defines the return shape of useUserPreferencedCurrency
  * @typedef {Object} UserPreferredCurrency
- * @property {string} currency         - the currency type to use (eg: 'ETH', 'usd')
+ * @property {string} currency         - the currency type to use (eg: 'UBQ', 'usd')
  * @property {number} numberOfDecimals - Number of significant decimals to display
  */
 

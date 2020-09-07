@@ -9,21 +9,21 @@ const tests = [
   {
     state: {
       useNativeCurrencyAsPrimaryCurrency: true,
-      nativeCurrency: 'ETH',
+      nativeCurrency: 'UBQ',
       showFiat: true,
     },
     params: {
       type: 'PRIMARY',
     },
     result: {
-      currency: 'ETH',
+      currency: 'UBQ',
       numberOfDecimals: 6,
     },
   },
   {
     state: {
       useNativeCurrencyAsPrimaryCurrency: false,
-      nativeCurrency: 'ETH',
+      nativeCurrency: 'UBQ',
       showFiat: true,
     },
     params: {
@@ -37,7 +37,7 @@ const tests = [
   {
     state: {
       useNativeCurrencyAsPrimaryCurrency: true,
-      nativeCurrency: 'ETH',
+      nativeCurrency: 'UBQ',
       showFiat: true,
     },
     params: {
@@ -53,7 +53,7 @@ const tests = [
   {
     state: {
       useNativeCurrencyAsPrimaryCurrency: false,
-      nativeCurrency: 'ETH',
+      nativeCurrency: 'UBQ',
       showFiat: true,
     },
     params: {
@@ -63,28 +63,28 @@ const tests = [
       fiatPrefix: 'a',
     },
     result: {
-      currency: 'ETH',
+      currency: 'UBQ',
       numberOfDecimals: 3,
     },
   },
   {
     state: {
       useNativeCurrencyAsPrimaryCurrency: false,
-      nativeCurrency: 'ETH',
+      nativeCurrency: 'UBQ',
       showFiat: false,
     },
     params: {
       type: 'PRIMARY',
     },
     result: {
-      currency: 'ETH',
+      currency: 'UBQ',
       numberOfDecimals: 6,
     },
   },
   {
     state: {
       useNativeCurrencyAsPrimaryCurrency: false,
-      nativeCurrency: 'ETH',
+      nativeCurrency: 'UBQ',
       showFiat: true,
     },
     params: {
@@ -98,7 +98,7 @@ const tests = [
   {
     state: {
       useNativeCurrencyAsPrimaryCurrency: false,
-      nativeCurrency: 'ETH',
+      nativeCurrency: 'UBQ',
       showFiat: true,
     },
     params: {

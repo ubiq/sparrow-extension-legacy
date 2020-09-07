@@ -125,7 +125,7 @@ describe('send selectors', function () {
     it('should return the ticker symbol of the selected network', function () {
       assert.equal(
         getNativeCurrency(mockState),
-        'ETH',
+        'UBQ',
       )
     })
   })

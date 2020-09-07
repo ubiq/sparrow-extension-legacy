@@ -18,11 +18,11 @@ describe('TransactionActivityLog container', function () {
       const mockState = {
         metamask: {
           conversionRate: 280.45,
-          nativeCurrency: 'ETH',
+          nativeCurrency: 'UBQ',
         },
       }
 
-      assert.deepEqual(mapStateToProps(mockState), { conversionRate: 280.45, nativeCurrency: 'ETH' })
+      assert.deepEqual(mapStateToProps(mockState), { conversionRate: 280.45, nativeCurrency: 'UBQ' })
     })
   })
 })

@@ -27,7 +27,7 @@ const state = {
     'currentCurrency': 'USD',
     'conversionRate': 1200.88200327,
     'conversionDate': 1489013762,
-    'nativeCurrency': 'ETH',
+    'nativeCurrency': 'UBQ',
     'frequentRpcList': [],
     'network': '3',
     'accounts': {

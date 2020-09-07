@@ -24,7 +24,7 @@ describe('UnitInput Component', function () {
 
       assert.ok(wrapper)
       assert.equal(wrapper.find('.unit-input__suffix').length, 1)
-      assert.equal(wrapper.find('.unit-input__suffix').text(), 'ETH')
+      assert.equal(wrapper.find('.unit-input__suffix').text(), 'UBQ')
     })
 
     it('should render properly with a child component', function () {

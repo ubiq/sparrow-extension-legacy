@@ -10,7 +10,7 @@ describe('CurrencyDisplay Component', function () {
     const stub = sinon.stub(reactRedux, 'useSelector')
     stub.callsFake(() => ({
       currentCurrency: 'usd',
-      nativeCurrency: 'ETH',
+      nativeCurrency: 'UBQ',
       conversionRate: 280.45,
     }))
   })
