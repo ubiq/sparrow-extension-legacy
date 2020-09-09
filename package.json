@@ -72,7 +72,7 @@
     "@metamask/controllers": "^2.0.5",
     "ubq-ledger-bridge-keyring": "^0.2.10",
     "@metamask/eth-token-tracker": "^3.0.0",
-    "@metamask/etherscan-link": "^1.1.0",
+    "ubiqscan-link": "^1.1.1",
     "sparrow-inpage-provider": "^6.3.1",
     "@metamask/logo": "^2.5.0",
     "@popperjs/core": "^2.4.0",
