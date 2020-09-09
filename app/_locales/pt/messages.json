@@ -256,7 +256,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Não é possível enviar valores negativos de ETH."
+    "message": "Não é possível enviar valores negativos de UBQ."
   },
   "networks": {
     "message": "Redes"
@@ -355,7 +355,7 @@
     "message": "Enviar"
   },
   "sendETH": {
-    "message": "Enviar ETH"
+    "message": "Enviar UBQ"
   },
   "sendTokens": {
     "message": "Enviar Tokens"

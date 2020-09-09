@@ -156,10 +156,10 @@
     "message": "Sparrow se diseñó y creó en California."
   },
   "buyWithWyre": {
-    "message": "Comprar ETH con Wyre"
+    "message": "Comprar UBQ con Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre te permite utilizar una tarjeta de crédito para depositar ETH directamente en su cuenta de Sparrow."
+    "message": "Wyre te permite utilizar una tarjeta de crédito para depositar UBQ directamente en su cuenta de Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Comprar en CoinSwitch"
@@ -564,7 +564,7 @@
     "message": "Dirección de contrato conocida."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "No existe la red ETH, utilice minúsculas"
+    "message": "No existe la red UBQ, utilice minúsculas"
   },
   "invalidInput": {
     "message": "Ingreso no válido."
@@ -656,7 +656,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "No se pueden enviar montos negativos de ETH."
+    "message": "No se pueden enviar montos negativos de UBQ."
   },
   "networkName": {
     "message": "Nombre de la red"
@@ -787,7 +787,7 @@
     "message": "Moneda principal"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Selecciona \"moneda nativa\" para que se muestren primero los valores en la moneda nativa de la cadena (p. ej., ETH). Selecciona \"dinero fiduciario\" para que se muestren primero los valores en la moneda fiduciaria que seleccionaste."
+    "message": "Selecciona \"moneda nativa\" para que se muestren primero los valores en la moneda nativa de la cadena (p. ej., UBQ). Selecciona \"dinero fiduciario\" para que se muestren primero los valores en la moneda fiduciaria que seleccionaste."
   },
   "privacyMsg": {
     "message": "Política de privacidad"
@@ -965,7 +965,7 @@
     "message": "Enviar monto"
   },
   "sendETH": {
-    "message": "Enviar ETH"
+    "message": "Enviar UBQ"
   },
   "sendTokens": {
     "message": "Enviar tokens"
@@ -1076,7 +1076,7 @@
     "message": "3. ¡Comienza a utilizar dApps y más!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Utiliza tu cuenta de hardware como si fuera una cuenta de Ubiq. Inicia sesión en dApps, envía ETH, compra y almacena tokens ERC20 y tokens no fungibles como CryptoKitties."
+    "message": "Utiliza tu cuenta de hardware como si fuera una cuenta de Ubiq. Inicia sesión en dApps, envía UBQ, compra y almacena tokens ERC20 y tokens no fungibles como CryptoKitties."
   },
   "storePhrase": {
     "message": "Almacena esta frase en un administrador de contraseñas como 1Password."

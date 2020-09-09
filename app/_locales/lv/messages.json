@@ -156,10 +156,10 @@
     "message": "Sparrow ir izstrādāta un izveidota Kalifornijā."
   },
   "buyWithWyre": {
-    "message": "Pirkt ETH ar Wyre"
+    "message": "Pirkt UBQ ar Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ļauj noguldīt ETH tieši jūsu Sparrow kontā, izmantojot kredītkarti."
+    "message": "Wyre ļauj noguldīt UBQ tieši jūsu Sparrow kontā, izmantojot kredītkarti."
   },
   "buyCoinSwitch": {
     "message": "Pirkt CoinSwitch"
@@ -569,7 +569,7 @@
     "message": "Zināmā līguma adrese."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nav ETH tīkls, iestatīti mazie burti"
+    "message": "Nav UBQ tīkls, iestatīti mazie burti"
   },
   "invalidInput": {
     "message": "Nederīga ievadītā vērtība."
@@ -667,7 +667,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nav iespējams nosūtīt negatīvu ETH summu."
+    "message": "Nav iespējams nosūtīt negatīvu UBQ summu."
   },
   "networkName": {
     "message": "Tīkla nosaukums"
@@ -798,7 +798,7 @@
     "message": "Primārā valūta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Atlasīt vietējo, lai piešķirtu attēlotajām vērtībām prioritātes ķēdes vietējā vērtībā (piemēram, ETH). Atlasiet Fiat, lai piešķirtu augstāku prioritāti vērtībām jūsu atlasītajā fiat valūtā."
+    "message": "Atlasīt vietējo, lai piešķirtu attēlotajām vērtībām prioritātes ķēdes vietējā vērtībā (piemēram, UBQ). Atlasiet Fiat, lai piešķirtu augstāku prioritāti vērtībām jūsu atlasītajā fiat valūtā."
   },
   "privacyMsg": {
     "message": "Privātuma politika"
@@ -976,7 +976,7 @@
     "message": "Nosūtītā summa"
   },
   "sendETH": {
-    "message": "Sūtīt ETH"
+    "message": "Sūtīt UBQ"
   },
   "sendTokens": {
     "message": "Nosūtīt marķierus"

@@ -304,10 +304,10 @@
     "message": "Sparrow è progettato e realizzato in California."
   },
   "buyWithWyre": {
-    "message": "Compra ETH con Wyre"
+    "message": "Compra UBQ con Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ti consente di usare la carta di credito per depositare ETH direttamente nel tuo account Sparrow."
+    "message": "Wyre ti consente di usare la carta di credito per depositare UBQ direttamente nel tuo account Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Compra su CoinSwitch"
@@ -818,7 +818,7 @@
     "message": "Un token usa un simbolo già usato da un altro token, ciò può confondere o ingannare."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Rete non ETH, inserisci caratteri minuscoli"
+    "message": "Rete non UBQ, inserisci caratteri minuscoli"
   },
   "invalidInput": {
     "message": "Input non valido."
@@ -943,7 +943,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Non puoi inviare una quantità di ETH negativa."
+    "message": "Non puoi inviare una quantità di UBQ negativa."
   },
   "networkName": {
     "message": "Nome Rete"
@@ -1100,7 +1100,7 @@
     "message": "Moneta Primaria"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Seleziona ETH per privilegiare la visualizzazione dei valori nella moneta nativa della blockhain. Seleziona Fiat per privilegiare la visualizzazione dei valori nella moneta selezionata."
+    "message": "Seleziona UBQ per privilegiare la visualizzazione dei valori nella moneta nativa della blockhain. Seleziona Fiat per privilegiare la visualizzazione dei valori nella moneta selezionata."
   },
   "privacyMsg": {
     "message": "Politica sulla Privacy"
@@ -1309,7 +1309,7 @@
     "message": "Invia Importo"
   },
   "sendETH": {
-    "message": "Invia ETH"
+    "message": "Invia UBQ"
   },
   "sendTokens": {
     "message": "Invia Tokens"

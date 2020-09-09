@@ -415,7 +415,7 @@
     "message": "送信"
   },
   "sendETH": {
-    "message": "ETHの送信"
+    "message": "UBQの送信"
   },
   "sendTokens": {
     "message": "トークンを送信"

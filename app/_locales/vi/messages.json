@@ -80,7 +80,7 @@
     "message": "Tùy chỉnh RPC"
   },
   "defaultNetwork": {
-    "message": "Mạng lưới mặc định dùng cho các giao dịch Ubiq là Main Net (tiền ETH thật)."
+    "message": "Mạng lưới mặc định dùng cho các giao dịch Ubiq là Main Net (tiền UBQ thật)."
   },
   "deposit": {
     "message": "Ký gửi/nạp tiền"
@@ -189,7 +189,7 @@
     "message": "Thoát"
   },
   "mainnet": {
-    "message": "Mạng Ubiq MainNet (tiền ETH thật)"
+    "message": "Mạng Ubiq MainNet (tiền UBQ thật)"
   },
   "message": {
     "message": "Tin nhắn"
@@ -289,7 +289,7 @@
     "message": "Yêu cầu chữ ký"
   },
   "testFaucet": {
-    "message": "Vòi nhận tiền ETH ảo để thử nghiệm"
+    "message": "Vòi nhận tiền UBQ ảo để thử nghiệm"
   },
   "to": {
     "message": "Đến"

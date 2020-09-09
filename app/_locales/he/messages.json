@@ -159,7 +159,7 @@
     "message": "רכישת את'ר עם Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre מאפשרת לך להשתמש בכרטיס אשראי כדי להפקיד ETH ישירות בחשבון ה-Sparrow שלך."
+    "message": "Wyre מאפשרת לך להשתמש בכרטיס אשראי כדי להפקיד UBQ ישירות בחשבון ה-Sparrow שלך."
   },
   "buyCoinSwitch": {
     "message": "רכישה ב-CoinSwitch"
@@ -573,7 +573,7 @@
     "message": "כתובת חוזה ידועה."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "לא רשת ETH, מוגדר במצב אותיות קטנות"
+    "message": "לא רשת UBQ, מוגדר במצב אותיות קטנות"
   },
   "invalidInput": {
     "message": "קלט לא תקין."
@@ -668,7 +668,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "לא ניתן לשלוח סכומים שליליים של ETH."
+    "message": "לא ניתן לשלוח סכומים שליליים של UBQ."
   },
   "networkName": {
     "message": "שם רשת"
@@ -799,7 +799,7 @@
     "message": "מטבע ראשי"
   },
   "primaryCurrencySettingDescription": {
-    "message": "בחר/י 'מקומי' כדי לתעדף הצגת ערכים במטבע המקומי של הצ'יין (למשל ETH). בחר/י פיאט כדי לתעדף הצגת ערכים במטבע הפיאט שבחרת."
+    "message": "בחר/י 'מקומי' כדי לתעדף הצגת ערכים במטבע המקומי של הצ'יין (למשל UBQ). בחר/י פיאט כדי לתעדף הצגת ערכים במטבע הפיאט שבחרת."
   },
   "privacyMsg": {
     "message": "מדיניות הפרטיות"
@@ -974,7 +974,7 @@
     "message": "שלח סכום"
   },
   "sendETH": {
-    "message": "שלח/י ETH"
+    "message": "שלח/י UBQ"
   },
   "sendTokens": {
     "message": "שלח טוקנים"

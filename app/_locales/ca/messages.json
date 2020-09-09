@@ -156,10 +156,10 @@
     "message": "Sparrow ha estat dissenyat i desenvolupat a Califòrnia."
   },
   "buyWithWyre": {
-    "message": "Compra ETH amb Wyre"
+    "message": "Compra UBQ amb Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre et permet utilitzar una targeta de crèdit per dipositar ETH directe al teu compte Sparrow."
+    "message": "Wyre et permet utilitzar una targeta de crèdit per dipositar UBQ directe al teu compte Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Comprar a CoinSwitch"
@@ -560,7 +560,7 @@
     "message": "Adreça de contracte coneguda"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "No hi ha xarxa ETH, posar en minúscules"
+    "message": "No hi ha xarxa UBQ, posar en minúscules"
   },
   "invalidInput": {
     "message": "Entrada no vàlida."
@@ -655,7 +655,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "No es poden enviar quantitats negatives de ETH."
+    "message": "No es poden enviar quantitats negatives de UBQ."
   },
   "networkName": {
     "message": "Nom de la xarxa"
@@ -783,7 +783,7 @@
     "message": "Divisa principal"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Selecciona Natiu per a prioritzar la mostra de valors en la divisa nadiua de la cadena (p. ex. ETH). Selecciona Fiat per prioritzar la mostra de valors en la divisa fiduciària seleccionada."
+    "message": "Selecciona Natiu per a prioritzar la mostra de valors en la divisa nadiua de la cadena (p. ex. UBQ). Selecciona Fiat per prioritzar la mostra de valors en la divisa fiduciària seleccionada."
   },
   "privacyMsg": {
     "message": "Política de privadesa"
@@ -958,7 +958,7 @@
     "message": "Enviar Quantitat"
   },
   "sendETH": {
-    "message": "Envia ETH"
+    "message": "Envia UBQ"
   },
   "sendTokens": {
     "message": "Enviar Fitxes"

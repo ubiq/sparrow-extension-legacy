@@ -156,10 +156,10 @@
     "message": "Sparrow dirancang dan dibangun di California."
   },
   "buyWithWyre": {
-    "message": "Membeli ETH dengan Wyre"
+    "message": "Membeli UBQ dengan Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre mengizinkan Anda menggunakan kartu kredit untuk mendepositkan ETH langsung ke akun  Sparrow."
+    "message": "Wyre mengizinkan Anda menggunakan kartu kredit untuk mendepositkan UBQ langsung ke akun  Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Beli di CoinSwitch"
@@ -560,7 +560,7 @@
     "message": "Alamat kontrak dikenal."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Bukan jaringan ETH, tetapkan ke huruf kecil"
+    "message": "Bukan jaringan UBQ, tetapkan ke huruf kecil"
   },
   "invalidInput": {
     "message": "Input tidak sah."
@@ -652,7 +652,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Tidak dapat mengirim nominal negatif ETH."
+    "message": "Tidak dapat mengirim nominal negatif UBQ."
   },
   "networkName": {
     "message": "Nama Jaringan"
@@ -783,7 +783,7 @@
     "message": "Mata Uang Utama"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Pilih asli untuk memprioritaskan menampilkan nilai dalam mata uang asli dari rantai (cth: ETH). Pilih Fiat untuk memprioritaskan menampilkan nilai dalam mata uang fiat pilihan Anda."
+    "message": "Pilih asli untuk memprioritaskan menampilkan nilai dalam mata uang asli dari rantai (cth: UBQ). Pilih Fiat untuk memprioritaskan menampilkan nilai dalam mata uang fiat pilihan Anda."
   },
   "privacyMsg": {
     "message": "Kebijakan Privasi"
@@ -961,7 +961,7 @@
     "message": "Nominal Kirim"
   },
   "sendETH": {
-    "message": "Kirim ETH"
+    "message": "Kirim UBQ"
   },
   "sendTokens": {
     "message": "Kirim Token"

@@ -153,10 +153,10 @@
     "message": "메타마스크는 캘리포니아에서 디자인되고 만들어졌습니다."
   },
   "buyWithWyre": {
-    "message": "Wyre로 ETH 구매"
+    "message": "Wyre로 UBQ 구매"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre는 신용 카드를 사용하여 ETH을 바로 Sparrow 계정에 입금할 수 있게 해줍니다."
+    "message": "Wyre는 신용 카드를 사용하여 UBQ을 바로 Sparrow 계정에 입금할 수 있게 해줍니다."
   },
   "buyCoinSwitch": {
     "message": "코인 스위치 구입"
@@ -567,7 +567,7 @@
     "message": "알려진 계약 주소."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "ETH 네트워크 아님, 소문자로 설정"
+    "message": "UBQ 네트워크 아님, 소문자로 설정"
   },
   "invalidInput": {
     "message": "올바르지 않은 입력값"
@@ -793,7 +793,7 @@
     "message": "주 화폐"
   },
   "primaryCurrencySettingDescription": {
-    "message": "체인의 고유 통화 값으로 우선 표기하시려면 네이티브를 선택하세요. (예: ETH) 설정하신 Fiat 통화 값으로 우선 표기하시려면 Fiat을 선택하세요."
+    "message": "체인의 고유 통화 값으로 우선 표기하시려면 네이티브를 선택하세요. (예: UBQ) 설정하신 Fiat 통화 값으로 우선 표기하시려면 Fiat을 선택하세요."
   },
   "privacyMsg": {
     "message": "개인정보 보호 정책"
@@ -971,7 +971,7 @@
     "message": "전송 수량"
   },
   "sendETH": {
-    "message": "ETH 보내기"
+    "message": "UBQ 보내기"
   },
   "sendTokens": {
     "message": "토큰 전송"

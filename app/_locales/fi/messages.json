@@ -156,10 +156,10 @@
     "message": "Sparrow on suunniteltu ja koottu Kaliforniassa."
   },
   "buyWithWyre": {
-    "message": "Osta ETH:ta Wyrella"
+    "message": "Osta UBQ:ta Wyrella"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre antaa sinun käyttää luottokorttia, jotta voit tallettaa ETH:ta suoraan Sparrow-tilillesi."
+    "message": "Wyre antaa sinun käyttää luottokorttia, jotta voit tallettaa UBQ:ta suoraan Sparrow-tilillesi."
   },
   "buyCoinSwitch": {
     "message": "Osta CoinSwitchissa"
@@ -570,7 +570,7 @@
     "message": "Tunnettu sopimusosoite."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ei ole ETH-verkosto; vaihda pieniin kirjaimiin"
+    "message": "Ei ole UBQ-verkosto; vaihda pieniin kirjaimiin"
   },
   "invalidInput": {
     "message": "Virheellinen syötetty arvo."
@@ -668,7 +668,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "ETH:ta ei voi lähettää negatiivista määrää."
+    "message": "UBQ:ta ei voi lähettää negatiivista määrää."
   },
   "networkName": {
     "message": "Verkon nimi"
@@ -799,7 +799,7 @@
     "message": "Ensisijainen valuutta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Valitse natiivivaihtoehto näyttääksesi arvot ensisijaisesti ketjun natiivivaluutalla (esim. ETH). Valitse oletusmääräys asettaaksesi valitsemasi oletusvaluutan ensisijaiseksi."
+    "message": "Valitse natiivivaihtoehto näyttääksesi arvot ensisijaisesti ketjun natiivivaluutalla (esim. UBQ). Valitse oletusmääräys asettaaksesi valitsemasi oletusvaluutan ensisijaiseksi."
   },
   "privacyMsg": {
     "message": "Tietosuojakäytäntö"
@@ -977,7 +977,7 @@
     "message": "Lähetä summa"
   },
   "sendETH": {
-    "message": "Lähetä ETH:iä"
+    "message": "Lähetä UBQ:iä"
   },
   "sendTokens": {
     "message": "Lähetä tietueita"

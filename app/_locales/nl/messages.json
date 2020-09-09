@@ -256,7 +256,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Kan geen negatieve hoeveelheden ETH verzenden."
+    "message": "Kan geen negatieve hoeveelheden UBQ verzenden."
   },
   "networks": {
     "message": "Netwerken"
@@ -354,7 +354,7 @@
     "message": "Sturen"
   },
   "sendETH": {
-    "message": "Verzend ETH"
+    "message": "Verzend UBQ"
   },
   "sendTokens": {
     "message": "Stuur tokens"

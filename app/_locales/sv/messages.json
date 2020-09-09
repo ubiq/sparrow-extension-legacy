@@ -156,10 +156,10 @@
     "message": "Sparrow är skapat och utformat i Kalifornien."
   },
   "buyWithWyre": {
-    "message": "Köp ETH med Wyre"
+    "message": "Köp UBQ med Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre låter dig använda ett kreditkort för att sätta in ETH direkt på ditt Sparrow-konto."
+    "message": "Wyre låter dig använda ett kreditkort för att sätta in UBQ direkt på ditt Sparrow-konto."
   },
   "buyCoinSwitch": {
     "message": "Köp på CoinSwitch"
@@ -563,7 +563,7 @@
     "message": "Känd kontraktadress."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ej ETH-nätverk, ange med små bokstäver"
+    "message": "Ej UBQ-nätverk, ange med små bokstäver"
   },
   "invalidInput": {
     "message": "Ogiltigt input."
@@ -655,7 +655,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Kan inte skicka negativa summor av ETH."
+    "message": "Kan inte skicka negativa summor av UBQ."
   },
   "networkName": {
     "message": "Nätverksnamn"
@@ -786,7 +786,7 @@
     "message": "Primär valuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Välj native för att prioritera visning av värden i den ursprungliga valutan i kedjan (t.ex. ETH). Välj Fiat för att prioritera visning av värden i din valda fiatvaluta."
+    "message": "Välj native för att prioritera visning av värden i den ursprungliga valutan i kedjan (t.ex. UBQ). Välj Fiat för att prioritera visning av värden i din valda fiatvaluta."
   },
   "privacyMsg": {
     "message": "Integritetspolicy"
@@ -964,7 +964,7 @@
     "message": "Skicka belopp"
   },
   "sendETH": {
-    "message": "Skicka ETH"
+    "message": "Skicka UBQ"
   },
   "sendTokens": {
     "message": "Skicka tokens"
@@ -1075,7 +1075,7 @@
     "message": "3. Börja använda dApps och mer!"
   },
   "step3HardwareWalletMsg": {
-    "message": "Använd ditt hårdvarukonto som du skulle använda andra Ubiq-konton. Logga in i dAppar, skicka ETH, köp och förvara ERC20-tokens och Non-Fungible tokens som CryptoKitties."
+    "message": "Använd ditt hårdvarukonto som du skulle använda andra Ubiq-konton. Logga in i dAppar, skicka UBQ, köp och förvara ERC20-tokens och Non-Fungible tokens som CryptoKitties."
   },
   "storePhrase": {
     "message": "Lagra denna fras i en lösenordshanterare såsom 1Password."

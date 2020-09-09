@@ -141,10 +141,10 @@
     "message": "Ang Sparrow ay dinisenyo at binuo sa California."
   },
   "buyWithWyre": {
-    "message": "Bumili ng ETH gamit ang Wyre"
+    "message": "Bumili ng UBQ gamit ang Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Binibigyang-daan ka ng Wyre na gumamit ng credit card para magdeposito ng ETH nang direkta sa iyong Sparrow account."
+    "message": "Binibigyang-daan ka ng Wyre na gumamit ng credit card para magdeposito ng UBQ nang direkta sa iyong Sparrow account."
   },
   "buyCoinSwitch": {
     "message": "Bilhin sa CoinSwitch"
@@ -530,7 +530,7 @@
     "message": "Kilalang address ng contract."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Hindi ito isang ETH network, i-set sa lowercase"
+    "message": "Hindi ito isang UBQ network, i-set sa lowercase"
   },
   "invalidInput": {
     "message": "Hindi valid ang input."
@@ -609,7 +609,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Hindi makakapagpadala ng mga negative na halaga ng ETH."
+    "message": "Hindi makakapagpadala ng mga negative na halaga ng UBQ."
   },
   "networkName": {
     "message": "Pangalan ng Network"
@@ -733,7 +733,7 @@
     "message": "Pangunahing Currency"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Piliin ang native para bigyang priyoridad ang pagpapakita ng mga halaga sa native currency ng chain (hal. ETH). Piliin ang Fiat para bigyang priyoridad ang pagpapakita ng mga halaga sa napili mong fiat currency."
+    "message": "Piliin ang native para bigyang priyoridad ang pagpapakita ng mga halaga sa native currency ng chain (hal. UBQ). Piliin ang Fiat para bigyang priyoridad ang pagpapakita ng mga halaga sa napili mong fiat currency."
   },
   "privacyMsg": {
     "message": "Patakaran sa Privacy"
@@ -892,7 +892,7 @@
     "message": "Magpadala ng Halaga"
   },
   "sendETH": {
-    "message": "Magpadala ng ETH"
+    "message": "Magpadala ng UBQ"
   },
   "sendTokens": {
     "message": "Magpadala ng Mga Token"

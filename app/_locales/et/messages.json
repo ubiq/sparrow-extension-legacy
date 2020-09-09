@@ -156,10 +156,10 @@
     "message": "Sparrow on projekteeritud ja loodud Californias."
   },
   "buyWithWyre": {
-    "message": "Ostke ETH-d Wyre'iga"
+    "message": "Ostke UBQ-d Wyre'iga"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre võimaldab kasutada krediitkaarti, et teha ETH sissemakse otse Sparrowi kontole."
+    "message": "Wyre võimaldab kasutada krediitkaarti, et teha UBQ sissemakse otse Sparrowi kontole."
   },
   "buyCoinSwitch": {
     "message": "Osta CoinSwitchil"
@@ -569,7 +569,7 @@
     "message": "Teadaolev lepinguaadress."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Kehtetu ETH-võrk, kasutage väiketähti"
+    "message": "Kehtetu UBQ-võrk, kasutage väiketähti"
   },
   "invalidInput": {
     "message": "Vigane sisend."
@@ -661,7 +661,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Negatiivset ETHi summat ei saa saata."
+    "message": "Negatiivset UBQi summat ei saa saata."
   },
   "networkName": {
     "message": "Võrgu nimi"
@@ -792,7 +792,7 @@
     "message": "Põhivaluuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Valige omavääring, et prioriseerida vääringu kuvamist ahela omavääringus (nt ETH). Valige Fiat, et prioriseerida vääringu kuvamist valitud fiat-vääringus."
+    "message": "Valige omavääring, et prioriseerida vääringu kuvamist ahela omavääringus (nt UBQ). Valige Fiat, et prioriseerida vääringu kuvamist valitud fiat-vääringus."
   },
   "privacyMsg": {
     "message": "privaatsuspoliitika"
@@ -970,7 +970,7 @@
     "message": "Saatke kogus"
   },
   "sendETH": {
-    "message": "Saada ETH"
+    "message": "Saada UBQ"
   },
   "sendTokens": {
     "message": "Saada lube"

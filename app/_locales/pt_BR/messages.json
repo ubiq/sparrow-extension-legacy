@@ -153,10 +153,10 @@
     "message": "O Sparrow foi projetado e desenvolvido na Califórnia."
   },
   "buyWithWyre": {
-    "message": "Comprar ETH com Wyre"
+    "message": "Comprar UBQ com Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "O Wyre permite que você utilize um cartão de crédito para depositar ETH direto na sua conta do Sparrow."
+    "message": "O Wyre permite que você utilize um cartão de crédito para depositar UBQ direto na sua conta do Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Compre no CoinSwitch"
@@ -567,7 +567,7 @@
     "message": "Endereço do contrato conhecido."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Se não for rede ETH, defina para minúsculas"
+    "message": "Se não for rede UBQ, defina para minúsculas"
   },
   "invalidInput": {
     "message": "Entrada inválida."
@@ -659,7 +659,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Não é possível enviar quantias negativas de ETH."
+    "message": "Não é possível enviar quantias negativas de UBQ."
   },
   "networkName": {
     "message": "Nome da Rede"
@@ -790,7 +790,7 @@
     "message": "Moeda Principal"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Selecione \"Nativa\" para priorizar a exibição de valores na moeda nativa da cadeia (por exemplo, ETH). Selecione \"Fiat\" para priorizar a exibição de valores na moeda fiduciária selecionada."
+    "message": "Selecione \"Nativa\" para priorizar a exibição de valores na moeda nativa da cadeia (por exemplo, UBQ). Selecione \"Fiat\" para priorizar a exibição de valores na moeda fiduciária selecionada."
   },
   "privacyMsg": {
     "message": "Política de Privacidade"
@@ -968,7 +968,7 @@
     "message": "Enviar Quantia"
   },
   "sendETH": {
-    "message": "Enviar ETH"
+    "message": "Enviar UBQ"
   },
   "sendTokens": {
     "message": "Enviar Tokens"

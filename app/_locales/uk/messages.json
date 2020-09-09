@@ -156,10 +156,10 @@
     "message": "Sparrow розроблено й створено в Каліфорнії."
   },
   "buyWithWyre": {
-    "message": "Купити ETH через Wyre"
+    "message": "Купити UBQ через Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre дає змогу використовувати кредитну картку для внесення валюти ETH безпосередньо у свій гаманець Sparrow."
+    "message": "Wyre дає змогу використовувати кредитну картку для внесення валюти UBQ безпосередньо у свій гаманець Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Купувати на CoinSwitch"
@@ -573,7 +573,7 @@
     "message": "Відома контрактна адреса."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Не є мережею ETH, налаштуйте нижній регістр"
+    "message": "Не є мережею UBQ, налаштуйте нижній регістр"
   },
   "invalidInput": {
     "message": "Неприпустимий ввід."
@@ -671,7 +671,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Не можливо наділсати від'ємну кількість ETH."
+    "message": "Не можливо наділсати від'ємну кількість UBQ."
   },
   "networkName": {
     "message": "Ім’я мережі"
@@ -802,7 +802,7 @@
     "message": "Первісна валюта"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Оберіть \"рідна\", щоб пріоритезувати показ сум у рідних валютах мережі (напр.ETH). \nОберіть \"фіатна\", щоб пріоритезувати показ сум у ваших обраних фіатних валютах."
+    "message": "Оберіть \"рідна\", щоб пріоритезувати показ сум у рідних валютах мережі (напр.UBQ). \nОберіть \"фіатна\", щоб пріоритезувати показ сум у ваших обраних фіатних валютах."
   },
   "privacyMsg": {
     "message": "Політика конфіденційності"
@@ -980,7 +980,7 @@
     "message": "Надіслати суму"
   },
   "sendETH": {
-    "message": "Надіслати ETH"
+    "message": "Надіслати UBQ"
   },
   "sendTokens": {
     "message": "Надіслати токени"

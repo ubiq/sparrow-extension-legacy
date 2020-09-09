@@ -156,10 +156,10 @@
     "message": "„Sparrow“ suprojektuota ir įdiegta Kalifornijoje."
   },
   "buyWithWyre": {
-    "message": "Pirkti ETH su „Wyre“"
+    "message": "Pirkti UBQ su „Wyre“"
   },
   "buyWithWyreDescription": {
-    "message": "„Wyre“ leidžia naudotis kreditine kortele norint įnešti ETH tiesiai į jūsų „Sparrow“ paskyrą."
+    "message": "„Wyre“ leidžia naudotis kreditine kortele norint įnešti UBQ tiesiai į jūsų „Sparrow“ paskyrą."
   },
   "buyCoinSwitch": {
     "message": "Pirkti „CoinSwitch“"
@@ -573,7 +573,7 @@
     "message": "Žinomas sutarties adresas."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ne ETH tinklas, nustatykite į mažąsias raides"
+    "message": "Ne UBQ tinklas, nustatykite į mažąsias raides"
   },
   "invalidInput": {
     "message": "Netinkama įvestis."
@@ -671,7 +671,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Neigiamų ETH sumų siųsti negalima."
+    "message": "Neigiamų UBQ sumų siųsti negalima."
   },
   "networkName": {
     "message": "Tinklo pavadinimas"
@@ -802,7 +802,7 @@
     "message": "Pagrindinė valiuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Rinkitės vietinę, kad vertės pirmiausia būtų rodomos vietine grandinės valiuta (pvz., ETH). Rinkitės standartinę, kad vertės pirmiausia būtų rodomos jūsų pasirinkta standartine valiuta."
+    "message": "Rinkitės vietinę, kad vertės pirmiausia būtų rodomos vietine grandinės valiuta (pvz., UBQ). Rinkitės standartinę, kad vertės pirmiausia būtų rodomos jūsų pasirinkta standartine valiuta."
   },
   "privacyMsg": {
     "message": "Privatumo politika"
@@ -980,7 +980,7 @@
     "message": "Siųsti sumą"
   },
   "sendETH": {
-    "message": "Siųsti ETH"
+    "message": "Siųsti UBQ"
   },
   "sendTokens": {
     "message": "Siųsti žetonus"

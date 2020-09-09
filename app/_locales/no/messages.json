@@ -156,10 +156,10 @@
     "message": "Sparrow ble bygget og designet i California."
   },
   "buyWithWyre": {
-    "message": "Kjøp ETH med Wyre"
+    "message": "Kjøp UBQ med Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre lar deg bruke et kredittkort for å sette inn ETH rett på Sparrow-kontoen din."
+    "message": "Wyre lar deg bruke et kredittkort for å sette inn UBQ rett på Sparrow-kontoen din."
   },
   "buyCoinSwitch": {
     "message": "Kjøp på CoinSwitch "
@@ -563,7 +563,7 @@
     "message": "Kjent kontaktadresse"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ikke ETH-nettverk, bruk små bokstaver"
+    "message": "Ikke UBQ-nettverk, bruk små bokstaver"
   },
   "invalidInput": {
     "message": "Ugyldig inndata "
@@ -661,7 +661,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Kan ikke sende negative beløp av ETH. "
+    "message": "Kan ikke sende negative beløp av UBQ. "
   },
   "networkName": {
     "message": "Nettverksnavn "
@@ -792,7 +792,7 @@
     "message": "Hovedvaluta "
   },
   "primaryCurrencySettingDescription": {
-    "message": "Velg nasjonal for å prioritere å vise verdier i nasjonal valuta i kjeden (f.eks. ETH). Velg Fiat for å prioritere visning av verdier i den valgte fiat-valutaen."
+    "message": "Velg nasjonal for å prioritere å vise verdier i nasjonal valuta i kjeden (f.eks. UBQ). Velg Fiat for å prioritere visning av verdier i den valgte fiat-valutaen."
   },
   "privacyMsg": {
     "message": "Personvernerklæring"

@@ -156,10 +156,10 @@
     "message": "मेटामास्क का डिजाइन और निर्माण कैलिफोर्निया में किया गया है।"
   },
   "buyWithWyre": {
-    "message": "Wyre से ETH खरीदें"
+    "message": "Wyre से UBQ खरीदें"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre आपको क्रेडिट कार्ड का उपयोग करके ETH को सीधे आपके Sparrow खाते में जमा करने देता है।"
+    "message": "Wyre आपको क्रेडिट कार्ड का उपयोग करके UBQ को सीधे आपके Sparrow खाते में जमा करने देता है।"
   },
   "buyCoinSwitch": {
     "message": "CoinSwitch पर खरीदें"
@@ -668,7 +668,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "ETH की नकारात्मक धनराशि को नहीं भेज सकते।"
+    "message": "UBQ की नकारात्मक धनराशि को नहीं भेज सकते।"
   },
   "networkName": {
     "message": "नेटवर्क का नाम"
@@ -799,7 +799,7 @@
     "message": "मुख्य मुद्रा"
   },
   "primaryCurrencySettingDescription": {
-    "message": "श्रृंखला की नेटिव मुद्रा (जैसे ETH) में प्रदर्शित मूल्यों को प्राथमिकता देने के लिए नेटिव का चयन करें। अपने चयनित Fiat मुद्रा में प्रदर्शित मूल्यों को प्राथमिकता देने के लिए Fiat का चयन करें।"
+    "message": "श्रृंखला की नेटिव मुद्रा (जैसे UBQ) में प्रदर्शित मूल्यों को प्राथमिकता देने के लिए नेटिव का चयन करें। अपने चयनित Fiat मुद्रा में प्रदर्शित मूल्यों को प्राथमिकता देने के लिए Fiat का चयन करें।"
   },
   "privacyMsg": {
     "message": "गोपनीयता नीति"

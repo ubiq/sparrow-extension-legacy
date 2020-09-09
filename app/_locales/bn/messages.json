@@ -156,10 +156,10 @@
     "message": "Sparrow ক্যালিফোর্নিয়াতে ডিজাইন করা এবং নির্মিত।"
   },
   "buyWithWyre": {
-    "message": "Wyre দিয়ে ETH ক্রয় করুন"
+    "message": "Wyre দিয়ে UBQ ক্রয় করুন"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre আপনার Sparrow অ্যাকাউন্টে সরাসরি ETH জমা করতে আপনাকে একটি ক্রেডিট কার্ড ব্যবহার করতে দেয়।"
+    "message": "Wyre আপনার Sparrow অ্যাকাউন্টে সরাসরি UBQ জমা করতে আপনাকে একটি ক্রেডিট কার্ড ব্যবহার করতে দেয়।"
   },
   "buyCoinSwitch": {
     "message": "CoinSwitch এ ক্রয় করুন"
@@ -573,7 +573,7 @@
     "message": "জানা পরিচিতির ঠিকানা৷"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "ETH নেটওয়ার্ক নয়, ছোটো হরফে সেট করা হয়েছে"
+    "message": "UBQ নেটওয়ার্ক নয়, ছোটো হরফে সেট করা হয়েছে"
   },
   "invalidInput": {
     "message": "অবৈধ ইনপুট"
@@ -671,7 +671,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "ETH এর ঋণাত্মক অর্থরাশিগুলি পাঠাতে পারবে না। "
+    "message": "UBQ এর ঋণাত্মক অর্থরাশিগুলি পাঠাতে পারবে না। "
   },
   "networkName": {
     "message": "নেটওয়ার্কের নাম"
@@ -802,7 +802,7 @@
     "message": "প্রাথমিক মুদ্রা"
   },
   "primaryCurrencySettingDescription": {
-    "message": "চেনটিতে (যেমন ETH) দেশীয় মুদ্রায় মানগুলি প্রদর্শনকে অগ্রাধিকার দিতে দেশীয় নির্বাচন করুন। আপনার নির্দেশিত মুদ্রায় মানগুলির প্রদর্শনকে অগ্রাধিকার দিতে নির্দেশিত নির্বাচন করুন।"
+    "message": "চেনটিতে (যেমন UBQ) দেশীয় মুদ্রায় মানগুলি প্রদর্শনকে অগ্রাধিকার দিতে দেশীয় নির্বাচন করুন। আপনার নির্দেশিত মুদ্রায় মানগুলির প্রদর্শনকে অগ্রাধিকার দিতে নির্দেশিত নির্বাচন করুন।"
   },
   "privacyMsg": {
     "message": "সম্মত হয়েছেন"
@@ -980,7 +980,7 @@
     "message": "পাঠানো অর্থরাশি"
   },
   "sendETH": {
-    "message": "ETH পাঠান"
+    "message": "UBQ পাঠান"
   },
   "sendTokens": {
     "message": "টোকেনগুলি পাঠান"

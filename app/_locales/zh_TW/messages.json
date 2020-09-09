@@ -156,10 +156,10 @@
     "message": "Sparrow 是在加州設計製造"
   },
   "buyWithWyre": {
-    "message": "用 Wyre 購買 ETH"
+    "message": "用 Wyre 購買 UBQ"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre 讓你使用信用卡在 Sparrow 帳號中直接存入 ETH。"
+    "message": "Wyre 讓你使用信用卡在 Sparrow 帳號中直接存入 UBQ。"
   },
   "buyCoinSwitch": {
     "message": "在CoinSwitch上购买"
@@ -570,7 +570,7 @@
     "message": "已知合約位址"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "非 ETH 網路，設定至小寫"
+    "message": "非 UBQ 網路，設定至小寫"
   },
   "invalidInput": {
     "message": "輸入錯誤。"
@@ -790,7 +790,7 @@
     "message": "主要顯示"
   },
   "primaryCurrencySettingDescription": {
-    "message": "選擇使用乙太幣(ETH)或是法定貨幣(例如：美金)為主要錢幣顯示單位"
+    "message": "選擇使用乙太幣(UBQ)或是法定貨幣(例如：美金)為主要錢幣顯示單位"
   },
   "privacyMsg": {
     "message": "隱私政策"

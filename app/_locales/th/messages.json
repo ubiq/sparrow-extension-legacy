@@ -278,7 +278,7 @@
     "message": "แอดแดรสผู้รับไม่ถูกต้อง"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "ไม่ใช่เครือข่าย ETH ตั้งเป็นตัวพิมพ์เล็ก"
+    "message": "ไม่ใช่เครือข่าย UBQ ตั้งเป็นตัวพิมพ์เล็ก"
   },
   "invalidInput": {
     "message": "อินพุทไม่ถูกต้อง"

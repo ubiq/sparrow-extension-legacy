@@ -156,10 +156,10 @@
     "message": "Sparrow ካሊፎርኒያ ውስጥ ተዘጋጅቶ የተገነባ ነው።"
   },
   "buyWithWyre": {
-    "message": "ETH በ Wyre ይግዙ"
+    "message": "UBQ በ Wyre ይግዙ"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ክሬዲት ካርድ ተጠቅመው ETH በቀጥታ በ Sparrow መለያዎ ላይ እንዲያስቀምጡ ያስችልዎታል።"
+    "message": "Wyre ክሬዲት ካርድ ተጠቅመው UBQ በቀጥታ በ Sparrow መለያዎ ላይ እንዲያስቀምጡ ያስችልዎታል።"
   },
   "buyCoinSwitch": {
     "message": "በ CoinSwitch ላይ ይግዙ"
@@ -573,7 +573,7 @@
     "message": "የሚታወቅ የግንኙነት አድራሻ።"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "ETH አውታረ መረብ አይደለም፣ ወደ ትናንሽ ፊደላት ቀይር"
+    "message": "UBQ አውታረ መረብ አይደለም፣ ወደ ትናንሽ ፊደላት ቀይር"
   },
   "invalidInput": {
     "message": "ልክ ያልሆነ ግቤት።"
@@ -668,7 +668,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "አሉታዊ የ ETH መጠኖችን መላክ አይቻልም።"
+    "message": "አሉታዊ የ UBQ መጠኖችን መላክ አይቻልም።"
   },
   "networkName": {
     "message": "የአውታረ መረብ ስም"
@@ -799,7 +799,7 @@
     "message": "ተቀዳሚ የገንዘብ ዓይነት"
   },
   "primaryCurrencySettingDescription": {
-    "message": "ዋጋዎች በራሳቸው የሰንሰለት ገንዘብ ዓይነት (ለምሳሌ ETH) በቅድሚያ እንዲታዪ ይምረጡ። ዋጋዎች በተመረጠ የፊያት ገንዘብ ዓይነት እንዲታዩ ደግሞ ፊያትን ይምረጡ።"
+    "message": "ዋጋዎች በራሳቸው የሰንሰለት ገንዘብ ዓይነት (ለምሳሌ UBQ) በቅድሚያ እንዲታዪ ይምረጡ። ዋጋዎች በተመረጠ የፊያት ገንዘብ ዓይነት እንዲታዩ ደግሞ ፊያትን ይምረጡ።"
   },
   "privacyMsg": {
     "message": "የግለኝነት መጠበቂያ ህግ"
@@ -977,7 +977,7 @@
     "message": "መጠኑን ላክ"
   },
   "sendETH": {
-    "message": "ETH ላክ"
+    "message": "UBQ ላክ"
   },
   "sendTokens": {
     "message": "ተለዋጭ ስሞችን ላክ"

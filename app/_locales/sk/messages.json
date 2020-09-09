@@ -150,10 +150,10 @@
     "message": "Sparrow je navržen a vytvořen v Kalifornii."
   },
   "buyWithWyre": {
-    "message": "Kúpte ETH s Wyre"
+    "message": "Kúpte UBQ s Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vám umožňuje použiť kreditnú kartu na vloženie depozitu ETH priamo na váš účet Sparrow."
+    "message": "Wyre vám umožňuje použiť kreditnú kartu na vloženie depozitu UBQ priamo na váš účet Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Kúpiť na CoinSwitch"
@@ -557,7 +557,7 @@
     "message": "Známe kontaktné adresy."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Nie sieť ETH, nastaviť malé písmená"
+    "message": "Nie sieť UBQ, nastaviť malé písmená"
   },
   "invalidInput": {
     "message": "Neplatný vstup."
@@ -640,7 +640,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nelze odeslat zápornou částku ETH."
+    "message": "Nelze odeslat zápornou částku UBQ."
   },
   "networkName": {
     "message": "Názov siete"
@@ -771,7 +771,7 @@
     "message": "Primárna mena"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Vyberte natívne, ak chcete priorizovať zobrazovanie hodnôt v natívnej mene reťazca (napr. ETH). Ak chcete priorizovať zobrazovanie hodnôt vo svojej vybranej mene fiat, zvoľte možnosť Fiat."
+    "message": "Vyberte natívne, ak chcete priorizovať zobrazovanie hodnôt v natívnej mene reťazca (napr. UBQ). Ak chcete priorizovať zobrazovanie hodnôt vo svojej vybranej mene fiat, zvoľte možnosť Fiat."
   },
   "privacyMsg": {
     "message": "Zásady ochrany osobních údajů"
@@ -943,7 +943,7 @@
     "message": "Poslať sumu"
   },
   "sendETH": {
-    "message": "Odeslat ETH"
+    "message": "Odeslat UBQ"
   },
   "sendTokens": {
     "message": "Odeslat tokeny"

@@ -150,10 +150,10 @@
     "message": "Sparrow est designé et developpé en Californie."
   },
   "buyWithWyre": {
-    "message": "Acheter ETH avec Wyre"
+    "message": "Acheter UBQ avec Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre vous permet d'utiliser une carte de crédit pour déposer ETH directement sur votre compte Sparrow."
+    "message": "Wyre vous permet d'utiliser une carte de crédit pour déposer UBQ directement sur votre compte Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Acheter sur CoinSwitch"
@@ -552,7 +552,7 @@
     "message": "Adresse contractuelle connue."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Pas de réseau ETH, régler en minuscules"
+    "message": "Pas de réseau UBQ, régler en minuscules"
   },
   "invalidInput": {
     "message": "Saisie non valide."
@@ -653,7 +653,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Vous ne pouvez envoyer des montants négatifs d'ETH."
+    "message": "Vous ne pouvez envoyer des montants négatifs d'UBQ."
   },
   "networkName": {
     "message": "Nom du réseau"
@@ -784,7 +784,7 @@
     "message": "Devise principale"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Sélectionnez « natif » pour donner la priorité à l'affichage des valeurs dans la devise native de la chaîne (par ex. ETH). Sélectionnez « fiduciaire » pour donner la priorité à l'affichage des valeurs dans la devise de votre choix."
+    "message": "Sélectionnez « natif » pour donner la priorité à l'affichage des valeurs dans la devise native de la chaîne (par ex. UBQ). Sélectionnez « fiduciaire » pour donner la priorité à l'affichage des valeurs dans la devise de votre choix."
   },
   "privacyMsg": {
     "message": "Politique de Confidentialité"
@@ -962,7 +962,7 @@
     "message": "Envoyer le montant"
   },
   "sendETH": {
-    "message": "Envoyer des ETH"
+    "message": "Envoyer des UBQ"
   },
   "sendTokens": {
     "message": "Envoyer des jetons"

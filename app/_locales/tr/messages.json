@@ -292,7 +292,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Negatif ETH miktarları gönderilemez."
+    "message": "Negatif UBQ miktarları gönderilemez."
   },
   "networks": {
     "message": "Ağlar"
@@ -397,7 +397,7 @@
     "message": "Gönder"
   },
   "sendETH": {
-    "message": "ETH Gönder"
+    "message": "UBQ Gönder"
   },
   "sendTokens": {
     "message": "Jeton Gönder"

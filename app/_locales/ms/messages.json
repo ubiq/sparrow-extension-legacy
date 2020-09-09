@@ -156,10 +156,10 @@
     "message": "Sparrow direka dan dibina di California."
   },
   "buyWithWyre": {
-    "message": "Beli ETH dengan Wyre"
+    "message": "Beli UBQ dengan Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre membolehkan anda menggunakan kad kredit untuk mendeposit ETH secara terus ke dalam akaun Sparrow anda."
+    "message": "Wyre membolehkan anda menggunakan kad kredit untuk mendeposit UBQ secara terus ke dalam akaun Sparrow anda."
   },
   "buyCoinSwitch": {
     "message": "Beli di CoinSwitch"
@@ -553,7 +553,7 @@
     "message": "Alamat kontrak diketahui."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Bukan rangkaian ETH, tetapkan kepada huruf kecil"
+    "message": "Bukan rangkaian UBQ, tetapkan kepada huruf kecil"
   },
   "invalidInput": {
     "message": "Input tidak sah."
@@ -645,7 +645,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Tidak boleh hantar amaun ETH negatif."
+    "message": "Tidak boleh hantar amaun UBQ negatif."
   },
   "networkName": {
     "message": "Nama Rangkaian"
@@ -776,7 +776,7 @@
     "message": "Mata Wang Utama"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Pilih natif untuk mengutamakan nilai paparan dalam mata wang natif rantaian (cth. ETH). Pilih Fiat untuk mengutamakan nilai paparan dalam mata wang fiat yang anda pilih."
+    "message": "Pilih natif untuk mengutamakan nilai paparan dalam mata wang natif rantaian (cth. UBQ). Pilih Fiat untuk mengutamakan nilai paparan dalam mata wang fiat yang anda pilih."
   },
   "privacyMsg": {
     "message": "Dasar Privasi"
@@ -954,7 +954,7 @@
     "message": "Hantar Amaun"
   },
   "sendETH": {
-    "message": "Hantar ETH"
+    "message": "Hantar UBQ"
   },
   "sendTokens": {
     "message": "Hantar Token"

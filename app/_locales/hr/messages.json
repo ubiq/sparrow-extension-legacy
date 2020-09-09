@@ -156,10 +156,10 @@
     "message": "Sparrow je osmišljen i izrađen u Kaliforniji."
   },
   "buyWithWyre": {
-    "message": "Kupi ETH Wyerom"
+    "message": "Kupi UBQ Wyerom"
   },
   "buyWithWyreDescription": {
-    "message": "Wyreom vam se omogućava korištenje kreditnom karticom za polaganje ETH-a izravno na vaš račun za Sparrow."
+    "message": "Wyreom vam se omogućava korištenje kreditnom karticom za polaganje UBQ-a izravno na vaš račun za Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Kupujte na usluzi CoinSwitch"
@@ -569,7 +569,7 @@
     "message": "Poznata ugovorna adresa."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Ne mreža ETH, postavite na mala slova"
+    "message": "Ne mreža UBQ, postavite na mala slova"
   },
   "invalidInput": {
     "message": "Nevaljani upis."
@@ -664,7 +664,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Ne mogu se slati negativne vrijednosti ETH-a."
+    "message": "Ne mogu se slati negativne vrijednosti UBQ-a."
   },
   "networkName": {
     "message": "Naziv mreže"
@@ -795,7 +795,7 @@
     "message": "Glavna valuta"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Odaberite da se prvo prikazuju valute u osnovnoj valuti bloka (npr. ETH). Odaberite mogućnost Fiat za prikazivanje valuta u odabranoj valuti Fiat."
+    "message": "Odaberite da se prvo prikazuju valute u osnovnoj valuti bloka (npr. UBQ). Odaberite mogućnost Fiat za prikazivanje valuta u odabranoj valuti Fiat."
   },
   "privacyMsg": {
     "message": "Pravilnik o zaštiti privatnosti"
@@ -973,7 +973,7 @@
     "message": "Odaberi iznos"
   },
   "sendETH": {
-    "message": "Pošalji ETH"
+    "message": "Pošalji UBQ"
   },
   "sendTokens": {
     "message": "Pošalji tokene"

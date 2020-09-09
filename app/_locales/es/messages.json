@@ -464,7 +464,7 @@
     "message": "Dirección del destinatario invalida"
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "No es una red ETH, convertirlo a minúscula"
+    "message": "No es una red UBQ, convertirlo a minúscula"
   },
   "invalidInput": {
     "message": "Entrada inválida"
@@ -538,7 +538,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "No se pueden mandar cantidades negativas de ETH"
+    "message": "No se pueden mandar cantidades negativas de UBQ"
   },
   "networks": {
     "message": "Redes"
@@ -630,7 +630,7 @@
     "message": "Moneda principal"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Seleccionar nativa para prioritizar el que se muestren los valores en la moneda nativa de la cadena (p.ej. ETH). Seleccionar Fíat para prioritzar el que se muestren los valores en la moneda fíat seleccionada."
+    "message": "Seleccionar nativa para prioritizar el que se muestren los valores en la moneda nativa de la cadena (p.ej. UBQ). Seleccionar Fíat para prioritzar el que se muestren los valores en la moneda fíat seleccionada."
   },
   "privacyMsg": {
     "message": "Política de privacidad"

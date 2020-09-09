@@ -153,10 +153,10 @@
     "message": "Sparrow wurde in Kalifornien entwickelt und gebaut."
   },
   "buyWithWyre": {
-    "message": "ETH mit Wyre kaufen"
+    "message": "UBQ mit Wyre kaufen"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ermöglicht Ihnen die Verwendung einer Kreditkarte zum direkten Einzahlen von ETH auf Ihr Sparrow-Konto."
+    "message": "Wyre ermöglicht Ihnen die Verwendung einer Kreditkarte zum direkten Einzahlen von UBQ auf Ihr Sparrow-Konto."
   },
   "buyCoinSwitch": {
     "message": "Auf CoinSwitch kaufen"
@@ -558,7 +558,7 @@
     "message": "Bekannte Vertragsadresse."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Kein ETH-Netzwerk, auf Kleinschreibung gesetzt"
+    "message": "Kein UBQ-Netzwerk, auf Kleinschreibung gesetzt"
   },
   "invalidInput": {
     "message": "Ungültige Eingabe."
@@ -647,7 +647,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Negative ETH Beträge können nicht versendet werden."
+    "message": "Negative UBQ Beträge können nicht versendet werden."
   },
   "networkName": {
     "message": "Netzwerkname"
@@ -772,7 +772,7 @@
     "message": "Hauptwährung"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Wählen Sie 'Nativ', um dem Anzeigen von Werten in der nativen Währung der Kette (z. B. ETH) Vorrang zu geben. Wählen Sie 'Fiat', um dem Anzeigen von Werten in Ihrer gewählten Fiat-Währung Vorrang zu geben."
+    "message": "Wählen Sie 'Nativ', um dem Anzeigen von Werten in der nativen Währung der Kette (z. B. UBQ) Vorrang zu geben. Wählen Sie 'Fiat', um dem Anzeigen von Werten in Ihrer gewählten Fiat-Währung Vorrang zu geben."
   },
   "privacyMsg": {
     "message": "Datenschutzrichtlinie"
@@ -946,7 +946,7 @@
     "message": "Betrag senden"
   },
   "sendETH": {
-    "message": "ETH senden"
+    "message": "UBQ senden"
   },
   "sendTokens": {
     "message": "Token senden"

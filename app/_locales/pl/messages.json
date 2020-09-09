@@ -156,10 +156,10 @@
     "message": "Sparrow został zaprojektowany i stworzony w Kaliforni."
   },
   "buyWithWyre": {
-    "message": "Kup ETH poprzez Wyre"
+    "message": "Kup UBQ poprzez Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Dzięki Wyre możesz użyć karty kredytowej, aby wpłacić ETH bezpośrednio na swoje konto Sparrow."
+    "message": "Dzięki Wyre możesz użyć karty kredytowej, aby wpłacić UBQ bezpośrednio na swoje konto Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Kup w CoinSwitch"
@@ -570,7 +570,7 @@
     "message": "Znany adres kontraktu."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "To nie jest sieć ETH, zmień na małe litery"
+    "message": "To nie jest sieć UBQ, zmień na małe litery"
   },
   "invalidInput": {
     "message": "Nieprawidłowe dane."
@@ -665,7 +665,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Nie można wysłać ujemnych ilości ETH."
+    "message": "Nie można wysłać ujemnych ilości UBQ."
   },
   "networkName": {
     "message": "Nazwa sieci"
@@ -796,7 +796,7 @@
     "message": "Waluta podstawowa"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Wybierz walutę natywną, aby preferować wyświetlanie wartości w walucie natywnej łańcucha (np. ETH). Wybierz walutę fiat, aby preferować wyświetlanie wartości w wybranej przez siebie walucie fiat."
+    "message": "Wybierz walutę natywną, aby preferować wyświetlanie wartości w walucie natywnej łańcucha (np. UBQ). Wybierz walutę fiat, aby preferować wyświetlanie wartości w wybranej przez siebie walucie fiat."
   },
   "privacyMsg": {
     "message": "Polityka prywatności"
@@ -974,7 +974,7 @@
     "message": "Wyślij kwotę"
   },
   "sendETH": {
-    "message": "Wyślij ETH"
+    "message": "Wyślij UBQ"
   },
   "sendTokens": {
     "message": "Wyślij tokeny"
@@ -1124,7 +1124,7 @@
     "message": "Regulamin"
   },
   "testFaucet": {
-    "message": "Źródło testowego ETH"
+    "message": "Źródło testowego UBQ"
   },
   "thisWillCreate": {
     "message": "Utworzony zostanie nowy portfel i fraza seed"

@@ -153,10 +153,10 @@
     "message": "Sparrow imeundwa na kutengenezwa California."
   },
   "buyWithWyre": {
-    "message": "Nunua ETH kwa kutumia Wyre"
+    "message": "Nunua UBQ kwa kutumia Wyre"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre inakuwezesha kutumia kadi ya benki kuweka ETH moja kwa moja kwenye akaunti yako ya Sparrow."
+    "message": "Wyre inakuwezesha kutumia kadi ya benki kuweka UBQ moja kwa moja kwenye akaunti yako ya Sparrow."
   },
   "buyCoinSwitch": {
     "message": "Nunua kwenye CoinSwitch"
@@ -560,7 +560,7 @@
     "message": "Anwani za mkataba zinazofahamika."
   },
   "invalidAddressRecipientNotEthNetwork": {
-    "message": "Kwa mtandao wa ETH, weka herufi ndogo"
+    "message": "Kwa mtandao wa UBQ, weka herufi ndogo"
   },
   "invalidInput": {
     "message": "Maandii si sahihi."
@@ -649,7 +649,7 @@
     "description": "User is important an account and needs to add a file to continue"
   },
   "negativeETH": {
-    "message": "Haiwezi kutuma viwango hasi vya ETH."
+    "message": "Haiwezi kutuma viwango hasi vya UBQ."
   },
   "networkName": {
     "message": "Jina la mtandao"
@@ -780,7 +780,7 @@
     "message": "Sarafu ya Msingi"
   },
   "primaryCurrencySettingDescription": {
-    "message": "Chagua mzawa ili kuweka kipaumbele kuonyesha thamani kwenye sarafu mzawa ya mnyororo (k.m ETH). Chagua Fiat ili uwelke kipaumbale kuonyesha thamani kwenye sarafu yako ya fiat uliyoichagua."
+    "message": "Chagua mzawa ili kuweka kipaumbele kuonyesha thamani kwenye sarafu mzawa ya mnyororo (k.m UBQ). Chagua Fiat ili uwelke kipaumbale kuonyesha thamani kwenye sarafu yako ya fiat uliyoichagua."
   },
   "privacyMsg": {
     "message": "Sera ya Faragha"
@@ -958,7 +958,7 @@
     "message": "Tuma Kiasi"
   },
   "sendETH": {
-    "message": "Tuma ETH"
+    "message": "Tuma UBQ"
   },
   "sendTokens": {
     "message": "Tuma Vianzio"
