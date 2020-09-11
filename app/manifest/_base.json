@@ -1,7 +1,7 @@
 {
   "name": "__MSG_appName__",
   "short_name": "__MSG_appName__",
-  "version": "8.0.16",
+  "version": "8.0.17",
   "manifest_version": 2,
   "author": "https://ubiqsmart.com",
   "description": "__MSG_appDescription__",
@@ -72,11 +72,10 @@
     "unlimitedStorage",
     "clipboardWrite",
     "http://localhost:8588/",
-    "https://*.infura.io/",
     "https://*.octano.dev/",
+    "https://*.ubiqsmart.com/",
     "activeTab",
     "webRequest",
-    "*://*.eth/",
     "notifications"
   ],
   "web_accessible_resources": [
