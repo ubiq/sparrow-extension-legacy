@@ -10084,7 +10084,7 @@ eth-json-rpc-infura@^3.1.0:
     json-rpc-error "^2.0.0"
     tape "^4.8.0"
 
-eth-json-rpc-infura@^4.0.1, eth-json-rpc-infura@^4.0.2:
+eth-json-rpc-infura@^4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/eth-json-rpc-infura/-/eth-json-rpc-infura-4.0.2.tgz#8af1a1a2e9a0a82aaa302bbc96fb1a4c15d69b83"
   integrity sha512-dvgOrci9lZqpjpp0hoC3Zfedhg3aIpLFVDH0TdlKxRlkhR75hTrKTwxghDrQwE0bn3eKrC8RsN1m/JdnIWltpw==
