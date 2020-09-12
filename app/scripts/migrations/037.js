@@ -1,5 +1,5 @@
 import { cloneDeep } from 'lodash'
-import { util } from '@metamask/controllers'
+import { util } from 'sparrow-controllers'
 
 const version = 37
 

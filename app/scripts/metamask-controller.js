@@ -30,7 +30,7 @@ import {
   AddressBookController,
   CurrencyRateController,
   PhishingController,
-} from '@metamask/controllers'
+} from 'sparrow-controllers'
 import ComposableObservableStore from './lib/ComposableObservableStore'
 import AccountTracker from './lib/account-tracker'
 import createLoggerMiddleware from './lib/createLoggerMiddleware'
