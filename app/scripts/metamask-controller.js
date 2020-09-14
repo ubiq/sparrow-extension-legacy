@@ -46,7 +46,6 @@ import AppStateController from './controllers/app-state'
 import CachedBalancesController from './controllers/cached-balances'
 import AlertController from './controllers/alert'
 import OnboardingController from './controllers/onboarding'
-import ThreeBoxController from './controllers/threebox'
 import IncomingTransactionsController from './controllers/incoming-transactions'
 import MessageManager from './lib/message-manager'
 import DecryptMessageManager from './lib/decrypt-message-manager'
@@ -217,14 +216,6 @@ export default class MetamaskController extends EventEmitter {
     })
 
     const version = this.platform.getVersion()
-    this.threeBoxController = new ThreeBoxController({
-      preferencesController: this.preferencesController,
-      addressBookController: this.addressBookController,
-      keyringController: this.keyringController,
-      initState: initState.ThreeBoxController,
-      getKeyringControllerState: this.keyringController.memStore.getState.bind(this.keyringController.memStore),
-      version,
-    })
 
     this.txController = new TransactionController({
       initState: initState.TransactionController || initState.TransactionManager,
@@ -287,7 +278,6 @@ export default class MetamaskController extends EventEmitter {
       IncomingTransactionsController: this.incomingTransactionsController.store,
       PermissionsController: this.permissionsController.permissions,
       PermissionsMetadata: this.permissionsController.store,
-      ThreeBoxController: this.threeBoxController.store,
     })
 
     this.memStore = new ComposableObservableStore(null, {
@@ -311,7 +301,6 @@ export default class MetamaskController extends EventEmitter {
       IncomingTransactionsController: this.incomingTransactionsController.store,
       PermissionsController: this.permissionsController.permissions,
       PermissionsMetadata: this.permissionsController.store,
-      ThreeBoxController: this.threeBoxController.store,
       // ENS Controller
       EnsController: this.ensController.store,
     })
@@ -428,7 +417,6 @@ export default class MetamaskController extends EventEmitter {
       alertController,
       permissionsController,
       preferencesController,
-      threeBoxController,
       txController,
     } = this
 
@@ -544,14 +532,6 @@ export default class MetamaskController extends EventEmitter {
       // alert controller
       setAlertEnabledness: nodeify(alertController.setAlertEnabledness, alertController),
       setUnconnectedAccountAlertShown: nodeify(this.alertController.setUnconnectedAccountAlertShown, this.alertController),
-
-      // 3Box
-      setThreeBoxSyncingPermission: nodeify(threeBoxController.setThreeBoxSyncingPermission, threeBoxController),
-      restoreFromThreeBox: nodeify(threeBoxController.restoreFromThreeBox, threeBoxController),
-      setShowRestorePromptToFalse: nodeify(threeBoxController.setShowRestorePromptToFalse, threeBoxController),
-      getThreeBoxLastUpdated: nodeify(threeBoxController.getLastUpdated, threeBoxController),
-      turnThreeBoxSyncingOn: nodeify(threeBoxController.turnThreeBoxSyncingOn, threeBoxController),
-      initializeThreeBox: nodeify(this.initializeThreeBox, this),
 
       // permissions
       approvePermissionsRequest: nodeify(permissionsController.approvePermissionsRequest, permissionsController),
@@ -779,19 +759,6 @@ export default class MetamaskController extends EventEmitter {
     }
 
     await this.blockTracker.checkForLatestBlock()
-
-    try {
-      const threeBoxSyncingAllowed = this.threeBoxController.getThreeBoxSyncingState()
-      if (threeBoxSyncingAllowed && !this.threeBoxController.box) {
-        // 'await' intentionally omitted to avoid waiting for initialization
-        this.threeBoxController.init()
-        this.threeBoxController.turnThreeBoxSyncingOn()
-      } else if (threeBoxSyncingAllowed && this.threeBoxController.box) {
-        this.threeBoxController.turnThreeBoxSyncingOn()
-      }
-    } catch (error) {
-      log.error(error)
-    }
 
     return this.keyringController.fullUpdate()
   }
@@ -1916,10 +1883,6 @@ export default class MetamaskController extends EventEmitter {
    */
   async delCustomRpc (rpcTarget) {
     await this.preferencesController.removeFromFrequentRpcList(rpcTarget)
-  }
-
-  async initializeThreeBox () {
-    await this.threeBoxController.init()
   }
 
   /**

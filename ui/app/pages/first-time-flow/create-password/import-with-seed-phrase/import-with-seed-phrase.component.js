@@ -18,7 +18,6 @@ export default class ImportWithSeedPhrase extends PureComponent {
     history: PropTypes.object,
     onSubmit: PropTypes.func.isRequired,
     setSeedPhraseBackedUp: PropTypes.func,
-    initializeThreeBox: PropTypes.func,
     completeOnboarding: PropTypes.func,
   }
 
@@ -119,7 +118,7 @@ export default class ImportWithSeedPhrase extends PureComponent {
     }
 
     const { password, seedPhrase } = this.state
-    const { history, onSubmit, setSeedPhraseBackedUp, initializeThreeBox, completeOnboarding } = this.props
+    const { history, onSubmit, setSeedPhraseBackedUp, completeOnboarding } = this.props
 
     try {
       await onSubmit(password, this.parseSeedPhrase(seedPhrase))
@@ -133,7 +132,6 @@ export default class ImportWithSeedPhrase extends PureComponent {
 
       setSeedPhraseBackedUp(true).then(async () => {
         await completeOnboarding()
-        initializeThreeBox()
         history.push(INITIALIZE_END_OF_FLOW_ROUTE)
       })
     } catch (error) {
