@@ -557,7 +557,7 @@
     "message": "If you need to back up your seed phrase again, you can find it in Settings -> Security."
   },
   "endOfFlowMessage7": {
-    "message": "If you ever have questions or see something fishy, email support@metamask.io."
+    "message": ""
   },
   "endOfFlowMessage8": {
     "message": "Sparrow cannot recover your seedphrase."
@@ -614,11 +614,11 @@
     "description": "Title of generic error page"
   },
   "errorPageMessage": {
-    "message": "Try again by reloading the page, or contact support at support@metamask.io",
+    "message": "Try again by reloading the page",
     "description": "Message displayed on generic error page in the fullscreen or notification UI"
   },
   "errorPagePopupMessage": {
-    "message": "Try again by closing and reopening the popup, or contact support at support@metamask.io",
+    "message": "Try again by closing and reopening the popup",
     "description": "Message displayed on generic error page in the popup UI"
   },
   "errorStack": {
@@ -999,7 +999,7 @@
     "message": "Be careful with your seed phrase — there have been reports of websites that attempt to imitate Sparrow. Sparrow will never ask for your seed phrase!"
   },
   "protectYourKeysMessage2": {
-    "message": "Keep your phrase safe. If you see something fishy, or you’re uncertain about a website, email support@metamask.io"
+    "message": "Keep your phrase safe."
   },
   "rpcUrl": {
     "message": "New RPC URL"
