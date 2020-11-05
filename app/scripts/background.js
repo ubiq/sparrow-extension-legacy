@@ -32,7 +32,6 @@ import rawFirstTimeState from './first-time-state'
 import setupSentry from './lib/setupSentry'
 import getFirstPreferredLangCode from './lib/get-first-preferred-lang-code'
 import getObjStructure from './lib/getObjStructure'
-import setupEnsIpfsResolver from './lib/ens-ipfs/setup'
 
 import {
   ENVIRONMENT_TYPE_POPUP,
@@ -245,12 +244,6 @@ function setupController (initState, initLangCode) {
     getOpenMetamaskTabsIds: () => {
       return openMetamaskTabsIDs
     },
-  })
-
-  setupEnsIpfsResolver({
-    getCurrentNetwork: controller.getCurrentNetwork,
-    getIpfsGateway: controller.preferencesController.getIpfsGateway.bind(controller.preferencesController),
-    provider: controller.provider,
   })
 
   // setup state persistence

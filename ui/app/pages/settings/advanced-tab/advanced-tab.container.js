@@ -10,7 +10,6 @@ import {
   setThreeBoxSyncingPermission,
   turnThreeBoxSyncingOnAndInitialize,
   setUseNonceField,
-  setIpfsGateway,
 } from '../../../store/actions'
 import { getPreferences } from '../../../selectors'
 import AdvancedTab from './advanced-tab.component'
@@ -26,7 +25,6 @@ export const mapStateToProps = (state) => {
     threeBoxSyncingAllowed,
     threeBoxDisabled,
     useNonceField,
-    ipfsGateway,
   } = metamask
   const { showFiatInTestnets, autoLockTimeLimit } = getPreferences(state)
 
@@ -40,7 +38,6 @@ export const mapStateToProps = (state) => {
     threeBoxSyncingAllowed,
     threeBoxDisabled,
     useNonceField,
-    ipfsGateway,
   }
 }
 
@@ -64,9 +61,6 @@ export const mapDispatchToProps = (dispatch) => {
       } else {
         dispatch(setThreeBoxSyncingPermission(newThreeBoxSyncingState))
       }
-    },
-    setIpfsGateway: (value) => {
-      return dispatch(setIpfsGateway(value))
     },
   }
 }

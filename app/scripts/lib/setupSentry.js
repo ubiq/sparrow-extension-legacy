@@ -27,7 +27,6 @@ export const SENTRY_STATE = {
     firstTimeFlowType: true,
     forgottenPassword: true,
     incomingTxLastFetchedBlocksByNetwork: true,
-    ipfsGateway: true,
     isAccountMenuOpen: true,
     isInitialized: true,
     isUnlocked: true,

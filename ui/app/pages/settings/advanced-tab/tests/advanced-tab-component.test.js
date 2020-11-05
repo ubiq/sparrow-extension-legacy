@@ -9,9 +9,7 @@ describe('AdvancedTab Component', function () {
   it('should render correctly when threeBoxFeatureFlag', function () {
     const root = shallow(
       <AdvancedTab
-        ipfsGateway=""
         setAutoLockTimeLimit={() => undefined}
-        setIpfsGateway={() => undefined}
         setShowFiatConversionOnTestnetsPreference={() => undefined}
         setThreeBoxSyncingPermission={() => undefined}
         threeBoxDisabled
@@ -31,9 +29,7 @@ describe('AdvancedTab Component', function () {
     const setAutoLockTimeLimitSpy = sinon.spy()
     const root = shallow(
       <AdvancedTab
-        ipfsGateway=""
         setAutoLockTimeLimit={setAutoLockTimeLimitSpy}
-        setIpfsGateway={() => undefined}
         setShowFiatConversionOnTestnetsPreference={() => undefined}
         setThreeBoxSyncingPermission={() => undefined}
         threeBoxDisabled

@@ -832,18 +832,6 @@
   "invalidSeedPhrase": {
     "message": "Frase seed non valida"
   },
-  "ipfsGateway": {
-    "message": "Portale IPFS"
-  },
-  "ipfsGatewayDescription": {
-    "message": "Inserisci l'URL del portale IPFS CID da usare per la risoluzione del contenuto ENS."
-  },
-  "invalidIpfsGateway": {
-    "message": "Portale IPFS non valido: il valore deve essere un URL valido"
-  },
-  "forbiddenIpfsGateway": {
-    "message": "Portale IPFS vietato: specifica un portale CID"
-  },
   "jsonFile": {
     "message": "File JSON",
     "description": "format for importing an account"

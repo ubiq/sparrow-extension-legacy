@@ -2029,25 +2029,6 @@ export function setUsePhishDetect (val) {
   }
 }
 
-export function setIpfsGateway (val) {
-  return (dispatch) => {
-    dispatch(showLoadingIndication())
-    log.debug(`background.setIpfsGateway`)
-    background.setIpfsGateway(val, (err) => {
-      dispatch(hideLoadingIndication())
-      if (err) {
-        dispatch(displayWarning(err.message))
-
-      } else {
-        dispatch({
-          type: actionConstants.SET_IPFS_GATEWAY,
-          value: val,
-        })
-      }
-    })
-  }
-}
-
 export function updateCurrentLocale (key) {
   return async (dispatch) => {
     dispatch(showLoadingIndication())
