@@ -89,7 +89,7 @@ const EthOverview = ({ className }) => {
               dispatch(showModal({ name: 'DEPOSIT_ETHER' }))
             }}
           >
-            { t('buy') }
+            { t('deposit') }
           </Button>
           <Button
             type="secondary"
