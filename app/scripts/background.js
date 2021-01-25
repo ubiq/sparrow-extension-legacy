@@ -55,6 +55,7 @@ const sentry = setupSentry({ release })
 
 let popupIsOpen = false
 let notificationIsOpen = false
+let uiIsTriggering = false
 const openMetamaskTabsIDs = {}
 const requestAccountTabIds = {}
 
@@ -427,10 +428,18 @@ function setupController (initState, initLangCode) {
  * Opens the browser popup for user confirmation
  */
 async function triggerUi () {
-  const tabs = await platform.getActiveTabs()
-  const currentlyActiveMetamaskTab = Boolean(tabs.find((tab) => openMetamaskTabsIDs[tab.id]))
-  if (!popupIsOpen && !currentlyActiveMetamaskTab) {
-    await notificationManager.showPopup()
+  if (uiIsTriggering) return;
+  uiIsTriggering = true;
+  try {
+    const tabs = await platform.getActiveTabs()
+    const currentlyActiveMetamaskTab = Boolean(tabs.find((tab) => openMetamaskTabsIDs[tab.id]))
+    if (!popupIsOpen && !currentlyActiveMetamaskTab) {
+      await notificationManager.showPopup()
+    }
+  } catch (error) {
+    log.error('Sparrow - Trigger UI failed', error);
+  } finally {
+    uiIsTriggering = false;
   }
 }
 
