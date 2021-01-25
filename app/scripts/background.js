@@ -428,8 +428,8 @@ function setupController (initState, initLangCode) {
  * Opens the browser popup for user confirmation
  */
 async function triggerUi () {
-  if (uiIsTriggering) return;
-  uiIsTriggering = true;
+  if (uiIsTriggering) return
+  uiIsTriggering = true
   try {
     const tabs = await platform.getActiveTabs()
     const currentlyActiveMetamaskTab = Boolean(tabs.find((tab) => openMetamaskTabsIDs[tab.id]))
@@ -437,9 +437,9 @@ async function triggerUi () {
       await notificationManager.showPopup()
     }
   } catch (error) {
-    log.error('Sparrow - Trigger UI failed', error);
+    log.error('Sparrow - Trigger UI failed', error)
   } finally {
-    uiIsTriggering = false;
+    uiIsTriggering = false
   }
 }
 
