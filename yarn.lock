@@ -5747,9 +5747,9 @@ bl@^3.0.0:
   dependencies:
     nanoassert "^1.0.0"
 
-"blake2b@git+https://github.com/BitGo/blake2b.git#6268e6dd678661e0acc4359e9171b97eb1ebf8ac":
+"blake2b@https://github.com/BitGo/blake2b#6268e6dd678661e0acc4359e9171b97eb1ebf8ac":
   version "2.1.3"
-  resolved "git+https://github.com/BitGo/blake2b.git#6268e6dd678661e0acc4359e9171b97eb1ebf8ac"
+  resolved "https://github.com/BitGo/blake2b#6268e6dd678661e0acc4359e9171b97eb1ebf8ac"
   dependencies:
     blake2b-wasm "https://github.com/BitGo/blake2b-wasm#193cdb71656c1a6c7f89b05d0327bb9b758d071b"
     nanoassert "^1.0.0"
@@ -27121,10 +27121,10 @@ ubiqscan-link@^1.1.1:
   resolved "https://registry.yarnpkg.com/ubiqscan-link/-/ubiqscan-link-1.1.1.tgz#0f853ddf4083bc076d017aa65cb28a83435ac3bc"
   integrity sha512-TDcsSDlg64Rg8i/zo3C3poR0UD/LyV3bWgb1GnMfi2rMzQ/8gua9U/zPfUejQ+1aAyKq9/sBpYX9rmqPy41J7w==
 
-ubq-contract-metadata@^1.15.2:
-  version "1.15.2"
-  resolved "https://registry.yarnpkg.com/ubq-contract-metadata/-/ubq-contract-metadata-1.15.2.tgz#dfe3c312992e244706da5779454c68490b840c1b"
-  integrity sha512-tS+ne+9odw3GlAjzHnH4m83SBE6V7LQq4CNGOf/dYtN9vc8FdXMkSnCVm8cGNbsSl1l0n5R6mpojKFydhbd9+g==
+ubq-contract-metadata@^1.15.3:
+  version "1.15.3"
+  resolved "https://registry.yarnpkg.com/ubq-contract-metadata/-/ubq-contract-metadata-1.15.3.tgz#f0b55615323093ea179f2c7c3db2bd071a8bc918"
+  integrity sha512-5lN5oiOZmg8S6WRuWIEpm8DAlHxmyR+VXmRjq4wNWYV3XXUXP+k7GKZ7I7M80VR/UNaKA/bKK2x+1l/pEa9aVQ==
 
 ubq-ledger-bridge-keyring@^0.2.10:
   version "0.2.10"
