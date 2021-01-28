@@ -1,5 +1,4 @@
 import { connect } from 'react-redux'
-import { captureException } from '@sentry/browser'
 import { addHexPrefix } from 'ethereumjs-util'
 import {
   hideModal,
@@ -129,7 +128,6 @@ const mapStateToProps = (state, ownProps) => {
   try {
     currentTimeEstimate = getRenderableTimeEstimate(customGasPrice, gasPrices, estimatedTimes)
   } catch (error) {
-    captureException(error)
   }
 
   return {

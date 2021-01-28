@@ -310,9 +310,6 @@ function createScriptTasks ({ browserPlatforms, livereload }) {
     }
 
     const environment = getEnvironment({ devMode: opts.devMode, test: opts.testing })
-    if (environment === 'production' && !process.env.SENTRY_DSN) {
-      throw new Error('Missing SENTRY_DSN environment variable')
-    }
 
     // Inject variables into bundle
     bundler.transform(envify({
@@ -325,7 +322,6 @@ function createScriptTasks ({ browserPlatforms, livereload }) {
       PUBNUB_PUB_KEY: process.env.PUBNUB_PUB_KEY || '',
       ETH_GAS_STATION_API_KEY: process.env.ETH_GAS_STATION_API_KEY || '',
       CONF: opts.devMode ? conf : ({}),
-      SENTRY_DSN: process.env.SENTRY_DSN,
     }), {
       global: true,
     })

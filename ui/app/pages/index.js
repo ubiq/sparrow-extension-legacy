@@ -2,7 +2,6 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import { Provider } from 'react-redux'
 import { HashRouter } from 'react-router-dom'
-import * as Sentry from '@sentry/browser'
 import { I18nProvider, LegacyI18nProvider } from '../contexts/i18n'
 import { MetaMetricsProvider, LegacyMetaMetricsProvider } from '../contexts/metametrics'
 import ErrorPage from './error'
@@ -13,10 +12,6 @@ class Index extends PureComponent {
 
   static getDerivedStateFromError (error) {
     return { error }
-  }
-
-  componentDidCatch (error) {
-    Sentry.captureException(error)
   }
 
   render () {

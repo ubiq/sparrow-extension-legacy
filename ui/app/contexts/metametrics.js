@@ -2,7 +2,6 @@ import React, { Component, createContext, useEffect, useCallback, useState } fro
 import { useSelector } from 'react-redux'
 import PropTypes from 'prop-types'
 import { useHistory } from 'react-router-dom'
-import { captureException } from '@sentry/browser'
 
 import {
   getCurrentNetworkId,
@@ -21,9 +20,6 @@ import {
 } from '../helpers/utils/metametrics.util'
 
 export const MetaMetricsContext = createContext(() => {
-  captureException(
-    Error(`MetaMetrics context function was called from a react node that is not a descendant of a MetaMetrics context provider`),
-  )
 })
 
 export function MetaMetricsProvider ({ children }) {

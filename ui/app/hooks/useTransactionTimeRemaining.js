@@ -1,7 +1,6 @@
 import { useSelector } from 'react-redux'
 import { useRef, useEffect, useState, useMemo } from 'react'
 import { isEqual } from 'lodash'
-import { captureException } from '@sentry/browser'
 import { hexWEIToDecGWEI } from '../helpers/utils/conversions.util'
 import { getEstimatedGasPrices, getEstimatedGasTimes, getFeatureFlags, getIsMainnet } from '../selectors'
 import { getRawTimeEstimateData } from '../helpers/utils/gas-time-estimates.util'
@@ -61,7 +60,6 @@ export function useTransactionTimeRemaining (
       } = getRawTimeEstimateData(customGasPrice, gasPrices, estimatedTimes)
       return newTimeEstimate
     } catch (error) {
-      captureException(error)
       return NaN
     }
   }, [currentGasPrice, gasPrices, estimatedTimes])

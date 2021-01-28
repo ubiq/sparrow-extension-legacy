@@ -2,8 +2,6 @@
 import React from 'react'
 import log from 'loglevel'
 
-import * as Sentry from '@sentry/browser'
-
 const warned = {}
 const missingMessageErrors = {}
 const missingSubstitutionErrors = {}
@@ -24,7 +22,6 @@ export const getMessage = (localeCode, localeMessages, key, substitutions) => {
     if (localeCode === 'en') {
       if (!missingMessageErrors[key]) {
         missingMessageErrors[key] = new Error(`Unable to find value of key "${key}" for locale "${localeCode}"`)
-        Sentry.captureException(missingMessageErrors[key])
         log.error(missingMessageErrors[key])
         if (process.env.IN_TEST === 'true') {
           throw missingMessageErrors[key]
@@ -66,7 +63,6 @@ export const getMessage = (localeCode, localeMessages, key, substitutions) => {
         missingSubstitutionErrors[localeCode][key] = true
         const error = new Error(`Insufficient number of substitutions for message: '${phrase}'`)
         log.error(error)
-        Sentry.captureException(error)
       }
       return substitutions[substituteIndex]
     })
