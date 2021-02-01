@@ -4,9 +4,9 @@ import { Redirect } from 'react-router-dom'
 import {
   DEFAULT_ROUTE,
   LOCK_ROUTE,
+  INITIALIZE_END_OF_FLOW_ROUTE,
   INITIALIZE_WELCOME_ROUTE,
   INITIALIZE_UNLOCK_ROUTE,
-  INITIALIZE_METAMETRICS_OPT_IN_ROUTE,
 } from '../../../helpers/constants/routes'
 
 export default class FirstTimeFlowSwitch extends PureComponent {
@@ -14,7 +14,7 @@ export default class FirstTimeFlowSwitch extends PureComponent {
     completedOnboarding: PropTypes.bool,
     isInitialized: PropTypes.bool,
     isUnlocked: PropTypes.bool,
-    optInMetaMetrics: PropTypes.bool,
+    seedPhraseBackedUp: PropTypes.bool,
   }
 
   render () {
@@ -22,11 +22,15 @@ export default class FirstTimeFlowSwitch extends PureComponent {
       completedOnboarding,
       isInitialized,
       isUnlocked,
-      optInMetaMetrics,
+      seedPhraseBackedUp,
     } = this.props
 
     if (completedOnboarding) {
       return <Redirect to={{ pathname: DEFAULT_ROUTE }} />
+    }
+
+    if (seedPhraseBackedUp !== null) {
+      return <Redirect to={{ pathname: INITIALIZE_END_OF_FLOW_ROUTE }} />
     }
 
     if (isUnlocked) {
@@ -37,14 +41,6 @@ export default class FirstTimeFlowSwitch extends PureComponent {
       return <Redirect to={{ pathname: INITIALIZE_WELCOME_ROUTE }} />
     }
 
-    if (!isUnlocked) {
-      return <Redirect to={{ pathname: INITIALIZE_UNLOCK_ROUTE }} />
-    }
-
-    if (optInMetaMetrics === null) {
-      return <Redirect to={{ pathname: INITIALIZE_WELCOME_ROUTE }} />
-    }
-
-    return <Redirect to={{ pathname: INITIALIZE_METAMETRICS_OPT_IN_ROUTE }} />
+    return <Redirect to={{ pathname: INITIALIZE_UNLOCK_ROUTE }} />
   }
 }
