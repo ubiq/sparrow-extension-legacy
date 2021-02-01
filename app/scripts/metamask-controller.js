@@ -439,6 +439,7 @@ export default class MetamaskController extends EventEmitter {
       setUseBlockie: this.setUseBlockie.bind(this),
       setUseNonceField: this.setUseNonceField.bind(this),
       setUsePhishDetect: this.setUsePhishDetect.bind(this),
+      setIpfsGateway: this.setIpfsGateway.bind(this),
       setParticipateInMetaMetrics: this.setParticipateInMetaMetrics.bind(this),
       setMetaMetricsSendCount: this.setMetaMetricsSendCount.bind(this),
       setFirstTimeFlowType: this.setFirstTimeFlowType.bind(this),
@@ -1963,6 +1964,23 @@ export default class MetamaskController extends EventEmitter {
   setUsePhishDetect (val, cb) {
     try {
       this.preferencesController.setUsePhishDetect(val)
+      cb(null)
+      return
+    } catch (err) {
+      cb(err)
+      // eslint-disable-next-line no-useless-return
+      return
+    }
+  }
+
+  /**
+   * Sets the IPFS gateway to use for ENS content resolution.
+   * @param {string} val - the host of the gateway to set
+   * @param {Function} cb - A callback function called when complete.
+   */
+  setIpfsGateway (val, cb) {
+    try {
+      this.preferencesController.setIpfsGateway(val)
       cb(null)
       return
     } catch (err) {

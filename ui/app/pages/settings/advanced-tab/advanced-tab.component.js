@@ -33,11 +33,15 @@ export default class AdvancedTab extends PureComponent {
     threeBoxSyncingAllowed: PropTypes.bool.isRequired,
     setThreeBoxSyncingPermission: PropTypes.func.isRequired,
     threeBoxDisabled: PropTypes.bool.isRequired,
+    setIpfsGateway: PropTypes.func.isRequired,
+    ipfsGateway: PropTypes.string.isRequired,
   }
 
   state = {
     autoLockTimeLimit: this.props.autoLockTimeLimit,
     lockTimeError: '',
+    ipfsGateway: this.props.ipfsGateway,
+    ipfsGatewayError: '',
   }
 
   renderMobileSync () {
@@ -376,6 +380,85 @@ export default class AdvancedTab extends PureComponent {
               offLabel={t('off')}
               onLabel={t('on')}
             />
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  handleIpfsGatewayChange (url) {
+    const { t } = this.context
+
+    this.setState(() => {
+      let ipfsGatewayError = ''
+
+      try {
+
+        const urlObj = new URL(addUrlProtocolPrefix(url))
+        if (!urlObj.host) {
+          throw new Error()
+        }
+
+        // don't allow the use of this gateway
+        if (urlObj.host === 'gateway.ipfs.io') {
+          throw new Error('Forbidden gateway')
+        }
+
+      } catch (error) {
+        ipfsGatewayError = (
+          error.message === 'Forbidden gateway'
+            ? t('forbiddenIpfsGateway')
+            : t('invalidIpfsGateway')
+        )
+      }
+
+      return {
+        ipfsGateway: url,
+        ipfsGatewayError,
+      }
+    })
+  }
+
+  handleIpfsGatewaySave () {
+
+    const url = new URL(addUrlProtocolPrefix(this.state.ipfsGateway))
+    const { host } = url
+
+    this.props.setIpfsGateway(host)
+  }
+
+  renderIpfsGatewayControl () {
+    const { t } = this.context
+    const { ipfsGatewayError } = this.state
+
+    return (
+      <div className="settings-page__content-row" data-testid="advanced-setting-ipfs-gateway">
+        <div className="settings-page__content-item">
+          <span>{ t('ipfsGateway') }</span>
+          <div className="settings-page__content-description">
+            { t('ipfsGatewayDescription') }
+          </div>
+        </div>
+        <div className="settings-page__content-item">
+          <div className="settings-page__content-item-col">
+            <TextField
+              type="text"
+              value={this.state.ipfsGateway}
+              onChange={(e) => this.handleIpfsGatewayChange(e.target.value)}
+              error={ipfsGatewayError}
+              fullWidth
+              margin="dense"
+            />
+            <Button
+              type="primary"
+              className="settings-tab__rpc-save-button"
+              disabled={Boolean(ipfsGatewayError)}
+              onClick={() => {
+                this.handleIpfsGatewaySave()
+              }}
+            >
+              { t('save') }
+            </Button>
           </div>
         </div>
       </div>

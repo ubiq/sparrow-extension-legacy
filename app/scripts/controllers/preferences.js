@@ -59,6 +59,9 @@ export default class PreferencesController {
       completedOnboarding: false,
       metaMetricsId: null,
       metaMetricsSendCount: 0,
+
+      // ENS decentralized website resolution
+      ipfsGateway: 'dweb.link', ...opts.initState,
     }
 
     this.diagnostics = opts.diagnostics
@@ -614,6 +617,24 @@ export default class PreferencesController {
   completeOnboarding () {
     this.store.updateState({ completedOnboarding: true })
     return Promise.resolve(true)
+  }
+
+  /**
+   * A getter for the `ipfsGateway` property
+   * @returns {string} - The current IPFS gateway domain
+   */
+  getIpfsGateway () {
+    return this.store.getState().ipfsGateway
+  }
+
+  /**
+   * A setter for the `ipfsGateway` property
+   * @param {string} domain - The new IPFS gateway domain
+   * @returns {Promise<string>} - A promise of the update IPFS gateway domain
+   */
+  setIpfsGateway (domain) {
+    this.store.updateState({ ipfsGateway: domain })
+    return Promise.resolve(domain)
   }
 
   //
