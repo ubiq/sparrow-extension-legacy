@@ -4,7 +4,7 @@ import asMiddleware from 'json-rpc-engine/src/asMiddleware'
 import ObservableStore from 'obs-store'
 import log from 'loglevel'
 import { CapabilitiesController as RpcCap } from 'rpc-cap'
-import { ethErrors } from 'eth-json-rpc-errors'
+import { ethErrors } from 'eth-rpc-errors'
 import { cloneDeep } from 'lodash'
 
 import createPermissionsMethodMiddleware from './permissionsMethodMiddleware'
