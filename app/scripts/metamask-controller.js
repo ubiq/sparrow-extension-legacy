@@ -1271,11 +1271,37 @@ export default class MetamaskController extends EventEmitter {
   * @param {Object} req - (optional) the original request, containing the origin
   * Passed back to the requesting Dapp.
   */
-  async newRequestEncryptionPublicKey (msgParams, req) {
-    const promise = this.encryptionPublicKeyManager.addUnapprovedMessageAsync(msgParams, req)
-    this.sendUpdate()
-    this.opts.showUnconfirmedMessage()
-    return promise
+  async newRequestEncryptionPublicKey(msgParams, req) {
+    const address = msgParams
+    const keyring = await this.keyringController.getKeyringForAccount(address)
+
+    switch (keyring.type) {
+      case 'Ledger Hardware': {
+        return new Promise((_, reject) => {
+          reject(
+            new Error('Ledger does not support eth_getEncryptionPublicKey.'),
+          )
+        })
+      }
+
+      case 'Trezor Hardware': {
+        return new Promise((_, reject) => {
+          reject(
+            new Error('Trezor does not support eth_getEncryptionPublicKey.'),
+          )
+        })
+      }
+
+      default: {
+        const promise = this.encryptionPublicKeyManager.addUnapprovedMessageAsync(
+          msgParams,
+          req,
+        )
+        this.sendUpdate()
+        this.opts.showUserConfirmation()
+        return promise
+      }
+    }
   }
 
   /**
