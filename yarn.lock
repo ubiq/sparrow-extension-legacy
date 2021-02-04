@@ -27043,10 +27043,10 @@ ubiqscan-link@^1.1.1:
   resolved "https://registry.yarnpkg.com/ubiqscan-link/-/ubiqscan-link-1.1.1.tgz#0f853ddf4083bc076d017aa65cb28a83435ac3bc"
   integrity sha512-TDcsSDlg64Rg8i/zo3C3poR0UD/LyV3bWgb1GnMfi2rMzQ/8gua9U/zPfUejQ+1aAyKq9/sBpYX9rmqPy41J7w==
 
-ubq-contract-metadata@^1.15.3:
-  version "1.15.3"
-  resolved "https://registry.yarnpkg.com/ubq-contract-metadata/-/ubq-contract-metadata-1.15.3.tgz#f0b55615323093ea179f2c7c3db2bd071a8bc918"
-  integrity sha512-5lN5oiOZmg8S6WRuWIEpm8DAlHxmyR+VXmRjq4wNWYV3XXUXP+k7GKZ7I7M80VR/UNaKA/bKK2x+1l/pEa9aVQ==
+ubq-contract-metadata@^1.15.4:
+  version "1.15.4"
+  resolved "https://registry.yarnpkg.com/ubq-contract-metadata/-/ubq-contract-metadata-1.15.4.tgz#d1910c3f0ddfda15f052efb0faca647fd1f8f277"
+  integrity sha512-IMgP5IBRo/BcG+j2bA1c6OGTLkq5McTbgBVHi6knjStR5GEG+kMzWSBI4B1ZdlrndLpzR5dJtwpFm9hscL9UNA==
 
 ubq-ledger-bridge-keyring@^0.2.10:
   version "0.2.10"
