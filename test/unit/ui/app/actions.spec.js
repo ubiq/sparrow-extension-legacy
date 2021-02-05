@@ -49,11 +49,6 @@ describe('Actions', function () {
       initState: cloneDeep(firstTimeState),
     })
 
-    metamaskController.threeBoxController = {
-      new3Box: sinon.spy(),
-      getThreeBoxSyncingState: sinon.spy(),
-    }
-
     await metamaskController.createNewVaultAndRestore(password, TEST_SEED)
 
     await metamaskController.importAccountWithStrategy('Private Key', [importPrivkey])

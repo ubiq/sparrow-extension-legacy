@@ -94,5 +94,4 @@ retry concurrently --kill-others \
   --prefix '[{time}][{name}]' \
   --success first \
   'node test/e2e/mock-3box/server.js' \
-  'yarn dapp' \
-  'mocha test/e2e/threebox.spec'
+  'yarn dapp'

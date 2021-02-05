@@ -128,7 +128,6 @@ describe('ConfirmSeedPhrase Component', function () {
         seedPhrase: '鼠 牛 虎 兔 龍 蛇 馬 羊 猴 雞 狗 豬',
         history: { push: pushSpy },
         setSeedPhraseBackedUp: () => Promise.resolve(),
-        initializeThreeBox: initialize3BoxSpy,
         completeOnboarding: sinon.spy(),
       },
     )
