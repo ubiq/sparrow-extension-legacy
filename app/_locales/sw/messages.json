@@ -748,12 +748,6 @@
   "parameters": {
     "message": "Vigezo"
   },
-  "participateInMetaMetrics": {
-    "message": "Shiriki katika MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Shiriki katika MetaMetrics ili kutusaidia kufanya Sparrow kuwa bora zaidi"
-  },
   "password": {
     "message": "Nenosiri"
   },

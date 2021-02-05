@@ -760,12 +760,6 @@
   "parameters": {
     "message": "Parameetrid"
   },
-  "participateInMetaMetrics": {
-    "message": "Osalege MetaMetricsis"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Osalege MetaMetricsis, et aidata meil Sparrowi paremaks teha"
-  },
   "password": {
     "message": "Parool"
   },

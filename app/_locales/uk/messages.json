@@ -770,12 +770,6 @@
   "parameters": {
     "message": "Параметри"
   },
-  "participateInMetaMetrics": {
-    "message": "Взяти участь у MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Беріть участь у програмі MetaMetrics, щоб допомогти нам покращити Sparrow"
-  },
   "password": {
     "message": "Пароль"
   },

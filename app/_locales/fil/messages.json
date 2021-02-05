@@ -704,12 +704,6 @@
   "parameters": {
     "message": "Mga Parameter"
   },
-  "participateInMetaMetrics": {
-    "message": "Makilahok sa MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Makilahok sa MetaMetrics para tulungan kaming mas pagandahin ang Sparrow"
-  },
   "passwordsDontMatch": {
     "message": "Hindi Nagtutugma Ang Mga Password"
   },

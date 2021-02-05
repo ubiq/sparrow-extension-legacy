@@ -764,12 +764,6 @@
   "parameters": {
     "message": "Parametry"
   },
-  "participateInMetaMetrics": {
-    "message": "Weź udział w MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Weź udział w MetaMetrics, aby pomóc nam ulepszyć Sparrow"
-  },
   "password": {
     "message": "Hasło"
   },

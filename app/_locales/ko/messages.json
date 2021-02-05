@@ -761,12 +761,6 @@
   "parameters": {
     "message": "매개변수"
   },
-  "participateInMetaMetrics": {
-    "message": "MetaMetrics 참여"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "메타마스크를 더 좋게 만들기 위해 MetaMetrics에 참여하세요."
-  },
   "password": {
     "message": "비밀번호"
   },

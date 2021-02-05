@@ -770,12 +770,6 @@
   "parameters": {
     "message": "Parametrai"
   },
-  "participateInMetaMetrics": {
-    "message": "Dalyvaukite „MetaMetrics“"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Dalyvaukite „MetaMetrics“ ir padėkite mums tobulinti „Sparrow“"
-  },
   "password": {
     "message": "Slaptažodis"
   },
