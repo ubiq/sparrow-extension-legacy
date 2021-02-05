@@ -43,7 +43,6 @@ export default function reduceApp (state = {}, action) {
     networksTabSelectedRpcUrl: '',
     networksTabIsInAddMode: false,
     loadingMethodData: false,
-    show3BoxModalAfterImport: false,
     requestAccountTabs: {},
     openMetaMaskTabs: {},
     currentWindowTab: {},

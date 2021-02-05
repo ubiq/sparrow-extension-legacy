@@ -29,7 +29,6 @@ const d3Dependencies = ['c3', 'd3']
 
 const externalDependenciesMap = {
   background: [
-    '3box',
   ],
   ui: [
     ...materialUIDependencies, ...reactDepenendencies, ...d3Dependencies,

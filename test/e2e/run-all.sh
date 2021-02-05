@@ -90,8 +90,7 @@ retry concurrently --kill-others \
   'mocha test/e2e/address-book.spec'
 
 retry concurrently --kill-others \
-  --names '3box,dapp,e2e' \
+  --names 'dapp,e2e' \
   --prefix '[{time}][{name}]' \
   --success first \
-  'node test/e2e/mock-3box/server.js' \
   'yarn dapp'
