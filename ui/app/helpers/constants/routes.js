@@ -42,7 +42,6 @@ const INITIALIZE_SEED_PHRASE_ROUTE = '/initialize/seed-phrase'
 const INITIALIZE_BACKUP_SEED_PHRASE_ROUTE = '/initialize/backup-seed-phrase'
 const INITIALIZE_END_OF_FLOW_ROUTE = '/initialize/end-of-flow'
 const INITIALIZE_CONFIRM_SEED_PHRASE_ROUTE = '/initialize/seed-phrase/confirm'
-const INITIALIZE_METAMETRICS_OPT_IN_ROUTE = '/initialize/metametrics-opt-in'
 
 const CONFIRM_TRANSACTION_ROUTE = '/confirm-transaction'
 const CONFIRM_SEND_ETHER_PATH = '/send-ether'
@@ -91,7 +90,6 @@ export {
   SIGNATURE_REQUEST_PATH,
   DECRYPT_MESSAGE_REQUEST_PATH,
   ENCRYPTION_PUBLIC_KEY_REQUEST_PATH,
-  INITIALIZE_METAMETRICS_OPT_IN_ROUTE,
   ADVANCED_ROUTE,
   SECURITY_ROUTE,
   GENERAL_ROUTE,

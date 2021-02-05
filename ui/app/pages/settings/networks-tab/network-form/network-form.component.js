@@ -7,7 +7,6 @@ import Button from '../../../../components/ui/button'
 export default class NetworkForm extends PureComponent {
   static contextTypes = {
     t: PropTypes.func.isRequired,
-    metricsEvent: PropTypes.func.isRequired,
   }
 
   static propTypes = {

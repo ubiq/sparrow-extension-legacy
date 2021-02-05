@@ -10,7 +10,6 @@ import {
   INITIALIZE_UNLOCK_ROUTE,
   INITIALIZE_SELECT_ACTION_ROUTE,
   INITIALIZE_END_OF_FLOW_ROUTE,
-  INITIALIZE_METAMETRICS_OPT_IN_ROUTE,
   INITIALIZE_BACKUP_SEED_PHRASE_ROUTE,
 } from '../../helpers/constants/routes'
 import FirstTimeFlowSwitch from './first-time-flow-switch'
@@ -19,7 +18,6 @@ import SelectAction from './select-action'
 import EndOfFlow from './end-of-flow'
 import CreatePassword from './create-password'
 import SeedPhrase from './seed-phrase'
-import MetaMetricsOptInScreen from './metametrics-opt-in'
 
 export default class FirstTimeFlow extends PureComponent {
   static propTypes = {
@@ -157,11 +155,6 @@ export default class FirstTimeFlow extends PureComponent {
             exact
             path={INITIALIZE_WELCOME_ROUTE}
             component={Welcome}
-          />
-          <Route
-            exact
-            path={INITIALIZE_METAMETRICS_OPT_IN_ROUTE}
-            component={MetaMetricsOptInScreen}
           />
           <Route
             exact

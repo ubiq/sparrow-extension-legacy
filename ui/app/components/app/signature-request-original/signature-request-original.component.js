@@ -14,7 +14,6 @@ import Button from '../../ui/button'
 export default class SignatureRequestOriginal extends Component {
   static contextTypes = {
     t: PropTypes.func.isRequired,
-    metricsEvent: PropTypes.func.isRequired,
   }
 
   static propTypes = {
@@ -49,14 +48,6 @@ export default class SignatureRequestOriginal extends Component {
 
   _beforeUnload = (event) => {
     const { clearConfirmTransaction, cancel } = this.props
-    const { metricsEvent } = this.context
-    metricsEvent({
-      eventOpts: {
-        category: 'Transactions',
-        action: 'Sign Request',
-        name: 'Cancel Sig Request Via Notification Close',
-      },
-    })
     clearConfirmTransaction()
     cancel(event)
   }
@@ -279,13 +270,6 @@ export default class SignatureRequestOriginal extends Component {
           onClick={async (event) => {
             this._removeBeforeUnload()
             await cancel(event)
-            this.context.metricsEvent({
-              eventOpts: {
-                category: 'Transactions',
-                action: 'Sign Request',
-                name: 'Cancel',
-              },
-            })
             clearConfirmTransaction()
             history.push(mostRecentOverviewPage)
           }}
@@ -300,13 +284,6 @@ export default class SignatureRequestOriginal extends Component {
           onClick={async (event) => {
             this._removeBeforeUnload()
             await sign(event)
-            this.context.metricsEvent({
-              eventOpts: {
-                category: 'Transactions',
-                action: 'Sign Request',
-                name: 'Confirm',
-              },
-            })
             clearConfirmTransaction()
             history.push(mostRecentOverviewPage)
           }}

@@ -30,7 +30,6 @@ describe('App Header', function () {
       <AppHeader.WrappedComponent {...props} />, {
         context: {
           t: (str) => str,
-          metricsEvent: () => undefined,
         },
       },
     )

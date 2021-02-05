@@ -30,15 +30,11 @@ describe('ConfirmSeedPhrase Component', function () {
   })
 
   it('should add/remove selected on click', function () {
-    const metricsEventSpy = sinon.spy()
     const pushSpy = sinon.spy()
     const root = shallowRender(
       {
         seedPhrase: '鼠 牛 虎 兔 龍 蛇 馬 羊 猴 雞 狗 豬',
         history: { push: pushSpy },
-      },
-      {
-        metricsEvent: metricsEventSpy,
       },
     )
 
@@ -68,15 +64,11 @@ describe('ConfirmSeedPhrase Component', function () {
   })
 
   it('should render correctly on hover', function () {
-    const metricsEventSpy = sinon.spy()
     const pushSpy = sinon.spy()
     const root = shallowRender(
       {
         seedPhrase: '鼠 牛 虎 兔 龍 蛇 馬 羊 猴 雞 狗 豬',
         history: { push: pushSpy },
-      },
-      {
-        metricsEvent: metricsEventSpy,
       },
     )
 
@@ -101,15 +93,11 @@ describe('ConfirmSeedPhrase Component', function () {
   })
 
   it('should insert seed in place on drop', function () {
-    const metricsEventSpy = sinon.spy()
     const pushSpy = sinon.spy()
     const root = shallowRender(
       {
         seedPhrase: '鼠 牛 虎 兔 龍 蛇 馬 羊 猴 雞 狗 豬',
         history: { push: pushSpy },
-      },
-      {
-        metricsEvent: metricsEventSpy,
       },
     )
 
@@ -133,7 +121,6 @@ describe('ConfirmSeedPhrase Component', function () {
 
   it('should submit correctly', async function () {
     const originalSeed = ['鼠', '牛', '虎', '兔', '龍', '蛇', '馬', '羊', '猴', '雞', '狗', '豬']
-    const metricsEventSpy = sinon.spy()
     const pushSpy = sinon.spy()
     const initialize3BoxSpy = sinon.spy()
     const root = shallowRender(
@@ -143,9 +130,6 @@ describe('ConfirmSeedPhrase Component', function () {
         setSeedPhraseBackedUp: () => Promise.resolve(),
         initializeThreeBox: initialize3BoxSpy,
         completeOnboarding: sinon.spy(),
-      },
-      {
-        metricsEvent: metricsEventSpy,
       },
     )
 
@@ -163,13 +147,6 @@ describe('ConfirmSeedPhrase Component', function () {
 
     await (new Promise((resolve) => setTimeout(resolve, 100)))
 
-    assert.deepEqual(metricsEventSpy.args[0][0], {
-      eventOpts: {
-        category: 'Onboarding',
-        action: 'Seed Phrase Setup',
-        name: 'Verify Complete',
-      },
-    })
     assert(initialize3BoxSpy.calledOnce)
     assert.equal(pushSpy.args[0][0], '/initialize/end-of-flow')
   })

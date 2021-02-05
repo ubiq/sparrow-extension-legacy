@@ -7,10 +7,9 @@ const recordedWeb3Usage = {}
  *
  * @param {Object} opts - The middleware options
  * @param {string} opts.origin - The origin for the middleware stack
- * @param {Function} opts.sendMetrics - A function for sending a metrics event
  * @returns {(req: any, res: any, next: Function, end: Function) => void}
  */
-export default function createMethodMiddleware ({ origin, sendMetrics }) {
+export default function createMethodMiddleware ({ origin }) {
   return function methodMiddleware (req, res, next, end) {
     switch (req.method) {
 
@@ -23,11 +22,6 @@ export default function createMethodMiddleware ({ origin, sendMetrics }) {
         }
         if (!recordedWeb3Usage[origin][name]) {
           recordedWeb3Usage[origin][name] = true
-          sendMetrics({
-            action,
-            name,
-            customVariables: { origin },
-          })
         }
 
         res.result = true

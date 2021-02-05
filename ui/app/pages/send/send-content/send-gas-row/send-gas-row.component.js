@@ -31,7 +31,6 @@ export default class SendGasRow extends Component {
 
   static contextTypes = {
     t: PropTypes.func,
-    metricsEvent: PropTypes.func,
   }
 
   setMaxAmount () {
@@ -68,7 +67,6 @@ export default class SendGasRow extends Component {
       insufficientBalance,
       isMainnet,
     } = this.props
-    const { metricsEvent } = this.context
 
     const gasPriceButtonGroup = (
       <div>
@@ -77,13 +75,6 @@ export default class SendGasRow extends Component {
           showCheck={false}
           {...gasPriceButtonGroupProps}
           handleGasPriceSelection={async (...args) => {
-            metricsEvent({
-              eventOpts: {
-                category: 'Transactions',
-                action: 'Edit Screen',
-                name: 'Changed Gas Button',
-              },
-            })
             await gasPriceButtonGroupProps.handleGasPriceSelection(...args)
             if (maxModeOn) {
               this.setMaxAmount()

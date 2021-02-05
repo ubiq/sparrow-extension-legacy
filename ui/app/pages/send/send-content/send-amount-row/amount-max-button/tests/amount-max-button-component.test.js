@@ -33,7 +33,6 @@ describe('AmountMaxButton Component', function () {
     ), {
       context: {
         t: (str) => `${str}_t`,
-        metricsEvent: () => undefined,
       },
     })
     instance = wrapper.instance()

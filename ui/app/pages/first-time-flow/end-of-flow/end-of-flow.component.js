@@ -9,12 +9,10 @@ import { returnToOnboardingInitiator } from '../onboarding-initiator-util'
 export default class EndOfFlowScreen extends PureComponent {
   static contextTypes = {
     t: PropTypes.func,
-    metricsEvent: PropTypes.func,
   }
 
   static propTypes = {
     history: PropTypes.object,
-    completionMetaMetricsName: PropTypes.string,
     onboardingInitiator: PropTypes.exact({
       location: PropTypes.string,
       tabId: PropTypes.number,
@@ -22,15 +20,7 @@ export default class EndOfFlowScreen extends PureComponent {
   }
 
   onComplete = async () => {
-    const { history, completionMetaMetricsName, onboardingInitiator } = this.props
-
-    this.context.metricsEvent({
-      eventOpts: {
-        category: 'Onboarding',
-        action: 'Onboarding Complete',
-        name: completionMetaMetricsName,
-      },
-    })
+    const { history, onboardingInitiator } = this.props
 
     if (onboardingInitiator) {
       await returnToOnboardingInitiator(onboardingInitiator)
