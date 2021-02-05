@@ -58,11 +58,6 @@ describe('Sparrow', function () {
       await driver.delay(largeDelayMs)
     })
 
-    it('clicks the "I agree" option on the metametrics opt-in screen', async function () {
-      await driver.clickElement(By.css('.btn-primary'))
-      await driver.delay(largeDelayMs)
-    })
-
     it('accepts a secure password', async function () {
       const passwordBox = await driver.findElement(By.css('.first-time-flow__form #create-password'))
       const passwordBoxConfirm = await driver.findElement(By.css('.first-time-flow__form #confirm-password'))
