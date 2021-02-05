@@ -9,26 +9,6 @@ import proxyquire from 'proxyquire'
 import firstTimeState from '../../localhostState'
 import createTxMeta from '../../../lib/createTxMeta'
 
-const threeBoxSpies = {
-  init: sinon.stub(),
-  getThreeBoxSyncingState: sinon.stub().returns(true),
-  turnThreeBoxSyncingOn: sinon.stub(),
-  _registerUpdates: sinon.spy(),
-}
-
-class ThreeBoxControllerMock {
-  constructor () {
-    this.store = {
-      subscribe: () => undefined,
-      getState: () => ({}),
-    }
-    this.init = threeBoxSpies.init
-    this.getThreeBoxSyncingState = threeBoxSpies.getThreeBoxSyncingState
-    this.turnThreeBoxSyncingOn = threeBoxSpies.turnThreeBoxSyncingOn
-    this._registerUpdates = threeBoxSpies._registerUpdates
-  }
-}
-
 const ExtensionizerMock = {
   runtime: {
     id: 'fake-extension-id',
@@ -59,7 +39,6 @@ const createLoggerMiddlewareMock = () => (req, res, next) => {
 }
 
 const MetaMaskController = proxyquire('../../../../app/scripts/metamask-controller', {
-  './controllers/threebox': { default: ThreeBoxControllerMock },
   'extensionizer': ExtensionizerMock,
   './lib/createLoggerMiddleware': { default: createLoggerMiddlewareMock },
 }).default
@@ -171,8 +150,6 @@ describe('SparrowController', function () {
 
     beforeEach(async function () {
       await metamaskController.createNewVaultAndKeychain(password)
-      threeBoxSpies.init.reset()
-      threeBoxSpies.turnThreeBoxSyncingOn.reset()
     })
 
     it('removes any identities that do not correspond to known accounts.', async function () {
@@ -190,12 +167,6 @@ describe('SparrowController', function () {
       addresses.forEach((address) => {
         assert.ok(identities.includes(address), `identities should include all Addresses: ${address}`)
       })
-    })
-
-    it('gets the address from threebox and creates a new 3box instance', async function () {
-      await metamaskController.submitPassword(password)
-      assert(threeBoxSpies.init.calledOnce)
-      assert(threeBoxSpies.turnThreeBoxSyncingOn.calledOnce)
     })
   })
 

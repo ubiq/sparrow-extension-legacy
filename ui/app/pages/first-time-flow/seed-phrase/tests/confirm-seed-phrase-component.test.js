@@ -122,13 +122,11 @@ describe('ConfirmSeedPhrase Component', function () {
   it('should submit correctly', async function () {
     const originalSeed = ['鼠', '牛', '虎', '兔', '龍', '蛇', '馬', '羊', '猴', '雞', '狗', '豬']
     const pushSpy = sinon.spy()
-    const initialize3BoxSpy = sinon.spy()
     const root = shallowRender(
       {
         seedPhrase: '鼠 牛 虎 兔 龍 蛇 馬 羊 猴 雞 狗 豬',
         history: { push: pushSpy },
         setSeedPhraseBackedUp: () => Promise.resolve(),
-        initializeThreeBox: initialize3BoxSpy,
         completeOnboarding: sinon.spy(),
       },
     )
@@ -147,7 +145,6 @@ describe('ConfirmSeedPhrase Component', function () {
 
     await (new Promise((resolve) => setTimeout(resolve, 100)))
 
-    assert(initialize3BoxSpy.calledOnce)
     assert.equal(pushSpy.args[0][0], '/initialize/end-of-flow')
   })
 })
