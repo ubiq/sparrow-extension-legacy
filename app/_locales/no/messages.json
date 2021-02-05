@@ -760,12 +760,6 @@
   "parameters": {
     "message": "Parametre"
   },
-  "participateInMetaMetrics": {
-    "message": "Delta i MetaMetrics "
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Delta i MetaMetrics for å hjelpe oss med å gjøre Sparrow bedre"
-  },
   "password": {
     "message": "Passord"
   },

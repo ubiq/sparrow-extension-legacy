@@ -8,7 +8,6 @@ import Button from '../../ui/button'
 import Identicon from '../../ui/identicon'
 import { I18nContext } from '../../../contexts/i18n'
 import { SEND_ROUTE } from '../../../helpers/constants/routes'
-import { useMetricEvent } from '../../../hooks/useMetricEvent'
 import Tooltip from '../../ui/tooltip'
 import UserPreferencedCurrencyDisplay from '../user-preferenced-currency-display'
 import { PRIMARY, SECONDARY } from '../../../helpers/constants/common'
@@ -20,20 +19,6 @@ import WalletOverview from './wallet-overview'
 const EthOverview = ({ className }) => {
   const dispatch = useDispatch()
   const t = useContext(I18nContext)
-  const sendEvent = useMetricEvent({
-    eventOpts: {
-      category: 'Navigation',
-      action: 'Home',
-      name: 'Clicked Send: Eth',
-    },
-  })
-  const depositEvent = useMetricEvent({
-    eventOpts: {
-      category: 'Navigation',
-      action: 'Home',
-      name: 'Clicked Deposit',
-    },
-  })
   const history = useHistory()
   const balanceIsCached = useSelector(isBalanceCached)
   const showFiat = useSelector(getShouldShowFiat)
@@ -85,7 +70,6 @@ const EthOverview = ({ className }) => {
             className="eth-overview__button"
             rounded
             onClick={() => {
-              depositEvent()
               dispatch(showModal({ name: 'DEPOSIT_ETHER' }))
             }}
           >
@@ -97,7 +81,6 @@ const EthOverview = ({ className }) => {
             rounded
             icon={<PaperAirplane color="#037DD6" size={20} />}
             onClick={() => {
-              sendEvent()
               history.push(SEND_ROUTE)
             }}
             data-testid="eth-overview-send"

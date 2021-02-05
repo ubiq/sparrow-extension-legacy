@@ -751,12 +751,6 @@
   "parameters": {
     "message": "Parametre"
   },
-  "participateInMetaMetrics": {
-    "message": "Deltag i MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Deltag i MetaMetrics for at hjælpe os med at gøre Sparrow bedre"
-  },
   "password": {
     "message": "Adgangskode"
   },

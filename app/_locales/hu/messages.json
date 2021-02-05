@@ -763,12 +763,6 @@
   "parameters": {
     "message": "Paraméterek"
   },
-  "participateInMetaMetrics": {
-    "message": "Vegyen részt a MetaMetrics-ben"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Vegyél részt a MetaMetricsben, hogy segíts a Sparrow fejlesztésében."
-  },
   "password": {
     "message": "Jelszó"
   },

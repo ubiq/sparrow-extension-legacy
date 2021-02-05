@@ -751,12 +751,6 @@
   "parameters": {
     "message": "Parameter"
   },
-  "participateInMetaMetrics": {
-    "message": "Berpartisipasilah di MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Berpartisipasilah dalam MetaMetrics guna membantu kami menjadikan Sparrow lebih baik"
-  },
   "password": {
     "message": "Sandi"
   },

@@ -744,12 +744,6 @@
   "parameters": {
     "message": "Parameter"
   },
-  "participateInMetaMetrics": {
-    "message": "Sertai MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Sertai MetaMetrics untuk membantu kami menambah baik Sparrow"
-  },
   "password": {
     "message": "Kata laluan"
   },

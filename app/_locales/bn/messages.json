@@ -770,12 +770,6 @@
   "parameters": {
     "message": "প্যারামিটারসমূহ"
   },
-  "participateInMetaMetrics": {
-    "message": "MetaMetrics এ অংশগ্রহণ করুন"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Sparrow কে আরও উন্নত করতে আমাদের সহায়তা করার জন্য MetaMetrics এ অংশগ্রহণ করুন"
-  },
   "password": {
     "message": "পাসওয়ার্ড"
   },

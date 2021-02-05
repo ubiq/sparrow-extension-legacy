@@ -50,7 +50,7 @@ describe('SendFooter Component', function () {
         sendErrors={{}}
         mostRecentOverviewPage="mostRecentOverviewPage"
       />
-    ), { context: { t: (str) => str, metricsEvent: () => ({}) } })
+    ), { context: { t: (str) => str } })
   })
 
   afterEach(function () {
@@ -222,7 +222,7 @@ describe('SendFooter Component', function () {
           unapprovedTxs={{}}
           update={propsMethodSpies.update}
         />
-      ), { context: { t: (str) => str, metricsEvent: () => ({}) } })
+      ), { context: { t: (str) => str } })
     })
 
     afterEach(function () {

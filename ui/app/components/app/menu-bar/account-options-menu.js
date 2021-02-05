@@ -9,7 +9,6 @@ import { Menu, MenuItem } from '../../ui/menu'
 import getAccountLink from '../../../../lib/account-link'
 import { getCurrentKeyring, getCurrentNetwork, getRpcPrefsForCurrentProvider, getSelectedIdentity } from '../../../selectors'
 import { useI18nContext } from '../../../hooks/useI18nContext'
-import { useMetricEvent } from '../../../hooks/useMetricEvent'
 import { getEnvironmentType } from '../../../../../app/scripts/lib/util'
 import { ENVIRONMENT_TYPE_FULLSCREEN } from '../../../../../app/scripts/lib/enums'
 
@@ -17,34 +16,6 @@ export default function AccountOptionsMenu ({ anchorElement, onClose }) {
   const t = useI18nContext()
   const dispatch = useDispatch()
   const history = useHistory()
-  const openFullscreenEvent = useMetricEvent({
-    eventOpts: {
-      category: 'Navigation',
-      action: 'Account Options',
-      name: 'Clicked Expand View',
-    },
-  })
-  const viewAccountDetailsEvent = useMetricEvent({
-    eventOpts: {
-      category: 'Navigation',
-      action: 'Account Options',
-      name: 'Viewed Account Details',
-    },
-  })
-  const viewOnEtherscanEvent = useMetricEvent({
-    eventOpts: {
-      category: 'Navigation',
-      action: 'Account Options',
-      name: 'Clicked View on Etherscan',
-    },
-  })
-  const openConnectedSitesEvent = useMetricEvent({
-    eventOpts: {
-      category: 'Navigation',
-      action: 'Account Options',
-      name: 'Opened Connected Sites',
-    },
-  })
 
   const keyring = useSelector(getCurrentKeyring)
   const network = useSelector(getCurrentNetwork)
@@ -66,7 +37,6 @@ export default function AccountOptionsMenu ({ anchorElement, onClose }) {
           : (
             <MenuItem
               onClick={() => {
-                openFullscreenEvent()
                 global.platform.openExtensionInBrowser()
                 onClose()
               }}
@@ -80,7 +50,6 @@ export default function AccountOptionsMenu ({ anchorElement, onClose }) {
         data-testid="account-options-menu__account-details"
         onClick={() => {
           dispatch(showModal({ name: 'ACCOUNT_DETAILS' }))
-          viewAccountDetailsEvent()
           onClose()
         }}
         iconClassName="fas fa-qrcode"
@@ -89,7 +58,6 @@ export default function AccountOptionsMenu ({ anchorElement, onClose }) {
       </MenuItem>
       <MenuItem
         onClick={() => {
-          viewOnEtherscanEvent()
           global.platform.openTab({ url: getAccountLink(address, network, rpcPrefs) })
           onClose()
         }}
@@ -113,7 +81,6 @@ export default function AccountOptionsMenu ({ anchorElement, onClose }) {
       <MenuItem
         data-testid="account-options-menu__connected-sites"
         onClick={() => {
-          openConnectedSitesEvent()
           history.push(CONNECTED_ROUTE)
           onClose()
         }}

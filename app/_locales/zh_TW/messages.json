@@ -761,12 +761,6 @@
   "parameters": {
     "message": "參數"
   },
-  "participateInMetaMetrics": {
-    "message": "參與 MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "參與 MetaMetrics 來協助我們打造更好的 Sparrow"
-  },
   "password": {
     "message": "密碼"
   },

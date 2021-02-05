@@ -770,12 +770,6 @@
   "parameters": {
     "message": "پارامتر ها"
   },
-  "participateInMetaMetrics": {
-    "message": "اشتراک در MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "در MetaMetrics اشتراک نمایید تا به ما کمک شود Sparrow را بهتر بسازیم"
-  },
   "password": {
     "message": "گذرواژه"
   },

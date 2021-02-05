@@ -5916,7 +5916,4 @@
       "hpa_coef": -0.0243
     }
   ],
-  "metametrics": {
-    "mockMetaMetricsResponse": true
-  }
 }

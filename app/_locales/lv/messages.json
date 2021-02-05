@@ -766,12 +766,6 @@
   "parameters": {
     "message": "Parametri"
   },
-  "participateInMetaMetrics": {
-    "message": "Piedalieties MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Piedalieties MetaMetrics un palīdziet mums to uzlabot"
-  },
   "password": {
     "message": "Parole"
   },

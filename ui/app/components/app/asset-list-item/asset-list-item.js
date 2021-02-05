@@ -9,7 +9,6 @@ import Tooltip from '../../ui/tooltip'
 import InfoIcon from '../../ui/icon/info-icon.component'
 import Button from '../../ui/button'
 import { useI18nContext } from '../../../hooks/useI18nContext'
-import { useMetricEvent } from '../../../hooks/useMetricEvent'
 import { updateSendToken } from '../../../store/actions'
 import { SEND_ROUTE } from '../../../helpers/constants/routes'
 
@@ -29,13 +28,6 @@ const AssetListItem = ({
   const t = useI18nContext()
   const dispatch = useDispatch()
   const history = useHistory()
-  const sendTokenEvent = useMetricEvent({
-    eventOpts: {
-      category: 'Navigation',
-      action: 'Home',
-      name: 'Clicked Send: Token',
-    },
-  })
   const titleIcon = warning
     ? (
       <Tooltip
@@ -68,7 +60,6 @@ const AssetListItem = ({
         className="asset-list-item__send-token-button"
         onClick={(e) => {
           e.stopPropagation()
-          sendTokenEvent()
           dispatch(updateSendToken({
             address: tokenAddress,
             decimals: tokenDecimals,
@@ -82,7 +73,6 @@ const AssetListItem = ({
     )
   }, [
     tokenSymbol,
-    sendTokenEvent,
     tokenAddress,
     tokenDecimals,
     history,

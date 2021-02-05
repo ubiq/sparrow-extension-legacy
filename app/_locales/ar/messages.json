@@ -763,12 +763,6 @@
   "parameters": {
     "message": "معلّمات"
   },
-  "participateInMetaMetrics": {
-    "message": "المشاركة في MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "شارك في MetaMetrics لمساعدتنا في جعل Sparrow أفضل"
-  },
   "password": {
     "message": "كلمة المرور"
   },

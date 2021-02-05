@@ -11,7 +11,6 @@ const mapStateToProps = (state) => {
   const { metamask: { firstTimeFlowType } } = state
 
   return {
-    completionMetaMetricsName: firstTimeFlowTypeNameMap[firstTimeFlowType],
     onboardingInitiator: getOnboardingInitiator(state),
   }
 }

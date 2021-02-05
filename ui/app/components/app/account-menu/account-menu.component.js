@@ -60,7 +60,6 @@ AccountMenuItem.propTypes = {
 export default class AccountMenu extends Component {
   static contextTypes = {
     t: PropTypes.func,
-    metricsEvent: PropTypes.func,
   }
 
   static propTypes = {
@@ -181,13 +180,6 @@ export default class AccountMenu extends Component {
         <div
           className="account-menu__account menu__item--clickable"
           onClick={() => {
-            this.context.metricsEvent({
-              eventOpts: {
-                category: 'Navigation',
-                action: 'Main Menu',
-                name: 'Switched Account',
-              },
-            })
             showAccountDetail(identity.address)
           }}
           key={identity.address}
@@ -303,7 +295,7 @@ export default class AccountMenu extends Component {
   }
 
   render () {
-    const { t, metricsEvent } = this.context
+    const { t } = this.context
     const {
       shouldShowAccountsSearch,
       isAccountMenuOpen,
@@ -351,13 +343,6 @@ export default class AccountMenu extends Component {
         <AccountMenuItem
           onClick={() => {
             toggleAccountMenu()
-            metricsEvent({
-              eventOpts: {
-                category: 'Navigation',
-                action: 'Main Menu',
-                name: 'Clicked Create Account',
-              },
-            })
             history.push(NEW_ACCOUNT_ROUTE)
           }}
           icon={(
@@ -371,13 +356,6 @@ export default class AccountMenu extends Component {
         <AccountMenuItem
           onClick={() => {
             toggleAccountMenu()
-            metricsEvent({
-              eventOpts: {
-                category: 'Navigation',
-                action: 'Main Menu',
-                name: 'Clicked Import Account',
-              },
-            })
             history.push(IMPORT_ACCOUNT_ROUTE)
           }}
           icon={(
@@ -391,13 +369,6 @@ export default class AccountMenu extends Component {
         <AccountMenuItem
           onClick={() => {
             toggleAccountMenu()
-            metricsEvent({
-              eventOpts: {
-                category: 'Navigation',
-                action: 'Main Menu',
-                name: 'Clicked Connect Hardware',
-              },
-            })
             if (getEnvironmentType() === ENVIRONMENT_TYPE_POPUP) {
               global.platform.openExtensionInBrowser(CONNECT_HARDWARE_ROUTE)
             } else {
@@ -427,13 +398,6 @@ export default class AccountMenu extends Component {
           onClick={() => {
             toggleAccountMenu()
             history.push(SETTINGS_ROUTE)
-            this.context.metricsEvent({
-              eventOpts: {
-                category: 'Navigation',
-                action: 'Main Menu',
-                name: 'Opened Settings',
-              },
-            })
           }}
           icon={(
             <img

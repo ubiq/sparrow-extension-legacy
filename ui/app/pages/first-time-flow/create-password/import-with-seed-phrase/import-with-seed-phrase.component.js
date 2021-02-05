@@ -11,7 +11,6 @@ import {
 export default class ImportWithSeedPhrase extends PureComponent {
   static contextTypes = {
     t: PropTypes.func,
-    metricsEvent: PropTypes.func,
   }
 
   static propTypes = {
@@ -35,17 +34,6 @@ export default class ImportWithSeedPhrase extends PureComponent {
   parseSeedPhrase = (seedPhrase) => (seedPhrase || '').trim().toLowerCase().match(/\w+/gu)?.join(' ') || ''
 
   UNSAFE_componentWillMount () {
-    this._onBeforeUnload = () => this.context.metricsEvent({
-      eventOpts: {
-        category: 'Onboarding',
-        action: 'Import Seed Phrase',
-        name: 'Close window on import screen',
-      },
-      customVariables: {
-        errorLabel: 'Seed Phrase Error',
-        errorMessage: this.state.seedPhraseError,
-      },
-    })
     window.addEventListener('beforeunload', this._onBeforeUnload)
   }
 
@@ -123,13 +111,6 @@ export default class ImportWithSeedPhrase extends PureComponent {
 
     try {
       await onSubmit(password, this.parseSeedPhrase(seedPhrase))
-      this.context.metricsEvent({
-        eventOpts: {
-          category: 'Onboarding',
-          action: 'Import Seed Phrase',
-          name: 'Import Complete',
-        },
-      })
 
       setSeedPhraseBackedUp(true).then(async () => {
         await completeOnboarding()
@@ -181,17 +162,6 @@ export default class ImportWithSeedPhrase extends PureComponent {
           <a
             onClick={(e) => {
               e.preventDefault()
-              this.context.metricsEvent({
-                eventOpts: {
-                  category: 'Onboarding',
-                  action: 'Import Seed Phrase',
-                  name: 'Go Back from Onboarding Import',
-                },
-                customVariables: {
-                  errorLabel: 'Seed Phrase Error',
-                  errorMessage: seedPhraseError,
-                },
-              })
               this.props.history.push(INITIALIZE_SELECT_ACTION_ROUTE)
             }}
             href="#"

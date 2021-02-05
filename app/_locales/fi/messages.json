@@ -767,12 +767,6 @@
   "parameters": {
     "message": "Parametrit"
   },
-  "participateInMetaMetrics": {
-    "message": "Osallistu MetaMetricsiin"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Osallistu MetaMetricsiin auttaaksesi meitä tekemään Sparrowista paremman"
-  },
   "password": {
     "message": "Salasana"
   },

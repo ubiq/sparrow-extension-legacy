@@ -767,12 +767,6 @@
   "parameters": {
     "message": "መለኪያዎች"
   },
-  "participateInMetaMetrics": {
-    "message": "በ MetaMetrics ውስጥ ይሳተፉ"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "MetaMetrics የተሻለ እንድናደርገው በ MetaMetrics ውስጥ በመሳተፍ ያግዙን"
-  },
   "password": {
     "message": "የይለፍ ቃል፦"
   },

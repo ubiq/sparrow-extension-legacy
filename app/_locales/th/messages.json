@@ -373,9 +373,6 @@
   "noTransactions": {
     "message": "ยังไม่มีรายการธุรกรรม"
   },
-  "participateInMetaMetricsDescription": {
-    "message": "เข้าร่วมใน MetaMetrics เพื่อช่วยเราในการพัฒนา Sparrow"
-  },
   "pastePrivateKey": {
     "message": "วางคีย์ส่วนตัวของคุณที่นี่:",
     "description": "For importing an account from a private key"

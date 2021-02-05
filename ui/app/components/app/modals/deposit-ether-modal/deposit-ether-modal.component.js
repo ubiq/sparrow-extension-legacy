@@ -6,7 +6,6 @@ import Button from '../../../ui/button'
 export default class DepositEtherModal extends Component {
   static contextTypes = {
     t: PropTypes.func,
-    metricsEvent: PropTypes.func.isRequired,
   }
 
   static propTypes = {

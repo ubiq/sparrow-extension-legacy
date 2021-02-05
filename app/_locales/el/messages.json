@@ -767,12 +767,6 @@
   "parameters": {
     "message": "Παράμετροι"
   },
-  "participateInMetaMetrics": {
-    "message": "Συμμετάσχετε στο MetaMetrics"
-  },
-  "participateInMetaMetricsDescription": {
-    "message": "Συμμετέχετε στο MetaMetrics για να μας βοηθήσετε να βελτιώσουμε το Sparrow"
-  },
   "password": {
     "message": "Κωδικός πρόσβασης"
   },
