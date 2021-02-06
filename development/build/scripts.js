@@ -301,14 +301,6 @@ function getEnvironment ({ devMode, test }) {
     return 'development'
   } else if (test) {
     return 'testing'
-  } else if (process.env.CIRCLE_BRANCH === 'master') {
-    return 'production'
-  } else if ((/^Version-v(\d+)[.](\d+)[.](\d+)/u).test(process.env.CIRCLE_BRANCH)) {
-    return 'release-candidate'
-  } else if (process.env.CIRCLE_BRANCH === 'develop') {
-    return 'staging'
-  } else if (process.env.CIRCLE_PULL_REQUEST) {
-    return 'pull-request'
   }
   return 'other'
 }
