@@ -667,16 +667,6 @@ export class PermissionsController {
   }
 
   /**
-   * Removes the pending approval with the given id.
-   * @param {string} id - The id of the pending approval to remove.
-   */
-  _removePendingApproval (id) {
-    const { origin } = this.pendingApprovals.get(id)
-    this.pendingApprovalOrigins.delete(origin)
-    this.pendingApprovals.delete(id)
-  }
-
-  /**
    * A convenience method for retrieving a login object
    * or creating a new one if needed.
    *
