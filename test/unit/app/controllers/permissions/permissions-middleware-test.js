@@ -34,6 +34,20 @@ const {
   PERM_NAMES,
 } = constants
 
+const initPermController = () => {
+  return new PermissionsController({
+    ...getPermControllerOpts(),
+  })
+}
+
+const createApprovalSpies = (permController) => {
+  sinon.spy(permController.approvals, '_add')
+}
+
+const getNextApprovalId = (permController) => {
+  return permController.approvals._approvals.keys().next().value
+}
+
 const validatePermission = (perm, name, origin, caveats) => {
   assert.equal(name, perm.parentCapability, 'should have expected permission name')
   assert.equal(origin, perm.invoker, 'should have expected permission origin')
@@ -42,12 +56,6 @@ const validatePermission = (perm, name, origin, caveats) => {
   } else {
     assert.ok(!perm.caveats, 'should not have any caveats')
   }
-}
-
-const initPermController = () => {
-  return new PermissionsController({
-    ...getPermControllerOpts(),
-  })
 }
 
 describe('permissions middleware', function () {
@@ -62,6 +70,7 @@ describe('permissions middleware', function () {
     })
 
     it('grants permissions on user approval', async function () {
+      createApprovalSpies(permController)
 
       const aMiddleware = getPermissionsMiddleware(permController, DOMAINS.a.origin)
 
@@ -79,12 +88,12 @@ describe('permissions middleware', function () {
 
       await userApprovalPromise
 
-      assert.equal(
-        permController.pendingApprovals.size, 1,
-        'perm controller should have single pending approval',
+      assert.ok(
+        permController.approvals._add.calledOnce,
+        'should have added single approval request',
       )
 
-      const id = permController.pendingApprovals.keys().next().value
+      const id = getNextApprovalId(permController)
       const approvedReq = PERMS.approvedRequest(id, PERMS.requests.eth_accounts())
 
       await permController.approvePermissionsRequest(approvedReq, ACCOUNTS.a.permitted)
@@ -144,7 +153,7 @@ describe('permissions middleware', function () {
 
       await userApprovalPromise
 
-      const id1 = permController.pendingApprovals.keys().next().value
+      const id1 = getNextApprovalId(permController)
       const approvedReq1 = PERMS.approvedRequest(id1, PERMS.requests.eth_accounts())
 
       await permController.approvePermissionsRequest(approvedReq1, ACCOUNTS.a.permitted)
@@ -204,7 +213,7 @@ describe('permissions middleware', function () {
 
       await userApprovalPromise
 
-      const id2 = permController.pendingApprovals.keys().next().value
+      const id2 = getNextApprovalId(permController)
       const approvedReq2 = PERMS.approvedRequest(id2, { ...requestedPerms2 })
 
       await permController.approvePermissionsRequest(approvedReq2, ACCOUNTS.b.permitted)
@@ -253,6 +262,7 @@ describe('permissions middleware', function () {
     })
 
     it('rejects permissions on user rejection', async function () {
+      createApprovalSpies(permController)
 
       const aMiddleware = getPermissionsMiddleware(permController, DOMAINS.a.origin)
 
@@ -273,12 +283,12 @@ describe('permissions middleware', function () {
 
       await userApprovalPromise
 
-      assert.equal(
-        permController.pendingApprovals.size, 1,
-        'perm controller should have single pending approval',
+      assert.ok(
+        permController.approvals._add.calledOnce,
+        'should have added single approval request',
       )
 
-      const id = permController.pendingApprovals.keys().next().value
+      const id = getNextApprovalId(permController)
 
       await permController.rejectPermissionsRequest(id)
       await requestRejection
@@ -303,6 +313,7 @@ describe('permissions middleware', function () {
     })
 
     it('rejects requests with unknown permissions', async function () {
+      createApprovalSpies(permController)
 
       const aMiddleware = getPermissionsMiddleware(permController, DOMAINS.a.origin)
 
@@ -324,9 +335,9 @@ describe('permissions middleware', function () {
         'request should be rejected with correct error',
       )
 
-      assert.equal(
-        permController.pendingApprovals.size, 0,
-        'perm controller should have no pending approvals',
+      assert.ok(
+        permController.approvals._add.notCalled,
+        'no approval requests should have been added',
       )
 
       assert.ok(
@@ -344,8 +355,7 @@ describe('permissions middleware', function () {
     })
 
     it('accepts only a single pending permissions request per origin', async function () {
-
-      const expectedError = ERRORS.pendingApprovals.requestAlreadyPending()
+      createApprovalSpies(permController)
 
       // two middlewares for two origins
 
@@ -384,9 +394,9 @@ describe('permissions middleware', function () {
 
       await userApprovalPromise
 
-      assert.equal(
-        permController.pendingApprovals.size, 2,
-        'perm controller should have expected number of pending approvals',
+      assert.ok(
+        permController.approvals._add.calledTwice,
+        'should have added two approval requests',
       )
 
       // create and start processing second request for first origin,
@@ -398,6 +408,10 @@ describe('permissions middleware', function () {
       const resA2 = {}
 
       userApprovalPromise = getUserApprovalPromise(permController)
+
+      const expectedError = ERRORS.pendingApprovals.requestAlreadyPending(
+        DOMAINS.a.origin,
+      )
 
       const requestApprovalFail = assert.rejects(
         aMiddleware(reqA2, resA2),
@@ -416,16 +430,20 @@ describe('permissions middleware', function () {
         'response should have expected error and no result',
       )
 
-      // first requests for both origins should remain
-
       assert.equal(
-        permController.pendingApprovals.size, 2,
-        'perm controller should have expected number of pending approvals',
+        permController.approvals._add.callCount,
+        3,
+        'should have attempted to create three pending approvals',
+      )
+      assert.equal(
+        permController.approvals._approvals.size,
+        2,
+        'should only have created two pending approvals',
       )
 
       // now, remaining pending requests should be approved without issue
 
-      for (const id of permController.pendingApprovals.keys()) {
+      for (const id of permController.approvals._approvals.keys()) {
         await permController.approvePermissionsRequest(
           PERMS.approvedRequest(id, PERMS.requests.test_method()),
         )
@@ -449,11 +467,6 @@ describe('permissions middleware', function () {
       assert.equal(
         resB1.result.length, 1,
         'second origin should have single approved permission',
-      )
-
-      assert.equal(
-        permController.pendingApprovals.size, 0,
-        'perm controller should have expected number of pending approvals',
       )
     })
   })
@@ -578,6 +591,7 @@ describe('permissions middleware', function () {
     })
 
     it('requests accounts for unpermitted origin, and approves on user approval', async function () {
+      createApprovalSpies(permController)
 
       const userApprovalPromise = getUserApprovalPromise(permController)
 
@@ -593,12 +607,12 @@ describe('permissions middleware', function () {
 
       await userApprovalPromise
 
-      assert.equal(
-        permController.pendingApprovals.size, 1,
-        'perm controller should have single pending approval',
+      assert.ok(
+        permController.approvals._add.calledOnce,
+        'should have added single approval request',
       )
 
-      const id = permController.pendingApprovals.keys().next().value
+      const id = getNextApprovalId(permController)
       const approvedReq = PERMS.approvedRequest(id, PERMS.requests.eth_accounts())
 
       await permController.approvePermissionsRequest(approvedReq, ACCOUNTS.a.permitted)
@@ -639,6 +653,7 @@ describe('permissions middleware', function () {
     })
 
     it('requests accounts for unpermitted origin, and rejects on user rejection', async function () {
+      createApprovalSpies(permController)
 
       const userApprovalPromise = getUserApprovalPromise(permController)
 
@@ -657,12 +672,12 @@ describe('permissions middleware', function () {
 
       await userApprovalPromise
 
-      assert.equal(
-        permController.pendingApprovals.size, 1,
-        'perm controller should have single pending approval',
+      assert.ok(
+        permController.approvals._add.calledOnce,
+        'should have added single approval request',
       )
 
-      const id = permController.pendingApprovals.keys().next().value
+      const id = getNextApprovalId(permController)
 
       await permController.rejectPermissionsRequest(id)
       await requestRejection
@@ -736,7 +751,7 @@ describe('permissions middleware', function () {
       // this will reject because of the already pending request
       await assert.rejects(
         cMiddleware({ ...req }, {}),
-        ERRORS.eth_requestAccounts.requestAlreadyPending(),
+        ERRORS.eth_requestAccounts.requestAlreadyPending(DOMAINS.c.origin),
       )
 
       // now unlock and let through the first request

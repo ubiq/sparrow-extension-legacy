@@ -1,6 +1,8 @@
 import { ethErrors, errorCodes } from 'eth-rpc-errors'
 import deepFreeze from 'deep-freeze-strict'
 
+import { ApprovalController } from 'sparrow-controllers'
+
 import _getRestrictedMethods
   from '../../../../../app/scripts/controllers/permissions/restrictedMethods'
 
@@ -76,6 +78,10 @@ const getUnlockPromise = () => Promise.resolve()
  */
 export function getPermControllerOpts () {
   return {
+    approvals: new ApprovalController({
+      showApprovalRequest: noop,
+      defaultApprovalType: 'NO_TYPE',
+    }),
     showPermissionRequest: noop,
     getKeyringAccounts,
     getUnlockPromise,
@@ -434,9 +440,9 @@ export const getters = deepFreeze({
           message: `Pending approval with id '${id}' or origin '${origin}' already exists.`,
         }
       },
-      requestAlreadyPending: () => {
+      requestAlreadyPending: (origin) => {
         return {
-          message: 'Permissions request already pending; please wait.',
+          message: `Request of type 'wallet_requestPermissions' already pending for origin ${origin}. Please wait.`,
         }
       },
     },

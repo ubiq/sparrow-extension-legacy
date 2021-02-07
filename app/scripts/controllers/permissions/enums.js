@@ -1,3 +1,4 @@
+export const APPROVAL_TYPE = 'wallet_requestPermissions'
 
 export const WALLET_PREFIX = 'wallet_'
 

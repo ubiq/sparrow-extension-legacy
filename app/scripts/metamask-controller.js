@@ -28,6 +28,7 @@ import nanoid from 'nanoid'
 import contractMap from 'ubq-contract-metadata'
 import {
   AddressBookController,
+  ApprovalController,
   CurrencyRateController,
   PhishingController,
 } from 'sparrow-controllers'
@@ -99,6 +100,11 @@ export default class MetamaskController extends EventEmitter {
 
     // next, we will initialize the controllers
     // controller initialization order matters
+
+    this.approvalController = new ApprovalController({
+      showApprovalRequest: opts.showUserConfirmation,
+      defaultApprovalType: 'NO_TYPE',
+    })
 
     this.networkController = new NetworkController(initState.NetworkController)
 
@@ -192,6 +198,7 @@ export default class MetamaskController extends EventEmitter {
     this.keyringController.on('unlock', () => this.emit('unlock'))
 
     this.permissionsController = new PermissionsController({
+      approvals: this.approvalController,
       getKeyringAccounts: this.keyringController.getAccounts.bind(this.keyringController),
       getRestrictedMethods,
       getUnlockPromise: this.appStateController.getUnlockPromise.bind(this.appStateController),
@@ -301,8 +308,8 @@ export default class MetamaskController extends EventEmitter {
       PermissionsController: this.permissionsController.permissions,
       PermissionsMetadata: this.permissionsController.store,
       ThreeBoxController: this.threeBoxController.store,
-      // ENS Controller
       EnsController: this.ensController.store,
+      ApprovalController: this.approvalController,
     })
     this.memStore.subscribe(this.sendUpdate.bind(this))
 
