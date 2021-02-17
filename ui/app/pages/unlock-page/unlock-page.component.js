@@ -1,8 +1,6 @@
-import { EventEmitter } from 'events'
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Button from '@material-ui/core/Button'
-import getCaretCoordinates from 'textarea-caret'
 import TextField from '../../components/ui/text-field'
 import { DEFAULT_ROUTE } from '../../helpers/constants/routes'
 
@@ -28,8 +26,6 @@ export default class UnlockPage extends Component {
 
   submitting = false
 
-  animationEventEmitter = new EventEmitter()
-
   UNSAFE_componentWillMount () {
     const { isUnlocked, history } = this.props
 
@@ -43,7 +39,7 @@ export default class UnlockPage extends Component {
     event.stopPropagation()
 
     const { password } = this.state
-    const { onSubmit, forceUpdateMetamaskState, showOptInModal } = this.props
+    const { onSubmit } = this.props
 
     if (password === '' || this.submitting) {
       return
@@ -54,13 +50,7 @@ export default class UnlockPage extends Component {
 
     try {
       await onSubmit(password)
-      const newState = await forceUpdateMetamaskState()
-
     } catch ({ message }) {
-      if (message === 'Incorrect password') {
-        const newState = await forceUpdateMetamaskState()
-      }
-
       this.setState({ error: message })
       this.submitting = false
     }
@@ -68,17 +58,6 @@ export default class UnlockPage extends Component {
 
   handleInputChange ({ target }) {
     this.setState({ password: target.value, error: null })
-
-    // tell mascot to look at page action
-    if (target.getBoundingClientRect) {
-      const element = target
-      const boundingRect = element.getBoundingClientRect()
-      const coordinates = getCaretCoordinates(element, element.selectionEnd)
-      this.animationEventEmitter.emit('point', {
-        x: boundingRect.left + coordinates.left - element.scrollLeft,
-        y: boundingRect.top + coordinates.top - element.scrollTop,
-      })
-    }
   }
 
   renderSubmitButton () {

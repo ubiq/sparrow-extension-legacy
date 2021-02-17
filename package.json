@@ -72,7 +72,6 @@
     "@metamask/eth-token-tracker": "^3.0.1",
     "ubiqscan-link": "^1.1.1",
     "sparrow-inpage-provider": "^6.3.1",
-    "@metamask/logo": "^2.5.0",
     "@popperjs/core": "^2.4.0",
     "@reduxjs/toolkit": "^1.5.0",
     "@zxing/library": "^0.8.0",
